@@ -1,0 +1,38 @@
+import "./side.css";
+
+const Sidebar= () => {
+  const logo = "./assets/navbar/logoo2.png";
+
+  return (
+    <div className="profileUser">
+      <div className="sidebar">
+        <nav>
+          <img src={logo} alt="" width="200px" />
+          <div className="navbar-link">
+            <ul>
+              <li>
+              <hr></hr>
+                <a href="">Home</a>
+              <li>
+              </li>
+              <hr></hr>
+                <a href="">Ticket</a>
+              </li>
+              <li>
+              <hr></hr>
+                <a href="" className="this">Account</a>
+              <hr></hr>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div className="infoUser">
+        <h1 className="nama">Hi, User</h1>
+        <div className="foto"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Sidebar;

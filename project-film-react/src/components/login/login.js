@@ -1,7 +1,7 @@
 import "./login.css";
 
 const Login = () => {
-  const logo = "./assets/logo/logoo 2.png";
+  const logo = "./assets/logoo2.png";
 
   return (
     <div className="box">
@@ -23,7 +23,7 @@ const Login = () => {
           <input type="password" placeholder="Password" required />
         </form>
         <div className="button">
-          <button type="submit">Login</button>
+          <a href="/home"><button>Login</button></a>
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a>
