@@ -2,5 +2,10 @@
 
 body {
   background-color: #141223;
+  color: white;
   font-family: "Khula", sans-serif;
+}
+
+.home .content {
+  margin-left: 250px;
 }

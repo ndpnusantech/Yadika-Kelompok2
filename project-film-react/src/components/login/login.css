@@ -7,11 +7,11 @@
   height: 693px;
 }
 input {
-  height: 65px;
+  height: 60px;
   width: 500px;
-  border-radius: 25px;
-  font-size: 25px;
-  padding-left: 25px;
+  border-radius: 15px;
+  font-size: 20px;
+  padding-left: 15px; 
 }
 .button {
   margin-top: 35px;
@@ -19,10 +19,18 @@ input {
   display: flex;
   justify-content: center;
 }
+.button button:hover{
+ transition: all 0.3s;
+ transform: scale(0.9);
+ background-color: #e2c063;
+ color: black;
+ border: 1px solid black;
+}
+
 button {
-  border-radius: 20px;
-  height: 80px;
-  width: 300px;
+  border-radius: 15px;
+  height: 70px;
+  width: 160px;
   font-size: 20px;
   font-weight: 600;
   left: 400px;

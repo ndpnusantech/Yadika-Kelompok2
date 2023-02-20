@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e3c56951ce0ddb32c0256315780535130e96755b
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import AkunPage from "./components/pages/akunPage";
