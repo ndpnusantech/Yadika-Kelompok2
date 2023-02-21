@@ -1,34 +1,56 @@
+import Sidebar from "../layouts/sidebar/sidebar";
 import "./akun.css";
 
 const Akun = () => {
-  const logo = "/assets/logo/logoo 2.png";
+  const logo1 = "/assets/logo/pngwing 4.png";
+  const logo2 = "/assets/logo/pngwing 2.png";
+  const logo3 = "/assets/logo/pngwing 3.png";
 
   return (
-    <div className="profileUser">
-      <div className="sidebar">
-        <nav>
-          <img src={logo} alt="" width="200px" />
-          <div className="nav-link">
-            
-            <ul>
-              <li>
-                <a href="">Home</a>
-              </li>
-              <li>
-                <a href="">Ticket</a>
-              </li>
-              <li>
-                <a href="" className="this">Account</a>
-              </li>
-            </ul>
+    <>
+      <Sidebar />
+      <div className="profileUser">
+        <div className="infoUser d-flex align-items-center justify-content-around ">
+          <h1 className="nama">Hi, User</h1>
+          <div className="foto"></div>
+        </div>
+        <div className="boxUser d-flex align-items-center justify-content-center">
+          <div className="history item">
+            <button>
+              <img src={logo1} alt="" />
+              <p>History</p>
+            </button>
           </div>
-        </nav>
+          <div className="favourite item">
+            <button>
+              <img src={logo2} alt="" />
+              <p>Favourite</p>
+            </button>
+          </div>
+          <div className="edit-P item">
+            <button>
+              <img src={logo3} alt="" />
+              <p>Edit Profile</p>
+            </button>
+          </div>
+        </div>
+        <div className="boxTransaction">
+          <div className="transaction">
+            <button>
+              <h3>TRANSACTION HISTORY › </h3>
+            </button>
+          </div>
+        </div>
+        <div className="logOut">
+          <button>
+            <h3>LOG OUT</h3>
+          </button>
+        </div>
+        <div className="version">
+          <p>V.0.0.1</p>
+        </div>
       </div>
-      <div className="infoUser">
-        <h1 className="nama">Hi, User</h1>
-        <div className="foto"></div>
-      </div>
-    </div>
+    </>
   );
 };
 

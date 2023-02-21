@@ -23,7 +23,7 @@ ul {
   .this{
       color: #D6A864;
   }
-  .profileUser .sidebar {
+ .sidebar {
     position: absolute;
     top: 0;
     display: flex;

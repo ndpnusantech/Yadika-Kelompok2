@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 859px;
+    margin: 0 auto;
+    height: 693px;
+  }
+  input {
+    height: 60px;
+    width: 500px;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 15px; 
+  }
+  .button {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .button button:hover{
+   transition: all 0.3s;
+   transform: scale(0.9);
+   background-color: #e2c063;
+   color: black;
+   border: 1px solid black;
+  }
+  
+  button {
+    border-radius: 15px;
+    height: 70px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: 600;
+    left: 400px;
+    top: 736px;
+  }
+  
+  .box p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  .box p a {
+    color: white;
+    text-decoration: none;
+  }
+  

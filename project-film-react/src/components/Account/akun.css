@@ -1,40 +1,103 @@
-.profileUser{
-    display: flex;
-}
-.profileUser .sidebar {
-  /* position: absolute; */
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  width: 300px;
-  border: 2px solid black;
-  background-color: #222739;
-}
-img{
-    margin-top: 45px;
-}
-/* side bar */
-ul {
-  list-style: none;
-}
-ul li {
-  margin-top: 30px;
-}
-ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 45px;
-}
-.this{
-    color: #D6A864;
+.profileUser {
+  margin-left: 250px;
 }
 
-/* info user */
-.infoUser{
-    width: 1400px;
-    background-color: #141223;
+.profileUser .foto {
+  height: 250px;
+  width: 250px;
+  background-color: gray;
+  border-radius: 50%;
+
 }
-.foto{
-    border-radius: 50%;
-    background-color: white;
+
+.profileUser .infoUser {
+  margin-top: 50px;
+}
+
+.profileUser .nama {
+  font-size: 50px;
+}
+
+/* BOX */
+.profileUser .boxUser {
+  margin-top: 50px;
+  border-radius: 0%;
+}
+
+.profileUser .boxUser .history button{
+  width: 430px;
+  height: 100px;
+  background-color: aliceblue;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  display: flex;
+}
+
+.profileUser .boxUser .history img {
+  width: 50px;
+  height: 50px;
+}
+
+.profileUser .boxUser .favourite button{
+  width: 435px;
+  height: 100px;
+  background-color: red;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  display: flex;
+}
+
+.profileUser .boxUser .edit-P button{
+  width: 421px;
+  height: 100px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  display: flex;
+
+}
+
+/* box transaction */
+.profileUser .boxTransaction button{
+  width: 400px;
+  height: 85px;
+  background-color: #D9D9D9;
+  margin-top: 50px;
+  margin-left: 60px;
+  border-radius: 5px;
+}
+
+.transaction h3 {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  display: flex;
+  padding-top: 12px;
+
+}
+
+/* LOGOUT  BOX */
+.profileUser .logOut button{
+  width: 200px;
+  height: 85px;
+  background-color: #D9D9D9;
+  margin-left: 585px;
+  border-radius: 5px;
+}
+.profileUser .logOut h3{
+  color: black;
+  padding-left: 16x;
+  padding-top: 15px;
+}
+/* Version */
+.profileUser .version{
+  margin-left: 660px;
+  margin-top: 30px;
 }

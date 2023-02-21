@@ -1,13 +1,13 @@
-import "./login.css";
+import "./register.css";
 
-const Login = () => {
-  const logo = "/assets/logo/logoo 2.png";
+const register = () => {
+  const logo4 = "./assets/logo/logoo 2.png";
 
   return (
     <div className="box">
       <div className="logo">
         <img
-          src={logo}
+          src={logo4}
           alt=""
           width="400px"
           heigt="350px"
@@ -23,7 +23,7 @@ const Login = () => {
           <input type="password" placeholder="Password" required />
         </form>
         <div className="button">
-          <a href="/home"><button>Login</button></a>
+          <a href="/home"><button>Register</button></a>
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a>
@@ -33,4 +33,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default register;

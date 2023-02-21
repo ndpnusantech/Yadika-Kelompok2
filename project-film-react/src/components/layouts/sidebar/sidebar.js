@@ -4,7 +4,7 @@ const Sidebar= () => {
   const logo = "./assets/navbar/logoo2.png";
 
   return (
-    <div className="profileUser">
+
       <div className="sidebar">
         <nav>
           <img src={logo} alt="" width="200px" />
@@ -27,11 +27,7 @@ const Sidebar= () => {
           </div>
         </nav>
       </div>
-      <div className="infoUser">
-        <h1 className="nama">Hi, User</h1>
-        <div className="foto"></div>
-      </div>
-    </div>
+    
   );
 };
 
