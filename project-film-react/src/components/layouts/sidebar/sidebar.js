@@ -1,5 +1,6 @@
 import "./side.css";
 
+
 const Sidebar= () => {
   const logo = "./assets/navbar/logoo2.png";
 
@@ -12,15 +13,15 @@ const Sidebar= () => {
             <ul>
               <li>
               <hr></hr>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               <li>
               </li>
               <hr></hr>
-                <a href="">Ticket</a>
+                <a href="/ticket">Ticket</a>
               </li>
               <li>
               <hr></hr>
-                <a href="" className="this">Account</a>
+                <a href="/account" className="this">Account</a>
               <hr></hr>
               </li>
             </ul>
