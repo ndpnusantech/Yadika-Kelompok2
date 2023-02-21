@@ -4,8 +4,13 @@
 
 .carousel {
     width: 50%;
+<<<<<<< HEAD
     margin-top: 50px;
     margin-left: 320px;
+=======
+    margin-top: -50px;
+    margin-left: 240px;
+>>>>>>> 8bf41409c68deabf0ec0ea2e35c6a24539766bad
 }
 
 .carousel-item {

@@ -7,11 +7,19 @@
     height: 693px;
   }
   input {
+<<<<<<< HEAD
     height: 60px;
     width: 500px;
     border-radius: 15px;
     font-size: 20px;
     padding-left: 15px; 
+=======
+    height: 65px;
+    width: 500px;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 25px;
+>>>>>>> 8bf41409c68deabf0ec0ea2e35c6a24539766bad
   }
   .button {
     margin-top: 35px;
@@ -19,6 +27,7 @@
     display: flex;
     justify-content: center;
   }
+<<<<<<< HEAD
   .button button:hover{
    transition: all 0.3s;
    transform: scale(0.9);
@@ -31,6 +40,12 @@
     border-radius: 15px;
     height: 70px;
     width: 160px;
+=======
+  button {
+    border-radius: 20px;
+    height: 80px;
+    width: 300px;
+>>>>>>> 8bf41409c68deabf0ec0ea2e35c6a24539766bad
     font-size: 20px;
     font-weight: 600;
     left: 400px;

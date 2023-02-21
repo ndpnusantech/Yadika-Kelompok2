@@ -1,0 +1,23 @@
+.card {
+    width: 180px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    margin-top: 50px;
+    height: auto;
+}
+
+.card-body{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.card-row {
+    margin :0;
+}
+
+
+
+.set-card {
+    justify-content: center;
+}
