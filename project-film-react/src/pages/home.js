@@ -1,7 +1,8 @@
-import Carousels from "../carousel/carousel";
-import NavigationBar from "../layouts/navbar/navbar";
-import Sidebar from "../layouts/sidebar/sidebar";
-import Cards from "../Card/card";
+import Cards from "../components/Card/card";
+import Carousels from "../components/carousel/carousel";
+import NavigationBar from "../components/layouts/navbar/navbar";
+import Sidebar from "../components/layouts/sidebar/sidebar";
+
 
 const Home = () => {
     return(
@@ -12,7 +13,6 @@ const Home = () => {
             <Carousels/>
             <div className="cardss">
             <Cards/>
-            
             </div>
 
         </div>

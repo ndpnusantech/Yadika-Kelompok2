@@ -1,8 +1,8 @@
-import Akun from "../Account/akun";
+import Akun from "../components/Account/akun";
 import "./style.css";
 const AkunPage = () => {
   return(
-<Akun />
+    <Akun/>
   ) ;
 };
 

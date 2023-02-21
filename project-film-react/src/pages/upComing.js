@@ -1,4 +1,4 @@
-import Up from "../upComing/Up"
+import Up from "../components/upComing/Up"
 
 const upComing = () => {
     return(

@@ -1,7 +1,7 @@
 import "./card.css";
 import Card from 'react-bootstrap/Card';
 import {Row, Col} from "react-bootstrap"
-import { data } from "../Data/dataCard"
+import { data } from "/project-film-industri/Yadika-Kelompok2/project-film-react/src/Data/dataCard"
 
 
 function Cards() {

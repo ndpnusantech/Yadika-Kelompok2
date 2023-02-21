@@ -1,9 +1,9 @@
-import Login from "../login/login";
+import Login from "../components/login/login";
 import "./style.css";
 const LoginPage = () => {
   return (
     <div className="loginBox">
-      <Login />
+      <Login/>
     </div>
   );
 };

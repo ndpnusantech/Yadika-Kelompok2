@@ -1,9 +1,8 @@
-
-import Now from "../nowPlaying/Now"
+import Now from "../components/nowPlaying/Now";
 
 const nowPlaying = () => {
     return(
-        <Now></Now>
+       <Now/>
     )
 }
 
