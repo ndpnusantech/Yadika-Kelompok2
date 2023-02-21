@@ -1,69 +1,27 @@
 import "./card.css";
 import Card from 'react-bootstrap/Card';
 import {Row, Col} from "react-bootstrap"
+import { data } from "../Data/dataCard"
+
 
 function Cards() {
   return (
     <div className="set-card">
     <Row className="card-row">
+    {data.map((data) => (
         <Col md="auto">
-    <Card className="card">
-      <Card.Img className="card-img" src="../images/xmen.jfif" />
+    <Card className="card" id={data.id}>
+      <Card.Img className="card-img" src={data.img} />
       <Card.Body className="card-body">
-        <Card.Title>Fast And Furious</Card.Title>
+        <Card.Title >{data.tittle}</Card.Title>
         <Card.Text className="card-txt" >
-          2009 - Laga
+        {data.text}
         </Card.Text>
       </Card.Body>
     </Card>
     </Col>
-        <Col md="auto">
-    <Card className="card">
-      <Card.Img  src="../images/joker.jfif" />
-      <Card.Body className="card-body">
-        <Card.Title>Fast And Furious</Card.Title>
-        <Card.Text className="card-txt" >
-          2009 - Laga
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-        <Col md="auto">
-    <Card className="card">
-      <Card.Img  src="../images/jw.jfif" />
-      <Card.Body className="card-body">
-        <Card.Title>Fast And Furious</Card.Title>
-        <Card.Text className="card-txt" >
-          2009 - Laga
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-        <Col md="auto">
-    <Card className="card">
-      <Card.Img  src="../images/jw2.jfif" />
-      <Card.Body className="card-body">
-        <Card.Title>Fast And Furious</Card.Title>
-        <Card.Text className="card-txt" >
-          2009 - Laga
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-        <Col md="auto">
-    <Card className="card">
-      <Card.Img  src="../images/faf.jfif" />
-      <Card.Body className="card-body">
-        <Card.Title>Fast And Furious</Card.Title>
-        <Card.Text className="card-txt" >
-          2009 - Laga
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
+     ))}
         
-       
-   
     </Row>
     </div>
   );

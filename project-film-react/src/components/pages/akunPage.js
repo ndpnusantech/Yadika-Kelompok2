@@ -1,7 +1,9 @@
 import Akun from "../Account/akun";
 import "./style.css";
 const AkunPage = () => {
-  return <Akun />;
+  return(
+<Akun />
+  ) ;
 };
 
 export default AkunPage;

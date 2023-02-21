@@ -9,7 +9,7 @@
 
 .card-body{
     text-align: center;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .card-row {
@@ -20,4 +20,5 @@
 
 .set-card {
     justify-content: center;
+    margin-left: 18px;
 }

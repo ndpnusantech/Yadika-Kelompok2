@@ -1,11 +1,13 @@
 .profileUser {
-  margin-left: 250px;
+  position: absolute;
+  left: 18%;
+  
 }
 
 .profileUser .foto {
   height: 250px;
   width: 250px;
-  background-color: gray;
+  background-color: #D9D9D9;
   border-radius: 50%;
 
 }
@@ -16,18 +18,20 @@
 
 .profileUser .nama {
   font-size: 50px;
+  margin-top: 100px;
 }
 
 /* BOX */
 .profileUser .boxUser {
-  margin-top: 50px;
-  border-radius: 0%;
+  margin-top: 150px;
+  margin-left: 5px;
+
 }
 
 .profileUser .boxUser .history button{
-  width: 430px;
+  width: 343px;
   height: 100px;
-  background-color: aliceblue;
+  background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -35,15 +39,15 @@
   display: flex;
 }
 
-.profileUser .boxUser .history img {
-  width: 50px;
+.profileUser .boxUser  img {
+  width: 35px;
   height: 50px;
 }
 
 .profileUser .boxUser .favourite button{
-  width: 435px;
+  width: 343px;
   height: 100px;
-  background-color: red;
+  background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -52,9 +56,9 @@
 }
 
 .profileUser .boxUser .edit-P button{
-  width: 421px;
+  width: 343px;
   height: 100px;
-  background-color: aqua;
+  background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -70,7 +74,8 @@
   background-color: #D9D9D9;
   margin-top: 50px;
   margin-left: 60px;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 
 .transaction h3 {
@@ -83,13 +88,18 @@
 
 }
 
+.profileUser button{
+  border-radius: 0;
+}
 /* LOGOUT  BOX */
 .profileUser .logOut button{
   width: 200px;
   height: 85px;
   background-color: #D9D9D9;
-  margin-left: 585px;
-  border-radius: 5px;
+  margin-left: 425px;
+  border-radius: 25px;
+  
+
 }
 .profileUser .logOut h3{
   color: black;
@@ -98,6 +108,6 @@
 }
 /* Version */
 .profileUser .version{
-  margin-left: 660px;
+  margin-left: 500px;
   margin-top: 30px;
 }

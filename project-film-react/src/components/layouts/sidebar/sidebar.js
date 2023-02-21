@@ -13,7 +13,7 @@ const Sidebar= () => {
             <ul>
               <li>
               <hr></hr>
-                <a href="/">Home</a>
+                <a href="/home">Home</a>
               <li>
               </li>
               <hr></hr>
@@ -21,7 +21,7 @@ const Sidebar= () => {
               </li>
               <li>
               <hr></hr>
-                <a href="/account" className="this">Account</a>
+                <a href="/akunPage" >Account</a>
               <hr></hr>
               </li>
             </ul>

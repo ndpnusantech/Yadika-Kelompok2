@@ -10,11 +10,11 @@ const Akun = () => {
     <>
       <Sidebar />
       <div className="profileUser">
-        <div className="infoUser d-flex align-items-center justify-content-around ">
+        <div className="infoUser d-flex  justify-content-around ">
           <h1 className="nama">Hi, User</h1>
           <div className="foto"></div>
         </div>
-        <div className="boxUser d-flex align-items-center justify-content-center">
+        <div className="boxUser d-flex align-items-center ">
           <div className="history item">
             <button>
               <img src={logo1} alt="" />
@@ -37,7 +37,7 @@ const Akun = () => {
         <div className="boxTransaction">
           <div className="transaction">
             <button>
-              <h3>TRANSACTION HISTORY › </h3>
+              <h3>TRANSACTION HISTORY   › </h3>
             </button>
           </div>
         </div>

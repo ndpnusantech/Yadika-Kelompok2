@@ -1,44 +1,40 @@
 img{
   margin-top: 25px;
-  margin-left: 25px;
+  margin-left: 10px;
   
 }
 ul {
     list-style: none;
     text-align: center;
+    
   }
   
 
   ul li a {
     text-decoration: none;
     color: white;
+    margin-left: -30px;
     font-size: 35px;
     justify-items: center;
   }
 
   hr{
-    width: 200px;
+    width: 180px;
+    margin-left: -18px;
     margin-top: 30px;
   }
-  .this{
-      color: #D6A864;
-  }
-<<<<<<< HEAD
- .sidebar {
-=======
 
-  .profileUser{
+ .sidebar .profileUser{
     margin-left: -27px;
    
   }
-  .profileUser .sidebar {
->>>>>>> 8bf41409c68deabf0ec0ea2e35c6a24539766bad
+   .sidebar {
     position: absolute;
     top: 0;
     display: flex;
     justify-content: center;
     height: 130vh;
-    width: 250px;
+    width: 230px;
     border: none;
     background-color: #222739;
   }
