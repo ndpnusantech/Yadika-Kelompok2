@@ -1,6 +1,6 @@
-import "./register.css";
+import "../register/register.css";
 
-const register = () => {
+const Register = () => {
   const logo4 = "./assets/logo/logoo 2.png";
 
   return (
@@ -23,17 +23,17 @@ const register = () => {
           <input type="password" placeholder="Password" required />
         </form>
         <div className="button">
-          <a href="/home"><button>Register</button></a>
+          <a href="/"><button>Register</button></a>
         </div>
         <p>
-          Dont have an account? <a href="/register">Register</a>
+          Dont have an account? <a href="/login">Login</a>
         </p>
       </div>
     </div>
   );
 };
 
-export default register;
+export default Register;
 
 // const Register = () => {
 //     const logo = "./assets/logo/logoo 2.png";

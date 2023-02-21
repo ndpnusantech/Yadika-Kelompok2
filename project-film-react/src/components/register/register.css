@@ -8,17 +8,14 @@
   }
   input {
 
-    height: 60px;
-    width: 500px;
+   
     border-radius: 15px;
     font-size: 20px;
     padding-left: 15px; 
-
     height: 65px;
     width: 500px;
     border-radius: 25px;
-    font-size: 25px;
-    padding-left: 25px;
+
 
   }
   .button {
