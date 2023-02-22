@@ -1,1 +1,0 @@
-# Yadika-Kelompok2
