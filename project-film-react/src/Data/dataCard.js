@@ -59,6 +59,36 @@ const data = [
             tittle : "Nobody",
             text : "2009"  
         },
+        {
+            id : "11",
+            img: "./images/ma.jfif",
+            tittle : "Marvel Avangers",
+            text : "2009"  
+        },
+        {
+            id : "12",
+            img: "./images/sw.jfif",
+            tittle : "Star Wars",
+            text : "2009"  
+        },
+        {
+            id : "13",
+            img: "./images/titanic.png",
+            tittle : "Titanic",
+            text : "2009"  
+        },
+        {
+            id : "14",
+            img: "./images/ty4.jfif",
+            tittle : "Toy Story 4",
+            text : "2009"  
+        },
+        {
+            id : "15",
+            img: "./images/xx.jfif",
+            tittle : "xXx",
+            text : "2009"  
+        },
     ]
 
 export { data };
