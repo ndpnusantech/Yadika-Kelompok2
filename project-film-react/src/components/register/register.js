@@ -48,12 +48,34 @@ const registerAkun = () => {
   var password = document.getElementById("password").value;
   var email = document.getElementById("email").value;
   var noHP = document.getElementById("noHP").value;
-  
-  localStorage.setItem("username" , username)
-  localStorage.setItem("password" , password)
-  localStorage.setItem("email" , email)
-  localStorage.setItem("noHP" , noHP)
+
+  // var regUsername = [];
+  // var regPassword = [];
+  // var regEmail = [];
+  // var regNoHP = [];
+
+  // regUsername.push(username.val());
+  // regPassword.push(password.val());
+  // regEmail.push(email.val());
+  // regNoHP.push(noHP.val());
+
+
+
+  // username.val('')
+  // password.val('')
+  // email.val('')
+  // noHP.val('')
 
   console.log(username + '',password + '',email + '',noHP + '');
-  alert("Ready")
+  if (username && password && email && noHP) {
+    localStorage.setItem("username" , username)
+    localStorage.setItem("password" , password)
+    localStorage.setItem("email" , email)
+    localStorage.setItem("noHP" , noHP)
+    alert("Register secufully");
+    window.open("/");
+  } else {
+    alert("harus memasukan data");
+    }
+
 }
