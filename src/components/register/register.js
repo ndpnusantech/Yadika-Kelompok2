@@ -1,36 +1,33 @@
-import "../register/register.css";
+import "./register.css";
 
 const Register = () => {
   const logo4 = "./assets/logo/logoo 2.png";
 
   return (
-    <div className="box">
-      <div className="logo">
+    <div className="boxRegister">
+      <div className="logoRegister">
         <img
           src={logo4}
           alt=""
-          width="400px"
+          width="300px"
           heigt="350px"
-          style={{ marginBottom: "50px", marginTop: "60px" }}
+          style={{ marginBottom: "30px", marginTop: "60px" }}
         />
       </div>
-      <div className="form">
+      <div className="formRegister">
         <form action="">
           <input type="text" placeholder="Username" required  id="username"/>
-          <br />
           <br />
           <br />
           <input type="password" placeholder="Password" required id="password"/>
           <br />
           <br />
-          <br />
           <input type="email" placeholder="Email" required id="email"/>
-          <br />
           <br />
           <br />
           <input type="number" placeholder="No. Handphone" required id="noHP"/>
         </form>
-        <div className="button">
+        <div className="buttonRegister">
         <button onClick={registerAkun}>Register</button>
         </div>
         <p>

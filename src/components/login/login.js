@@ -4,25 +4,24 @@ const Login = () => {
   const logo = "/assets/logo/logoo 2.png";
 
   return (
-    <div className="box">
-      <div className="logo">
+    <div className="boxLogin">
+      <div className="logoLogin">
         <img
           src={logo}
           alt=""
-          width="400px"
+          width="300px"
           heigt="350px"
           style={{ marginBottom: "50px", marginTop: "60px" }}
         />
       </div>
-      <div className="form">
+      <div className="formLogin">
         <form action="">
           <input type="text" placeholder="Username" required id="username"/>
           <br />
           <br />
-          <br />
           <input type="password" placeholder="Password" required id="password"/>
         </form>
-        <div className="button">
+        <div className="buttonLogin">
         <button onClick={loginAkun}>Login</button>
         </div>
         <p>
