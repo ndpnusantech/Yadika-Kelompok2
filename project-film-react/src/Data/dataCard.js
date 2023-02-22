@@ -20,7 +20,7 @@ const data = [
         {
             id : "4",
             img: "./images/faf.jfif",
-            tittle : "Fast And Furioous",
+            tittle : "Fast And Furious",
             text : "2009"  
         },
         {
@@ -45,6 +45,18 @@ const data = [
             id : "8",
             img: "./images/op.jfif",
             tittle : "One Piece Red",
+            text : "2009"  
+        },
+        {
+            id : "9",
+            img: "./images/xmen.jfif",
+            tittle : "X-Men",
+            text : "2009"  
+        },
+        {
+            id : "10",
+            img: "./images/nobody.jfif",
+            tittle : "Nobody",
             text : "2009"  
         },
     ]

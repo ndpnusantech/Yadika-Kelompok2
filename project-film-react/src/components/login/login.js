@@ -16,14 +16,14 @@ const Login = () => {
       </div>
       <div className="form">
         <form action="">
-          <input type="text" placeholder="Username" required />
+          <input type="text" placeholder="Username" required id="username"/>
           <br />
           <br />
           <br />
-          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Password" required id="password"/>
         </form>
         <div className="button">
-          <a href="/home"><button>Login</button></a>
+        <button onClick={loginAkun}>Login</button>
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a>
@@ -34,3 +34,17 @@ const Login = () => {
 };
 
 export default Login;
+
+const loginAkun = () => {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  var username1 = localStorage.getItem("username")
+  var password1 = localStorage.getItem("password")
+
+  if (username === username1 && password === password1) {
+    window.location.href = "/home";
+  } else {
+    alert("Username atau Password Salah")
+  }
+}

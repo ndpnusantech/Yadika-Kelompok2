@@ -16,17 +16,25 @@ const Register = () => {
       </div>
       <div className="form">
         <form action="">
-          <input type="text" placeholder="Username" required />
+          <input type="text" placeholder="Username" required  id="username"/>
           <br />
           <br />
           <br />
-          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Password" required id="password"/>
+          <br />
+          <br />
+          <br />
+          <input type="email" placeholder="Email" required id="email"/>
+          <br />
+          <br />
+          <br />
+          <input type="number" placeholder="No. Handphone" required id="noHP"/>
         </form>
         <div className="button">
-          <a href="/"><button>Register</button></a>
+        <button onClick={registerAkun}>Register</button>
         </div>
         <p>
-          Dont have an account? <a href="/login">Login</a>
+          Dont have an account? <a href="/">Login</a>
         </p>
       </div>
     </div>
@@ -35,37 +43,17 @@ const Register = () => {
 
 export default Register;
 
-// const Register = () => {
-//     const logo = "./assets/logo/logoo 2.png";
+const registerAkun = () => {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  var email = document.getElementById("email").value;
+  var noHP = document.getElementById("noHP").value;
+  
+  localStorage.setItem("username" , username)
+  localStorage.setItem("password" , password)
+  localStorage.setItem("email" , email)
+  localStorage.setItem("noHP" , noHP)
 
-//     return(
-//         <div className="box">
-//         <div className="logo">
-//           <img
-//             src={logo}
-//             alt=""
-//             width="400px"
-//             heigt="350px"
-//             style={{ marginBottom: "50px", marginTop: "60px" }}
-//           />
-//         </div>
-//         <div className="form">
-//           <form action="">
-//             <input type="text" placeholder="Username" required />
-//             <br />
-//             <br />
-//             <br />
-//             <input type="password" placeholder="Password" required />
-//           </form>
-//           <div className="button">
-//             <button type="submit">Register</button>
-//           </div>
-//           <p>
-//             Already have an account? <a href="/">Login</a>
-//           </p>
-//         </div>
-//       </div>
-//     )
-// }
-
-// export default Register
+  console.log(username + '',password + '',email + '',noHP + '');
+  alert("Ready")
+}

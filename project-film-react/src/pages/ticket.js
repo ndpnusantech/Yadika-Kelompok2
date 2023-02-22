@@ -1,8 +1,7 @@
+import Tiket from "../components/Ticket/tiket"
 const Ticket = () => {
     return(
-        <div>
-            <h1>Ticket Page</h1>
-        </div>
+       <Tiket></Tiket>
     )
 }
 

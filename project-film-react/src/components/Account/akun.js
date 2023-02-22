@@ -42,8 +42,8 @@ const Akun = () => {
           </div>
         </div>
         <div className="logOut">
-          <button>
-            <h3>LOG OUT</h3>
+          <button >
+            <a href="/">LOG OUT</a>
           </button>
         </div>
         <div className="version">

@@ -22,7 +22,7 @@ const NavigationBar = () => {
               aria-label="Search"
             />
             <Button variant="outline-success" src={search}>Search</Button>
-            <Button className='btnLogin'>LOGIN</Button>
+            {/* <Button className='btnLogin' href="/">LOGIN</Button> */}
           </Form>
         </Container>
       </Navbar>

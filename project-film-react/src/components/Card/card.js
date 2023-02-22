@@ -10,6 +10,7 @@ function Cards() {
     <Row className="card-row">
     {data.map((data) => (
         <Col md="auto">
+          <a href="#film">
     <Card className="card" id={data.id}>
       <Card.Img className="card-img" src={data.img} />
       <Card.Body className="card-body">
@@ -19,6 +20,7 @@ function Cards() {
         </Card.Text>
       </Card.Body>
     </Card>
+    </a>
     </Col>
      ))}
         

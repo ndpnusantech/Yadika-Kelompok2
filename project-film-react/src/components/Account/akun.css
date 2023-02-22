@@ -101,10 +101,11 @@
   
 
 }
-.profileUser .logOut h3{
+.profileUser .logOut a{
   color: black;
   padding-left: 16x;
   padding-top: 15px;
+  text-decoration: none;
 }
 /* Version */
 .profileUser .version{
