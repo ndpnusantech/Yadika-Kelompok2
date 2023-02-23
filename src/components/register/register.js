@@ -70,9 +70,9 @@ const registerAkun = () => {
     localStorage.setItem("email" , email)
     localStorage.setItem("noHP" , noHP)
     alert("Register secufully");
-    window.open("/");
+    window.open("/","_self");
   } else {
-    alert("harus memasukan data");
+    alert("Anda harus mengisi data dengan benar");
     }
 
 }

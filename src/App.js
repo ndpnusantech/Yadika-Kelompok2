@@ -9,6 +9,8 @@ import Ticket from "./pages/ticket";
 import NowPlaying from "./pages/nowPlaying";
 import UpComing from "./pages/upComing";
 import Trailer from "./pages/trailer";
+import Buy from "./pages/buyTicket";
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
         <Route path="/nowPlaying" element={<NowPlaying />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
+        <Route path="/buyTicket" element={<Buy/>} />
       </Routes>
     </BrowserRouter>
   );
