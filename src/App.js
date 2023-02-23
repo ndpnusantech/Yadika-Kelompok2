@@ -10,6 +10,7 @@ import NowPlaying from "./pages/nowPlaying";
 import UpComing from "./pages/upComing";
 import Trailer from "./pages/trailer";
 import Buy from "./pages/buyTicket";
+import EditProfile from "./pages/editProfile";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
         <Route path="/buyTicket" element={<Buy/>} />
+        <Route path="/editProfile" element={<EditProfile/>} />
       </Routes>
     </BrowserRouter>
   );
