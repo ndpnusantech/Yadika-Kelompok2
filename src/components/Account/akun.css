@@ -23,14 +23,14 @@
 
 /* BOX */
 .profileUser .boxUser {
-  margin-top: 150px;
-  margin-left: 5px;
+  margin-top: 100px;
+  margin-left: 70px;
 
 }
 
 .profileUser .boxUser .history button{
-  width: 343px;
-  height: 100px;
+  width: 250px;
+  height: 90px;
   background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
@@ -40,13 +40,13 @@
 }
 
 .profileUser .boxUser  img {
-  width: 35px;
+  width: 30px;
   height: 50px;
 }
 
 .profileUser .boxUser .favourite button{
   width: 343px;
-  height: 100px;
+  height: 90px;
   background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@
 
 .profileUser .boxUser .edit-P button{
   width: 343px;
-  height: 100px;
+  height: 90px;
   background-color: #D9D9D9;
   align-items: center;
   justify-content: center;
@@ -70,12 +70,12 @@
 /* box transaction */
 .profileUser .boxTransaction button{
   width: 400px;
-  height: 85px;
+  height: 75px;
   background-color: #D9D9D9;
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 70px;
   border-radius: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
 }
 
 .transaction h3 {
