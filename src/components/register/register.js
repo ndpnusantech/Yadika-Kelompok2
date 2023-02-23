@@ -25,7 +25,7 @@ const Register = () => {
           <input type="email" placeholder="Email" required id="email"/>
           <br />
           <br />
-          <input type="number" placeholder="No. Handphone" required id="noHP"/>
+          <input type="tel" placeholder="No. Handphone" required id="noHP"/>
         </form>
         <div className="buttonRegister">
         <button onClick={registerAkun}>Register</button>
