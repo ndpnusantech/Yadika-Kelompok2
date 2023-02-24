@@ -11,6 +11,11 @@ import UpComing from "./pages/upComing";
 import Trailer from "./pages/trailer";
 import Favorite from "./components/favorite/favorite";
 
+import Buy from "./pages/buyTicket";
+import EditProfile from "./pages/editProfile";
+
+
+
 
 function App() {
   return (
@@ -24,7 +29,12 @@ function App() {
         <Route path="/nowPlaying" element={<NowPlaying />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
+
         <Route path="/favorite" element={<Favorite />} />
+
+        <Route path="/buyTicket" element={<Buy/>} />
+        <Route path="/editProfile" element={<EditProfile/>} />
+
       </Routes>
     </BrowserRouter>
   );

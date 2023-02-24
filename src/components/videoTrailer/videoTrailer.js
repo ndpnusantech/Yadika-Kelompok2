@@ -16,7 +16,7 @@ const Videotrailer = () => {
     </div>
         <div className="Btn">
             <Button className="btn-favorite" href="#favorite">ADD TO FAVORITE</Button>
-            <Button className="btn-buy" href="#buy">BUY TICKET</Button>
+            <Button className="btn-buy" href="/buyTicket">BUY TICKET</Button>
         </div>
         <div className="text">
             <h1>J O K E R</h1><br/>
