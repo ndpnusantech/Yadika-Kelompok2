@@ -13,6 +13,7 @@
 }
 .btn-table{
     margin-top: -700px;
+    border-radius:0px;
 }
 .btn-table2{
     /* width : 300px; */
@@ -27,4 +28,46 @@
 }
 .btn-time2{
     max-width: 71.5%;
+}
+
+.image{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.txt{
+    width: 50%;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: 50px;
+    border: none;
+}
+
+
+
+.btn-waktu{
+    margin-top: 800px;
+    margin-left: 238px;
+    display: flex;
+}
+
+.btn-data-waktu{
+    margin: 5px;
+}
+
+.txt-bioskop{
+    margin-left: 250px;
+    margin-top: 800px;
+    margin-bottom: -800px;
+    text-align: left;
+}
+
+.waktu{
+    margin-bottom: -750px;
+}
+
+.confirm{
+    margin-left: 670px;
+    margin-top: 800px;
+
 }

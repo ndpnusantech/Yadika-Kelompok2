@@ -28,10 +28,12 @@ const Akun = () => {
             </button>
           </div>
           <div className="edit-P item">
-            <button>
+            <a href="/editProfile">
+            <button >
               <img src={logo3} alt="" />
               <p>Edit Profile</p>
             </button>
+            </a>
           </div>
         </div>
         <div className="boxTransaction">

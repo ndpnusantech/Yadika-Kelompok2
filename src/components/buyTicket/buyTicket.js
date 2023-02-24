@@ -18,18 +18,19 @@ const BuyTicket = () => {
                     src={joker}
                     alt="marvel"
                 />
-            </div>
-            <table border={1} className = 'tbl-desc'>
-                <tr>
-                </tr>
-                    <td>Joker</td>
-                <tr>
-                    <td>Joker adalah film cerita seru psikologis Amerika Serikat <br/>
+                <div className='txt'>
+                <h1 className='txt-h1'>
+        Joker
+                </h1>
+                <br/>
+                <h2 className='txt-h2'>
+                Joker adalah film cerita seru psikologis Amerika Serikat <br/>
                         tahun 2019 yang disutradarai oleh Todd Phillips dan diproduseri<br/>
                         oleh Todd Philips, Bradley Cooper, dan Emma Tillinger Koskoff.
-                    </td>
-                </tr>
-            </table>
+                </h2>
+                </div>
+            </div>
+       
             <ButtonToolbar className="mb-3  btn-table" aria-label="Toolbar with Button groups">
                 <ButtonGroup className="me-2 btn-table2" aria-label="First group">
                     {
@@ -46,58 +47,57 @@ const BuyTicket = () => {
                 </ButtonGroup>
             </ButtonToolbar>
 
-            <ButtonToolbar className="mb-3  btn-time" aria-label="Toolbar with Button groups">
-                <ButtonGroup className="me-2 btn-time2" aria-label="First group">
-                    <>
+            <div className='waktu'>
+            <h1 className='txt-bioskop'>Cinema VII Bandung</h1><br/>
+                    <div className='btn-waktu'>
                         {
                             dataTime.map((data) =>
                             (
-                                <>
-                                    <Button variant="secondary">{data.time} </Button>
-                                    {/* <h6>spasi</h6>
-                                    di kasih h6 biar ada spasi coba hapus h6nya atau comment */}
-                                </>
+                                
+                                <div id={data.id}>
+                                    
+                                    <Button  variant="light" className='btn-data-waktu'>{data.time}</Button>
+                                </div>
                             )
                             )
                         }
-                    </>
-
-                </ButtonGroup>
-            </ButtonToolbar>
-            <ButtonToolbar className="mb-3  btn-time" aria-label="Toolbar with Button groups">
-                <ButtonGroup className="me-2 btn-time2" aria-label="First group">
-                    <>
+                    </div>
+                    </div>      
+            <div className='waktu'>
+            <h1 className='txt-bioskop'>Cinema VII Jakarta</h1><br/>
+                    <div className='btn-waktu'>
                         {
                             dataTime.map((data) =>
                             (
-                                <>
-                                    <Button variant="secondary">{data.time} </Button>
-                                    {/* <h6>spasi</h6> */}
-                                </>
+                                
+                                <div id={data.id}>
+                                    
+                                    <Button  variant="light" className='btn-data-waktu'>{data.time}</Button>
+                                </div>
                             )
                             )
                         }
-                    </>
-
-                </ButtonGroup>
-            </ButtonToolbar>
-            <ButtonToolbar className="mb-3  btn-time" aria-label="Toolbar with Button groups">
-                <ButtonGroup className="me-2 btn-time2" aria-label="First group">
-                    <>
+                    </div>
+                    </div>      
+            <div className='waktu'>
+            <h1 className='txt-bioskop'>Cinema VII Mars</h1><br/>
+                    <div className='btn-waktu'>
                         {
                             dataTime.map((data) =>
                             (
-                                <>
-                                    <Button variant="secondary">{data.time} </Button>
-                                    {/* <h6>spasi</h6> */}
-                                </>
+                                
+                                <div id={data.id}>
+                                    
+                                    <Button  variant="light" className='btn-data-waktu'>{data.time}</Button>
+                                </div>
                             )
                             )
                         }
-                    </>
-
-                </ButtonGroup>
-            </ButtonToolbar>
+                    </div>
+                    </div>      
+           <div className='confirm'>
+                        <Button variant="light" href="#pemilihanBangku" className='p-3'>CONFIRM</Button>
+           </div>
         </>
 
     );

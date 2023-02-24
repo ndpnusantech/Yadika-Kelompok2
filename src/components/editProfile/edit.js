@@ -16,6 +16,9 @@ const Edit = () => {
         <div className="boxEditProfile">
             <div className="formEditProfile">
                 <form action="">
+                <input type="file" required id="img" /><button className="btn-edit">Edit</button>
+                    <br/>
+                    <br/>
                     <input type="text" placeholder="Username" required id="username" /><button className="btn-edit">Edit</button>
                     <br />
                     <br />
