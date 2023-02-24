@@ -70,7 +70,7 @@ const registerAkun = () => {
     localStorage.setItem("email" , email)
     localStorage.setItem("noHP" , noHP)
     alert("Register secufully");
-    window.open("/");
+    window.open("/home");
   } else {
     alert("harus memasukan data");
     }
