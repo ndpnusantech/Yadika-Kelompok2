@@ -8,7 +8,7 @@ const Sidebar= () => {
 
       <div className="sidebar">
         <nav>
-          <img src={logo} alt="" width="200px" />
+          <img src={logo} alt="" width="150px" />
           <div className="navbar-link">
             <ul>
               <li>

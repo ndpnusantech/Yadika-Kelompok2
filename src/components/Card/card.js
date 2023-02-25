@@ -13,7 +13,7 @@ function Cards() {
           <a href="/trailer">
     <Card className="card" id={data.id}>
       <Card.Img className="card-img" src={data.img} />
-      <Card.Body className="card-body">
+   <Card.Body className="card-body">
         <Card.Title >{data.tittle}</Card.Title>
         <Card.Text className="card-txt" >
         {data.text}

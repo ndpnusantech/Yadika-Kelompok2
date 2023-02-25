@@ -1,11 +1,11 @@
 img{
   margin-top: 25px;
-  margin-left: 10px;
+  margin-left: 20px;
   
 }
 ul {
     list-style: none;
-    text-align: center;
+    text-align: left;
     
   }
   
@@ -13,14 +13,14 @@ ul {
   ul li a {
     text-decoration: none;
     color: white;
-    margin-left: -30px;
-    font-size: 35px;
+    margin-left: -10px;
+    font-size: 25px;
     justify-items: center;
   }
 
   hr{
-    width: 180px;
-    margin-left: -18px;
+    width: 215px;
+    margin-left: -47px;
     margin-top: 30px;
   }
 
@@ -34,7 +34,7 @@ ul {
     display: flex;
     justify-content: center;
     height: 130vh;
-    width: 230px;
+    width: 200px;
     border: none;
     background-color: #222739;
   }

@@ -1,59 +1,37 @@
-import Sidebar from "../layouts/sidebar/sidebar";
-import "./akun.css";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Sidebar from "../layouts/sidebar/sidebar"
+import "./akun.css"
 
 const Akun = () => {
-  const logo1 = "/assets/logo/pngwing 4.png";
-  const logo2 = "/assets/logo/pngwing 2.png";
-  const logo3 = "/assets/logo/pngwing 3.png";
-
   return (
     <>
       <Sidebar />
-      <div className="profileUser">
-        <div className="infoUser d-flex  justify-content-around ">
-          <h1 className="nama">Hi, User</h1>
-          <div className="foto"></div>
+      <div className='Profile'>
+        <div className='cards-akun'>
+          <Card className='card-profile'>
+            <div className="card-header-akun">
+              <Card.Img className='card-img-akun' variant="top" src="/images/pofile.png" />
+              <Card.Title className='card-title-akun'>USER</Card.Title><br/>
+            <Card.Body><br/><br/>
+              <Card.Text className='card-txt-akun'>
+                User123@gmail.com <br/>
+                 08900000  <br/>
+              </Card.Text>
+            </Card.Body>
+            </div>
+          </Card>
         </div>
-        <div className="boxUser d-flex align-items-center ">
-          <div className="history item">
-            <button>
-              <img src={logo1} alt="" />
-              <p>History</p>
-            </button>
-          </div>
-          <div className="favourite item">
-            <button>
-              <img src={logo2} alt="" />
-              <p>Favourite</p>
-            </button>
-          </div>
-          <div className="edit-P item">
-            <a href="/editProfile">
-            <button >
-              <img src={logo3} alt="" />
-              <p>Edit Profile</p>
-            </button>
-            </a>
-          </div>
-        </div>
-        <div className="boxTransaction">
-          <div className="transaction">
-            <button>
-              <h3>TRANSACTION HISTORY   › </h3>
-            </button>
-          </div>
-        </div>
-        <div className="logOut">
-          <button >
-            <a href="/">LOG OUT</a>
-          </button>
-        </div>
-        <div className="version">
-          <p>V.0.0.1</p>
+        <div className='btn-group-akun'>
+          <Button variant="light" className='btn-akun' href="#historyWatch">History Watch</Button>
+          <Button variant="light"className='btn-akun' href="/favorite">Favorite</Button>
+          <Button variant="light"className='btn-akun' href="/editProfile">Edit Profile</Button>
+          <Button variant="light"className='btn-akun' href="#historyTransaksi">History Transaction</Button>
+          <Button variant="light"className='btn-logout' href="/">Log Out</Button>
         </div>
       </div>
     </>
   );
-};
+}
 
 export default Akun;

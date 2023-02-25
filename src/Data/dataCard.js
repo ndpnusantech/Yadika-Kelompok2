@@ -1,93 +1,51 @@
 const data = [
         {
             id : "1",
-            img: "./images/joker.jfif",
-            tittle : "Joker",
-            text : "2009"  
+            img: "./Images Card Movie/Bismillah kunikahi suamimu.jpg",
+            tittle : "Bismillah Ku Nikahi Suamimu",
+            text : "Benny Setiawan"  
         },
         {
             id : "2",
-            img: "./images/avatar.jfif",
-            tittle : "Avatar",
-            text : "2009"  
+            img: "./Images Card Movie/kiko deep sea.jpg",
+            tittle : "Kiko Deep Sea",
+            text : "Sally Wongso"  
         },
         {
             id : "3",
-            img: "./images/dora.jfif",
-            tittle : "Dora",
-            text : "2009"  
+            img: "./Images Card Movie/moon rock for monday.jpg",
+            tittle : "Moon Rock For Monday",
+            text : "Kurt Martin"  
         },
         {
             id : "4",
-            img: "./images/faf.jfif",
-            tittle : "Fast And Furious",
-            text : "2009"  
+            img: "./Images Card Movie/paranoia.jpg",
+            tittle : "Paranoia",
+            text : "Riri Riza"  
         },
         {
             id : "5",
-            img: "./images/jw.jfif",
-            tittle : "Jhon Wick",
-            text : "2009"  
+            img: "./Images Card Movie/quantumania.jpg",
+            tittle : "Quantumania",
+            text : "Peyton Reed"  
         },
         {
             id : "6",
-            img: "./images/jw2.jfif",
-            tittle : "Jhon Wick 2",
-            text : "2009"  
+            img: "./Images Card Movie/penguin bloom.jpg",
+            tittle : "Penguin Bloom",
+            text : "Glendyn Ivin"  
         },
         {
             id : "7",
-            img: "./images/jw4.jfif",
-            tittle : "Jhon Wick 4",
-            text : "2009"  
+            img: "./Images Card Movie/slam dunk.jpg",
+            tittle : "Slam Dunk",
+            text : "Takehiko Inoue"  
         },
         {
             id : "8",
-            img: "./images/op.jfif",
-            tittle : "One Piece Red",
-            text : "2009"  
-        },
-        {
-            id : "9",
-            img: "./images/xmen.jfif",
-            tittle : "X-Men",
-            text : "2009"  
-        },
-        {
-            id : "10",
-            img: "./images/nobody.jfif",
-            tittle : "Nobody",
-            text : "2009"  
-        },
-        {
-            id : "11",
-            img: "./images/ma.jfif",
-            tittle : "Marvel Avangers",
-            text : "2009"  
-        },
-        {
-            id : "12",
-            img: "./images/sw.jfif",
-            tittle : "Star Wars",
-            text : "2009"  
-        },
-        {
-            id : "13",
-            img: "./images/titanic.png",
-            tittle : "Titanic",
-            text : "2009"  
-        },
-        {
-            id : "14",
-            img: "./images/ty4.jfif",
-            tittle : "Toy Story 4",
-            text : "2009"  
-        },
-        {
-            id : "15",
-            img: "./images/xx.jfif",
-            tittle : "xXx",
-            text : "2009"  
+            img: "./Images Card Movie/Suzume.jpg",
+            tittle : "Suzume no Tojimari",
+            text : "Makoto Shinkai"  
         },
     ]
 

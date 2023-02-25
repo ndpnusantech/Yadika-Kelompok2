@@ -6,12 +6,12 @@ import "./Up.css"
 const Up = () => {
     return(
         <div>
-        <div className="kiri">
+        <div className="kiri-up">
         <NavigationBar/>
-            <h1 className="txt">Up Coming</h1>
+            {/* <h1 className="txt " >Up Coming</h1> */}
         <Sidebar/>
         </div>
-        <div className="kanan">
+        <div className="kanan-up">
             <Cards/>
             </div>
             </div>    

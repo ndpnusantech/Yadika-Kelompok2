@@ -14,7 +14,9 @@ const Favorite = () => {
                 <img className='logFav' src={logoF} alt="Logo" width="300px"/>
                 <h2>Favorite</h2>
                 <div className="favFilm">
+                    <div className='card-favorite'>
                     <Cards />
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,5 @@
 .card {
-    width: 180px;
-    padding: 0px;
+    width: 190px;
     background: transparent;
     border: none;
     margin-top: 50px;
@@ -11,7 +10,7 @@
     text-align: center;
     margin-left: 30px;
     color: white;
-    
+    margin-bottom: -70px;
 }
 
 a{
@@ -23,9 +22,14 @@ a{
 }
 
 
-
+.card-title{
+    font-size:20px ;
+}
+.card-text{
+    font-size:15px ;
+}
 .set-card {
     justify-content: center;
-    margin-left: 18px;
+    margin-left: -33px;
     
 }

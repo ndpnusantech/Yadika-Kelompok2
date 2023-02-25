@@ -4,21 +4,30 @@
 }
 .inFav .logFav{
     position: relative;
-    margin-left: 500px;
+    margin-left: 320px;
     margin-top: -30px;
 }
 .inFav h2{
     /* position: absolute; */
-    margin-left: 580px;
+    margin-left: 400px;
     /* margin-top: 50px; */
     font-size: 38px;
 }
 .inFav{
+    margin: 0;
+    margin-bottom: 20px;
     margin-top: 40px;
     margin-left: 250px;
-    width: 1500px;
+    width: 965px;
+    
 }
 /* Card */
 .favFilm{
+    height: 130vh;
+    margin-bottom: 50px;
     background-color: rgb(36, 36, 53);
+}
+
+.card-favorite{
+    margin-left: 70px;
 }

@@ -1,4 +1,6 @@
-
+.navigation{
+     height: 50px;
+}
 .navbar-nav {
     margin-left: 200px;
 }
@@ -17,18 +19,13 @@
     margin-left: -30px;
 } */
 .form-control{
-    width: 300px;
-    height: 40px;
+    width: 250px;
+    height: 35px;
+    margin-top:1px;
 }
-.btn-outline-success{
+.btn-outline-light{
     width: 80px;
-    height: 40px;
-}
-.btn-primary{
-    background-color: #868484;
-    width: 80px;
-    height: 40px;
-    border: 1px solid black;
-    
+    height:35px;
+    margin-top: 1px;
 }
 

@@ -7,7 +7,7 @@ const NavigationBar = () => {
 
   return (
     <>
-      <Navbar bg="dark" variant="dark" className='p-3'>
+      <Navbar bg="dark" variant="dark" className='p-3 navigation' >
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="/nowPlaying">Now Playing</Nav.Link>
@@ -21,8 +21,7 @@ const NavigationBar = () => {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success" src={search}>Search</Button>
-            {/* <Button className='btnLogin' href="/">LOGIN</Button> */}
+            <Button variant="outline-light" src={search}>Search</Button>           
           </Form>
         </Container>
       </Navbar>

@@ -1,114 +1,68 @@
-.profileUser {
-  position: absolute;
-  left: 18%;
-  
+.Profile{
+  margin-top: -25px;
 }
 
-.profileUser .foto {
-  height: 250px;
-  width: 250px;
-  background-color: #D9D9D9;
-  border-radius: 50%;
-
-}
-
-.profileUser .infoUser {
-  margin-top: 50px;
-}
-
-.profileUser .nama {
-  font-size: 50px;
-  margin-top: 100px;
-}
-
-/* BOX */
-.profileUser .boxUser {
-  margin-top: 100px;
-  margin-left: 70px;
-
-}
-
-.profileUser .boxUser .history button{
-  width: 250px;
-  height: 90px;
-  background-color: #D9D9D9;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: black;
+.card-header-akun {
   display: flex;
-}
-
-.profileUser .boxUser  img {
-  width: 30px;
-  height: 50px;
-}
-
-.profileUser .boxUser .favourite button{
-  width: 343px;
-  height: 90px;
-  background-color: #D9D9D9;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  color: black;
-  display: flex;
-}
-
-.profileUser .boxUser .edit-P button{
-  width: 343px;
-  height: 90px;
-  background-color: #D9D9D9;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: black;
-  display: flex;
-
+  flex-direction: row;
+  /* margin-bottom: 16px; */
+  /* margin-left: 00px; */
+  border: none;
+  background: transparent;
 }
 
-/* box transaction */
-.profileUser .boxTransaction button{
-  width: 400px;
-  height: 75px;
-  background-color: #D9D9D9;
-  margin-top: 50px;
-  margin-left: 70px;
-  border-radius: 10px;
-  margin-bottom: 45px;
-}
-
-.transaction h3 {
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  color: black;
-  display: flex;
-  padding-top: 12px;
-
-}
-
-.profileUser button{
-  border-radius: 0;
-}
-/* LOGOUT  BOX */
-.profileUser .logOut button{
-  width: 200px;
-  height: 85px;
-  background-color: #D9D9D9;
-  margin-left: 425px;
-  border-radius: 25px;
-  
-
-}
-.profileUser .logOut a{
-  color: black;
-  padding-left: 16x;
-  padding-top: 15px;
-  text-decoration: none;
-}
-/* Version */
-.profileUser .version{
+.card-title-akun {
   margin-left: 500px;
-  margin-top: 30px;
+  flex: 2;
+  
+}
+/* 
+.h5 , h5{
+  font-size: 205px;
+} */
+
+.card-txt-akun{
+  margin-left: -100px;
+  text-align: left;
+  width: 150px;
+
+}
+
+.card-text-akun{
+  font-size: 15px;
+}
+
+.cards-akun{
+  margin-left: 600px;
+}
+
+.card-img-akun{
+  flex: 1;
+  border-radius:100px ;
+   width: 200px;
+}
+
+.btn-group-akun{
+  margin-top: 55px;
+  margin-left:203px;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 5px; */
+}
+
+.btn-akun{
+  color: white;
+  width: 156vh;
+  background: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.btn-logout{
+  color: #d6a864;
+  width: 156vh;
+  background: #222739;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
