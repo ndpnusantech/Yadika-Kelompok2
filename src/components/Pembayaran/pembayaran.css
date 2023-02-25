@@ -1,0 +1,15 @@
+.boxPembayaran {
+  background-color: #1e2022;
+  width: 800px;
+  height: 300px;
+  margin-left: 440px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-left: 750px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
