@@ -10,9 +10,9 @@ import NowPlaying from "./pages/nowPlaying";
 import UpComing from "./pages/upComing";
 import Trailer from "./pages/trailer";
 import Favorite from "./components/favorite/favorite";
-
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
+import Bayar from "./pages/pembayaranPage";
 
 
 
@@ -34,6 +34,7 @@ function App() {
 
         <Route path="/buyTicket" element={<Buy/>} />
         <Route path="/editProfile" element={<EditProfile/>} />
+        <Route path="/pembayaranPage" element={<Bayar/>} />
 
       </Routes>
     </BrowserRouter>
