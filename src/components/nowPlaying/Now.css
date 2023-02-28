@@ -1,14 +1,12 @@
 .kanan{
     margin-left: 210px;
-    margin-top: -50px;
-}
-.txt{
-    margin-left: 260px;
-    margin-bottom: -50px;
-    font-size: 22px;
-    border-bottom: 2px solid #d6a864;
-    width: 15%;
-    text-align: center;
     margin-top: 20px;
-    padding-bottom: 20px;
+}
+.txt-nowPlaying{
+    margin-bottom: -50px;
+    font-size: 20px;
+    border-bottom: 2px solid #d6a864;
+    width: 8%;
+    margin-top: 20px;
+    padding-bottom: 10px;
 }

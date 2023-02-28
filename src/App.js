@@ -10,7 +10,6 @@ import NowPlaying from "./pages/nowPlaying";
 import UpComing from "./pages/upComing";
 import Trailer from "./pages/trailer";
 import Favorite from "./components/favorite/favorite";
-
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
 
@@ -18,7 +17,7 @@ import EditProfile from "./pages/editProfile";
 
 
 function App() {
-  return (
+  return (  
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LoginPage />} />

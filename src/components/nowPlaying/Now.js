@@ -4,17 +4,17 @@ import Sidebar from "../layouts/sidebar/sidebar";
 import "./Now.css"
 
 const Now = () => {
-    return(
-        <div>
+    return (
+      <div>
         <div className="kiri">
-        <NavigationBar/>
-            {/* <h1 className="txt">Now Playing</h1> */}
-        <Sidebar/>
+          <NavigationBar />
+          <Sidebar />
         </div>
         <div className="kanan">
-            <Cards/>
-            </div>
-            </div>    
-    )
+          <h1 className="txt-nowPlaying">Now Playing</h1>
+          <Cards />
+        </div>
+      </div>
+    );
 }
 export default Now ;
