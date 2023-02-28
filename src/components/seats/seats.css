@@ -1,0 +1,26 @@
+.Seats .logoSeats  {
+    align-items: center;
+    text-align: center;
+    margin-left: 120px;
+
+}
+
+.Seats .logoSeats img {
+    width: 390px;
+    height: 150px;
+}
+
+.Seats .logoSeats h3 {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.Seats .logoSeats .span {
+    font-weight: bold ;
+}
+
+.Seats .Seats-Chair {
+    margin-left: 500px;
+}
