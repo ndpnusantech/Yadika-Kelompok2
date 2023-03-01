@@ -5,7 +5,12 @@ const BuktiTransaksi = () => {
   return (
     <div className="mx-auto d-flex justify-content-center">
       <Button variant="light" title="qris">
-        <img src="./assets/logo/logoqris.png" className="btn-img" width={100} alt='img' />
+        <img
+          src="./assets/logo/logoqris.png"
+          className="btn-img-buktiTransaksi"
+          width={100}
+          alt="img"
+        />
       </Button>
     </div>
   );

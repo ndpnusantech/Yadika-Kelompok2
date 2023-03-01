@@ -9,4 +9,4 @@ const Bayar =  () => {
     </>
     )
 }
-export default Bayar
+export default Bayar;

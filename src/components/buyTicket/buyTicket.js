@@ -1,8 +1,8 @@
 import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
-import { dataButton } from "../../pages/Data/dataButton";
-import { dataTime } from "../../pages/Data/dataTime";
+import { dataButton } from "../../Data/dataButtons";
+import { dataTime } from "../../Data/dataTimes";
 import Sidebar from "../layouts/sidebar/sidebar";
 import "./butTicket.css";
 
@@ -18,7 +18,7 @@ const BuyTicket = () => {
           src={joker}
           alt="marvel"
         />
-        <div className="txt">
+        <div className="txt-buyTicket">
           <h1 className="txt-h1">Joker</h1>
           <br />
           <h2 className="txt-h2">

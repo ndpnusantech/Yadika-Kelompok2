@@ -1,6 +1,6 @@
 import Sidebar from "../layouts/sidebar/sidebar";
 import './seats.css'
-import Table from 'react-bootstrap/Table';
+// import Table from 'react-bootstrap/Table';
 
 const seats = () => {
     const logo4 = "./assets/logo/logoo 2.png";

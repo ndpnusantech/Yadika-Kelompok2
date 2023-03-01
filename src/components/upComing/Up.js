@@ -11,7 +11,7 @@ const Up = () => {
           <Sidebar />
         </div>
         <div className="kanan-up">
-          <h1 className="txt-upComing">Up Coming</h1>
+          <h2 className="txt-upComing">Up Coming</h2>
           <Cards />
         </div>
       </div>

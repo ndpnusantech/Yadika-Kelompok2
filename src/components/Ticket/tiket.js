@@ -10,17 +10,17 @@ const Tiket = () => {
         <NavigationBar></NavigationBar>
         <Sidebar></Sidebar>
       </div>
-      
+
       <div className="cards-ticket">
       <div className="cardsLaga">
-        <h1 className="txt-tiket">Laga</h1>
+        <h3 className="txt-tiket">Laga</h3>
         <Cards></Cards>
       </div>
       </div>
 
       <div className="cards-ticket">
       <div className="cardsAnime">
-        <h1 className="txt-tiket">Anime</h1>
+        <h3 className="txt-tiket">Anime</h3>
         <Cards></Cards>
       </div>
       </div>

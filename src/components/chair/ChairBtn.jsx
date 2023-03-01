@@ -14,7 +14,7 @@ const ChairBtn = (props) => {
         textAlign: "center",
       }}
       onClick={() => {
-        rubahWarna();
+        rubahWarna(); 
         props.onClick();
       }}
       value={props.valueBtn}

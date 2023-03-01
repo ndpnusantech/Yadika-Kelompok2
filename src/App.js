@@ -13,12 +13,9 @@ import Favorite from "./components/favorite/favorite";
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
 import Bayar from "./pages/pembayaranPage";
-<<<<<<< HEAD
 import Transaksi from "./pages/buktiTransaksipage";
-=======
 import Seats from "./components/seats/seats";
 import ChooseSeat from "./pages/ChooseSeat";
->>>>>>> d02dff0ca86d81634d90c4343eb9fa1eb4ba63eb
 
 function App() {
   return (
@@ -32,18 +29,13 @@ function App() {
         <Route path="/nowPlaying" element={<NowPlaying />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
-
         <Route path="/favorite" element={<Favorite />} />
-
         <Route path="/buyTicket" element={<Buy />} />
         <Route path="/editProfile" element={<EditProfile />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
-<<<<<<< HEAD
         <Route path="/buktiTransaksipage" element={<Transaksi />} />
-=======
         <Route path="/seats" element={<Seats />} />
         <Route path="/ChooseSeat" element={<ChooseSeat />} />
->>>>>>> d02dff0ca86d81634d90c4343eb9fa1eb4ba63eb
       </Routes>
     </BrowserRouter>
   );

@@ -1,12 +1,47 @@
-.kanan{
-    margin-left: 210px;
-    margin-top: 20px;
+.card-nowPlaying {
+  margin-left: 210px;
+  margin-top: 20px;
 }
-.txt-nowPlaying{
-    margin-bottom: -50px;
-    font-size: 20px;
-    border-bottom: 2px solid #d6a864;
-    width: 8%;
-    margin-top: 20px;
-    padding-bottom: 10px;
+.txt-nowPlaying {
+  margin-bottom: -50px;
+  font-size: 20px;
+  border-bottom: 2px solid #d6a864;
+  width: 12%;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* cards css now playing */
+.card-nowPlaying{
+  width: 190px;
+  background: transparent;
+  border: none;
+  margin-top: 50px;
+  height: auto;
+}
+
+.card-body-nowPlaying{
+  text-align: center;
+  /* margin-left: 30px; */
+  color: white;
+  margin-bottom: -70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-row-nowPlaying{
+  margin: 0;
+}
+
+.card-title-nowPlaying{
+  font-size: 20px;
+}
+.card-text-nowPlaying {
+  font-size: 15px;
+}
+.set-card-nowPlaying {
+  justify-content: center;
+  margin-left: -33px;
 }

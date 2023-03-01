@@ -4,6 +4,10 @@ import Sidebar from "../layouts/sidebar/sidebar"
 import "./akun.css"
 
 const Akun = () => {
+  const username = localStorage.getItem('username');
+  // const password = localStorage.getItem('password');
+  const noHp = localStorage.getItem('noHp');
+  const email = localStorage.getItem('email');
   return (
     <>
       <Sidebar />
@@ -12,11 +16,11 @@ const Akun = () => {
           <Card className='card-profile'>
             <div className="card-header-akun">
               <Card.Img className='card-img-akun' variant="top" src="/images/pofile.png" />
-              <Card.Title className='card-title-akun'>USER</Card.Title><br/>
+              <Card.Title className='card-title-akun'>{username}</Card.Title><br/>
             <Card.Body><br/><br/>
               <Card.Text className='card-txt-akun'>
-                User123@gmail.com <br/>
-                 08900000  <br/>
+                {email}<br/>
+                {noHp}<br/>
               </Card.Text>
             </Card.Body>
             </div>
