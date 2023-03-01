@@ -14,3 +14,42 @@
   font-size: 1000px;
   font-weight: bold;
 }
+
+.btnQris {
+  display: flex;
+  justify-content: left;
+  margin-left: -400px;
+  margin-top: 30px;
+}
+.btn-img-qris{
+  margin-top: 10px;
+  margin-left: 18px;
+}
+.btnGopay {
+  justify-content: center;
+  margin-top: -70px;
+}
+
+.btn-img-gopay {
+  margin-top: 3px;
+  margin-left: -5px;
+}
+
+.btnSpay{
+  margin-left: 400px;
+  margin-top: -70px;
+}
+
+.btn-img-spay{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.btn-img-dana{
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.btnDana{
+  margin-left: 800px;
+  margin-top: -70px;
+}
