@@ -31,7 +31,7 @@ const Register = () => {
         <button onClick={registerAkun}>Register</button>
         </div>
         <p>
-          Dont have an account? <a href="/">Login</a>
+          have an account? <a href="/">Login</a>
         </p>
       </div>
     </div>
@@ -70,7 +70,7 @@ const registerAkun = () => {
     localStorage.setItem("email" , email)
     localStorage.setItem("noHP" , noHP)
     alert("Register secufully");
-    window.open("/home","_self");
+    window.open("/","_self");
   } else {
     alert("harus memasukan data");
     }

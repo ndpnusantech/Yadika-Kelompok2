@@ -1,11 +1,12 @@
 import "./pembayaran.css";
+import Button from "react-bootstrap/Button";
 
 const Pembayaran = () => {
   const logoC = "./assets/navbar/logoo2.png";
-  const logoqris = "./assets/logo/logoqris.png";
-  const gopay = "./assets/logo/gopay.png";
-  const spay = "./assets/logo/spay.png";
-  const dana = "./assets/logo/Dana.png";
+  // const logoqris = "./assets/logo/logoqris.png";
+  // const gopay = "./assets/logo/gopay.png";
+  // const spay = "./assets/logo/spay.png";
+  // const dana = "./assets/logo/Dana.png";
   return (
     <>
       <div className="logoImg">
@@ -24,21 +25,16 @@ const Pembayaran = () => {
       <div className="boxPembayaran"></div>
       <div className="titlePay">
         <h1>PAYMENT</h1>
-      </div>
-      <div className="boxButton">
-        <img
-          src={logoqris}
-          alt=""
-          width="50px"
-          heigt="90px"
-          style={{
-            marginBottom: "30px",
-            marginTop: "60px",
-            marginLeft: "670px",
-          }}
-        />
-
-        <button>QRIS</button>
+        <div className="mx-auto d-flex justify-content-center">
+          <Button variant="light" title="qris">
+            <img
+              src="./assets/logo/logoqris.png"
+              className="btn-img"
+              width={100}
+              alt="img"
+            />
+          </Button>
+        </div>
       </div>
     </>
   );

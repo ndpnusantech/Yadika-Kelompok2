@@ -1,14 +1,18 @@
-.cardsss {
+.cards-ticket{
+    margin-bottom: 20vh;
+}
+.cards-ticket .cardsLaga, .cardsAnime {
     margin-left: 210px;
 }
-
-.txt-tiket{
-    margin-left: 50px;
+/* .cardsAnime{
+    margin-top: 200px;
+} */
+.cards-ticket .txt-tiket{
     margin-bottom: -50px;
     font-size: 22px;
     border-bottom: 2px solid #d6a864;
-    width: 15%;
+    width: 8%;
     text-align: center;
     margin-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }

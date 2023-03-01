@@ -4,17 +4,17 @@ import Sidebar from "../layouts/sidebar/sidebar";
 import "./Up.css"
 
 const Up = () => {
-    return(
-        <div>
+    return (
+      <div>
         <div className="kiri-up">
-        <NavigationBar/>
-            {/* <h1 className="txt " >Up Coming</h1> */}
-        <Sidebar/>
+          <NavigationBar />
+          <Sidebar />
         </div>
         <div className="kanan-up">
-            <Cards/>
-            </div>
-            </div>    
-    )
+          <h2 className="txt-upComing">Up Coming</h2>
+          <Cards />
+        </div>
+      </div>
+    );
 }
 export default Up ;

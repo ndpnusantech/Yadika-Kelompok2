@@ -1,0 +1,47 @@
+/* body{
+    background-color: black;
+} */
+
+.full-seats{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.wrap-logo{
+    width: max-content;
+    height: 10px;
+    overflow: visible;
+}
+
+.wrap-logo img{
+    width: 15em;
+}
+
+.wrap-logo p {
+    color: white;
+    font-size: 1.5em;
+}
+
+.wrap-logo p span {
+    color: goldenrod;
+}
+
+.wrap-seats{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25vh;
+}
+
+.seats-k-1 {
+    width: 45%;    
+}
+.seats-k-2{
+    width: 45%;        
+}
+
+.btn-seats{
+    margin-top: 50px;
+    margin-left: 485px;
+}

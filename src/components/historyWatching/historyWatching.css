@@ -1,0 +1,28 @@
+.table>:not(caption)>*>*{
+    padding-bottom: 30px;
+}
+
+.table-historywatch{
+    width: 81%;
+    margin-left: 220px;
+    border: none;
+    background: #868484;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+
+th img{
+    border-radius: 5px;
+    width: 200px;
+}
+th{
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.th-a{
+    color: #d6a864;
+}
+

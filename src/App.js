@@ -1,4 +1,4 @@
-import "./style/style.css"
+import "./style/style.css";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AkunPage from "./pages/akunPage";
@@ -13,9 +13,9 @@ import Favorite from "./components/favorite/favorite";
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
 import Bayar from "./pages/pembayaranPage";
-
-
-
+import Transaksi from "./pages/buktiTransaksipage";
+import ChooseSeat from "./pages/ChooseSeat";
+import HistoryWatching from "./pages/historyWatch";
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
-        <Route path="/home" element={<Home/>} />
+        <Route path="/home" element={<Home />} />
         <Route path="/akunPage" element={<AkunPage />} />
         <Route path="/ticket" element={<Ticket/>} />
         <Route path="/nowPlaying" element={<NowPlaying />} />
@@ -34,8 +34,12 @@ function App() {
         <Route path="/buyTicket" element={<Buy/>} />
         <Route path="/editProfile" element={<EditProfile/>} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
-       
-
+        <Route path="/buyTicket" element={<Buy />} />
+        <Route path="/editProfile" element={<EditProfile />} />
+        <Route path="/pembayaranPage" element={<Bayar />} />
+        <Route path="/buktiTransaksipage" element={<Transaksi />} />
+        <Route path="/ChooseSeat" element={<ChooseSeat />} />
+        <Route path="/historyWatching" element={<HistoryWatching />} />
       </Routes>
     </BrowserRouter>
   );

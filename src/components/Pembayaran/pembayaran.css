@@ -7,9 +7,10 @@
   border-radius: 10px;
 }
 
-h1 {
-  margin-left: 750px;
+.boxPembayaran .titlePay h1 {
+  color: white !important;
+  margin-left: 350px;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 1000px;
   font-weight: bold;
 }
