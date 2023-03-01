@@ -17,6 +17,7 @@ import Bayar from "./pages/pembayaranPage";
 
 
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,16 +26,15 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<Home/>} />
         <Route path="/akunPage" element={<AkunPage />} />
-        <Route path="/ticket" element={<Ticket />} />
+        <Route path="/ticket" element={<Ticket/>} />
         <Route path="/nowPlaying" element={<NowPlaying />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
-
         <Route path="/favorite" element={<Favorite />} />
-
         <Route path="/buyTicket" element={<Buy/>} />
         <Route path="/editProfile" element={<EditProfile/>} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+       
 
       </Routes>
     </BrowserRouter>

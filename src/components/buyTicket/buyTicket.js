@@ -96,7 +96,7 @@ const BuyTicket = () => {
                     </div>
                     </div>      
            <div className='confirm'>
-                        <Button variant="light" href="#pemilihanBangku" className='p-3'>CONFIRM</Button>
+                        <Button variant="light" href="/pilihBangku" className='p-3'>CONFIRM</Button>
            </div>
         </>
 
