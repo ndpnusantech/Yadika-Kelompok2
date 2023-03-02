@@ -13,9 +13,9 @@ import Favorite from "./components/favorite/favorite";
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
 import Bayar from "./pages/pembayaranPage";
-import Transaksi from "./pages/buktiTransaksipage";
 import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
+import Pembayaran from "./pages/buktiPembayaran";
 
 
 function App() {
@@ -37,9 +37,9 @@ function App() {
         <Route path="/buyTicket" element={<Buy />} />
         <Route path="/editProfile" element={<EditProfile />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/buktiTransaksipage" element={<Transaksi />} />
         <Route path="/ChooseSeat" element={<ChooseSeat />} />
         <Route path="/historyWatching" element={<HistoryWatching />} />
+        <Route path="/buktiPembayaran" element={<Pembayaran/>} />
       </Routes>
     </BrowserRouter>
   );
