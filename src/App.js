@@ -13,10 +13,10 @@ import Favorite from "./components/favorite/favorite";
 import Buy from "./pages/buyTicket";
 import EditProfile from "./pages/editProfile";
 import Bayar from "./pages/pembayaranPage";
-import Transaksi from "./pages/buktiTransaksipage";
 import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
+import Pembayaran from "./pages/buktiPembayaran";
 
 
 function App() {
@@ -26,22 +26,19 @@ function App() {
         <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/akunPage" element={<AkunPage />} />
-        <Route path="/ticket" element={<Ticket/>} />
-        <Route path="/nowPlaying" element={<NowPlaying />} />
-        <Route path="/upComing" element={<UpComing />} />
         <Route path="/trailer" element={<Trailer />} />
-        <Route path="/favorite" element={<Favorite />} />
-        <Route path="/buyTicket" element={<Buy/>} />
-        <Route path="/editProfile" element={<EditProfile/>} />
-        <Route path="/pembayaranPage" element={<Bayar/>} />
-        <Route path="/buyTicket" element={<Buy />} />
-        <Route path="/editProfile" element={<EditProfile />} />
-        <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/buktiTransaksipage" element={<Transaksi />} />
-        <Route path="/ChooseSeat" element={<ChooseSeat />} />
+        <Route path="/nowPlaying" element={<NowPlaying />} />
+        <Route path="/ticket" element={<Ticket/>} />
+        <Route path="/upComing" element={<UpComing />} />
         <Route path="/historyWatching" element={<HistoryWatching />} />
+        <Route path="/akunPage" element={<AkunPage />} />
+        <Route path="/favorite" element={<Favorite />} />
+        <Route path="/ChooseSeat" element={<ChooseSeat />} />
+        <Route path="/editProfile" element={<EditProfile/>} />
+        <Route path="/buyTicket" element={<Buy/>} />
+        <Route path="/buktiPembayaran" element={<Pembayaran/>} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
+        <Route path="/pembayaranPage" element={<Bayar/>} />
       </Routes>
     </BrowserRouter>
   );

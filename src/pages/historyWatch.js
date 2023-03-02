@@ -6,9 +6,6 @@ const HistoryWatching = () => {
         <>
         <Sidebar/>
         <Watching/>
-        <Watching/>
-        <Watching/>
-        <Watching/>
         </>
     )
 }
