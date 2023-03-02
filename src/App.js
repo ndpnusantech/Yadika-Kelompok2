@@ -16,6 +16,7 @@ import Bayar from "./pages/pembayaranPage";
 import Transaksi from "./pages/buktiTransaksipage";
 import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
+import HistoryTransaksi from "./pages/historyTransaksi";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Route path="/buktiTransaksipage" element={<Transaksi />} />
         <Route path="/ChooseSeat" element={<ChooseSeat />} />
         <Route path="/historyWatching" element={<HistoryWatching />} />
+        <Route path="/historyTrans" element={<HistoryTransaksi />} />
       </Routes>
     </BrowserRouter>
   );

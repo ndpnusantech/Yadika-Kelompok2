@@ -30,7 +30,7 @@ const Akun = () => {
           <Button variant="light" className='btn-akun' href="/historyWatching">History Watch</Button>
           <Button variant="light"className='btn-akun' href="/favorite">Favorite</Button>
           <Button variant="light"className='btn-akun' href="/editProfile">Edit Profile</Button>
-          <Button variant="light"className='btn-akun' href="#historyTransaksi">History Transaction</Button>
+          <Button variant="light"className='btn-akun' href="/historyTrans">History Transaction</Button>
           <Button variant="light"className='btn-logout' href="/">Log Out</Button>
         </div>
       </div>
