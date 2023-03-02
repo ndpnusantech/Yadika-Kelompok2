@@ -1,3 +1,8 @@
+* {
+  font-family: sans-serif, Poppins;
+  font-weight: bold;
+}
+
 .boxPembayaran {
   background-color: #1e2022;
   width: 800px;
@@ -6,10 +11,30 @@
   margin-top: 30px;
   border-radius: 10px;
 }
+.boxPembayaran img {
+  width: 180px;
+}
+
+.container {
+  margin-top: -260px;
+  margin-left: -50px;
+}
+
+.boxPembayaran .container p {
+  margin-left: 400px;
+  font-size: 25px;
+  padding-top: 2px;
+}
+.txt-boxPembayaran {
+  margin-left: 750px;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-left: 780px;
+}
 
 .boxPembayaran .titlePay h1 {
   color: white !important;
-  margin-left: 350px;
+  margin-left: 3500px;
   margin-top: 30px;
   font-size: 1000px;
   font-weight: bold;
@@ -21,7 +46,7 @@
   margin-left: -400px;
   margin-top: 30px;
 }
-.btn-img-qris{
+.btn-img-qris {
   margin-top: 10px;
   margin-left: 18px;
 }
@@ -35,21 +60,31 @@
   margin-left: -5px;
 }
 
-.btnSpay{
+.btnSpay {
   margin-left: 400px;
   margin-top: -70px;
 }
 
-.btn-img-spay{
+.btn-img-spay {
   margin-top: 5px;
   margin-left: 5px;
 }
-.btn-img-dana{
+.btn-img-dana {
   margin-top: 3px;
   margin-left: 5px;
 }
 
-.btnDana{
+.btnDana {
   margin-left: 800px;
   margin-top: -70px;
+}
+
+.btnconfirm {
+  margin-left: 760px;
+  margin-top: 30px;
+  width: 150px;
+  background-color: #1e2022;
+  color: #d6a864;
+  border: 2px solid white;
+  border-color: white;
 }
