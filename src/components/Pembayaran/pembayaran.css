@@ -1,13 +1,13 @@
-* {
+/* * {
   font-family: sans-serif, Poppins;
   font-weight: bold;
-}
+} */
 
 .boxPembayaran {
   background-color: #1e2022;
   width: 800px;
   height: 300px;
-  margin-left: 440px;
+  margin-left: 330px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -15,28 +15,29 @@
   width: 180px;
 }
 
-.container {
+.container-pembayaran {
   margin-top: -260px;
   margin-left: -50px;
 }
 
-.boxPembayaran .container p {
-  margin-left: 400px;
+.boxPembayaran .container-pembayaran p {
+  margin-left: 250px;
   font-size: 25px;
+  text-align: center;
   padding-top: 2px;
 }
 .txt-boxPembayaran {
-  margin-left: 750px;
+  margin-left: 675px;
   font-size: 25px;
   margin-top: 25px;
-  margin-left: 780px;
+  /* margin-left: 780px; */
 }
 
 .boxPembayaran .titlePay h1 {
   color: white !important;
-  margin-left: 3500px;
+  /* margin-left: 3500px; */
   margin-top: 30px;
-  font-size: 1000px;
+  /* font-size: 1000px; */
   font-weight: bold;
 }
 
@@ -80,11 +81,16 @@
 }
 
 .btnconfirm {
-  margin-left: 760px;
+  margin-left: 655px;
   margin-top: 30px;
   width: 150px;
   background-color: #1e2022;
   color: #d6a864;
   border: 2px solid white;
+  margin-bottom: 50px;
   border-color: white;
+}
+
+.logoImg{
+  margin-left: -100px;
 }

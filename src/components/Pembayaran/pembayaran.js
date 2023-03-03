@@ -24,7 +24,7 @@ const Pembayaran = () => {
       </div>
       <div className="boxPembayaran">
         <img src="./assets/logo/card.png" alt="" />
-        <div className="container">
+        <div className="container-pembayaran">
         <p>ONE PIECE</p>
         <p>MOVIE RED</p>
         <p>SUNDAY , 6 FEBRUARY 2023</p>
@@ -75,7 +75,7 @@ const Pembayaran = () => {
             />
           </Button>
         </div>
-        <button className="btnconfirm">CONFIRM</button>
+        <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button>
       </div>
     </>
   );
