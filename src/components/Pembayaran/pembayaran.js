@@ -75,7 +75,7 @@ const Pembayaran = () => {
             />
           </Button>
         </div>
-        <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button>
+        {/* <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button> */}
       </div>
     </>
   );

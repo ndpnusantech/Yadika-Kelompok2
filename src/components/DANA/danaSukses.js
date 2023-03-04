@@ -1,10 +1,18 @@
 import "./danaSukses.css"
-import { Col , Image , Button , Container , Form , InputGroup} from "react-bootstrap"
+import { Col , Image , Button , Container , Form , InputGroup , Modal} from "react-bootstrap"
+import React, { useState } from 'react';
+
+
 
 const DanaSukses = () => {
     const logoCinema = "./assets/logo/logoo 2.png"
     const logoDana = "./assets/logo/Dana.png"
     
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+  
     return (
 <>
 <div className="logoAtas-confirm-dana ">
@@ -33,9 +41,28 @@ Total
 </InputGroup.Text>
 <Form.Control type="text" value="Rp.50.000,00" className="input-txt-harga-dana"></Form.Control>
 </InputGroup>
-<Button href="/konfirmasiDana" className="btn-DANA-confirm ">BERIKUTNYA</Button>
+<Button className="btn-DANA-confirm " onClick={handleShow}>BERIKUTNYA</Button>
 
 </Container>
+<Modal
+        show={show}
+        onHide={handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title className="modal-title-dana">Pembayaran Sukses !</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="modal-body-dana">
+          Terima kasih telah menggunakan DANA sebagai metode pembayaran anda
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="dark" onClick={handleClose}>
+            Close
+          </Button>
+          <Button variant="primary" href="/buktiPembayaran" className="btn-popup-dana">Confirm</Button>
+        </Modal.Footer>
+      </Modal>
 </>
 </>
     )
