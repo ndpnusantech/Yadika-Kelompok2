@@ -18,7 +18,7 @@ const Watching = () => {
         <th className='text-center align-middle'>KIKO IN THE DEEP SEA</th>
         <th className='text-center align-middle'>SUNDAY 6 FEBRUARY 2023</th>
         <th className='text-center align-middle'>CINEMA VII BANDUNG</th>
-        <th className='text-center align-middle th-a' href=''>Watch It Again?</th>
+            
         </tr>
     </tbody>
 </Table>

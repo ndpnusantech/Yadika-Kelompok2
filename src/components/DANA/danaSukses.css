@@ -1,0 +1,70 @@
+.logoCinemaDana-confirm{
+    width: 350px;
+}
+
+.logoDana-confirm{
+    width:100px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.logoAtas-confirm-dana{
+margin-left: 425px;
+}
+.btn-DANA-confirm{
+    justify-content: center;
+    padding: 20px 100px 20px 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.Container-confirm-dana{
+    background: white;
+    margin-top: 50px;
+    width: 150vh;
+    margin-left: 18vh;
+    height: auto;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.txt-confirm{
+    font-size: 35px;
+    color: #0095d0;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 40px;
+padding-left: 50px;
+    border-bottom: 2px solid #0095d0;
+}
+
+.txt-deskripsi-confirm{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.txt-deskripsi-confirm1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.txt-deskripsi-confirm2{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.input-txt-harga-dana{
+    padding: 30px;
+    text-align: end;
+    color: #FF5C00;
+    font-weight: bold;
+    cursor: not-allowed;
+}
+.input-group-confirm-dana{
+    margin-top: 50px;
+    width: 500px;
+   
+}
