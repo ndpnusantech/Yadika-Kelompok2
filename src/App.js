@@ -17,7 +17,7 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
-import Pembayaran from "./pages/HalLoginGopay";
+import HalLoginGopay from "./pages/HalLoginGopay";
 
 function App() {
   return (
