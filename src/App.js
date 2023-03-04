@@ -17,7 +17,7 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
-
+import Pembayaran from "./pages/HalLoginGopay";
 
 function App() {
   return (
@@ -28,17 +28,18 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/trailer" element={<Trailer />} />
         <Route path="/nowPlaying" element={<NowPlaying />} />
-        <Route path="/ticket" element={<Ticket/>} />
+        <Route path="/ticket" element={<Ticket />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/historyWatching" element={<HistoryWatching />} />
         <Route path="/akunPage" element={<AkunPage />} />
         <Route path="/favorite" element={<Favorite />} />
         <Route path="/ChooseSeat" element={<ChooseSeat />} />
-        <Route path="/editProfile" element={<EditProfile/>} />
-        <Route path="/buyTicket" element={<Buy/>} />
-        <Route path="/buktiPembayaran" element={<Pembayaran/>} />
+        <Route path="/editProfile" element={<EditProfile />} />
+        <Route path="/buyTicket" element={<Buy />} />
+        <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
-        <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/pembayaranPage" element={<Bayar />} />
+        <Route path="/HalLoginGopay" element={<LoginGopay />} />
       </Routes>
     </BrowserRouter>
   );
