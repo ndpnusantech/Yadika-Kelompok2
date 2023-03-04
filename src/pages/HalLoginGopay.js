@@ -1,10 +1,10 @@
-import HalLoginGopay from "../components/HalLoginGopay/HalLoginGopay"
+import LoginGopay from "../components/HalLoginGopay/HalLoginGopay";
 
-const Bayar =  () => {
-    return(
+const HalLoginGopay = () => {
+  return (
     <>
-    <LoginGopay/>
+      <LoginGopay />
     </>
-    )
-}
+  );
+};
 export default HalLoginGopay;

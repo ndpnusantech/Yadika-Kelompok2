@@ -18,7 +18,6 @@ import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
 import HalLoginGopay from "./pages/HalLoginGopay";
-
 function App() {
   return (
     <BrowserRouter>
@@ -39,7 +38,7 @@ function App() {
         <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/HalLoginGopay" element={<LoginGopay />} />
+        <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
       </Routes>
     </BrowserRouter>
   );
