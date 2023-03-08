@@ -2,7 +2,7 @@
 import NavigationBar from "../layouts/navbar/navbar";
 import Sidebar from "../layouts/sidebar/sidebar";
 import "./Now.css";
-import Cards from "../Card/card"
+import CardNowPlaying from "./CardNowPlaying"
 
 const Now = () => {
   return (
@@ -13,7 +13,7 @@ const Now = () => {
     </div>
     <div className="kanan-now">
       <h2 className="txt-nowPlaying">Now Playing</h2>
-      <Cards />
+      <CardNowPlaying />
     </div>
   </div>
   );

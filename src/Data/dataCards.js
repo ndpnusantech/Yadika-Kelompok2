@@ -26,7 +26,7 @@ const data = [
   {
     id: "5",
     img: "./Images Card Movie/quantumania.jpg",
-    tittle: "Quantumania",
+    tittle: "Ant Man Quantumania",
     text: "Peyton Reed",
   },
   {
@@ -46,6 +46,24 @@ const data = [
     img: "./Images Card Movie/Suzume.jpg",
     tittle: "Suzume no Tojimari",
     text: "Makoto Shinkai",
+  },
+  {
+    id: "9",
+    img: "./Images Card Movie/Creed 3.jpg",
+    tittle: "Creed III",
+    text: "Michael B Jordan",
+  },
+  {
+    id: "10",
+    img: "./Images Card Movie/ambush.jpg",
+    tittle: "The Ambush",
+    text: "Pierre Morel",
+  },
+  {
+    id: "11",
+    img: "./Images Card Movie/jalan jauh.jpg",
+    tittle: "Jalan Yang Jauh Jangan Lupa Pulang",
+    text: "Angga Dwimas Sasongko",
   },
 ];
 
