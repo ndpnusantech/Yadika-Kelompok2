@@ -11,3 +11,9 @@
   width: 70%;
   justify-content: center;
 }
+.confirmBut {
+  transition: 0.5s;
+}
+.confirmBut:hover {
+  transform: scale(1.1);
+}

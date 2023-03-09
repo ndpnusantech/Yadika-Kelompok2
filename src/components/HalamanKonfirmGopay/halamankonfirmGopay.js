@@ -13,7 +13,14 @@ const KonfirmGopay = () => {
       </div>
       <div
         className="kotakMovie"
-        style={{ textAlign: "center", backgroundColor: "white" }}
+        style={{
+          textAlign: "center",
+          backgroundColor: "white",
+          width: "850px",
+          padding: "50px",
+          margin: "30px auto",
+          borderRadius: "5px",
+        }}
       >
         <h1 className="judul">Movie : One Piece Movie Red</h1>
         <h3 className="tanggal">6 Januari 2023</h3>
@@ -21,7 +28,14 @@ const KonfirmGopay = () => {
           <img src={logoGopay1} alt="" />
         </div>
         <div className="konfirmBayar">
-          <Button style={{ height: "60px", backgroundColor: "#008E39" }}>
+          <Button
+            className="confirmBut"
+            style={{
+              height: "60px",
+              backgroundColor: "#008E39",
+              margin: "30px 0 0 0 ",
+            }}
+          >
             Konfirmasi Dan Bayar{" "}
             <span style={{ paddingLeft: "80px" }}>Rp.50.000,00</span>
           </Button>
