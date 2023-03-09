@@ -17,6 +17,9 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
+import BayarSpay from "./pages/spayPage";
+import BayarSpay2 from "./pages/spayPage2";
+import BayarSpay3 from "./pages/spayPage3";
 
 
 function App() {
@@ -39,6 +42,9 @@ function App() {
         <Route path="/buktiPembayaran" element={<Pembayaran/>} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/spayPage" element={<BayarSpay/>} />
+        <Route path="/spayPage2" element={<BayarSpay2/>} />
+        <Route path="/spayPage3" element={<BayarSpay3/>} />
       </Routes>
     </BrowserRouter>
   );
