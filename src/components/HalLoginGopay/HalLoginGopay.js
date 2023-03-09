@@ -3,13 +3,13 @@ import { Form } from "react-bootstrap";
 
 const LoginGopay = () => {
   const logo = "/assets/logo/logoo 2.png";
-  const logoGopay1 = "../assets/logo/logoGopay1.png";
+  const logoGopay1 = "./assets/logo/gopay.png";
 
   return (
     <div className="boxLoginGopay">
       <div className="logoLogin mt-3 d-flex flex-column justify-content-center align-items-center">
         <img src={logo} alt="" width="330px" />
-        <img src={logoGopay1} width="150px" style={{ marginTop: "-7px" }} />
+        <img src={logoGopay1} width="150px" style={{ marginTop: "-7px" }} alt="logo gopay"/>
       </div>
 
       <div className="boxMasukgopay mx-auto mt-2">

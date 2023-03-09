@@ -47,7 +47,7 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnGopay" variant="light" title="gopay">
+          <Button href="/HalLoginGopay" className="btnGopay" variant="light" title="gopay">
             <img
               src="./assets/logo/logoGopay.png"
               className="btn-img-gopay"
