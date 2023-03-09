@@ -17,6 +17,11 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
+
+import BayarSpay from "./pages/spayPage";
+import BayarSpay2 from "./pages/spayPage2";
+import BayarSpay3 from "./pages/spayPage3";
+
 import HalLoginGopay from "./pages/HalLoginGopay";
 import LoginDana from "./pages/LoginDana";
 import InputDana from "./pages/inputDana";
@@ -46,10 +51,16 @@ function App() {
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+
+        <Route path="/spayPage" element={<BayarSpay/>} />
+        <Route path="/spayPage2" element={<BayarSpay2/>} />
+        <Route path="/spayPage3" element={<BayarSpay3/>} />
+
         <Route path="/loginDana" element={<LoginDana/>} />
         <Route path="/inputDana" element={<InputDana/>} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
         <Route path="/loginAdmin" element={<AdminLogin/>} />
+
       </Routes>
       
     </BrowserRouter>
