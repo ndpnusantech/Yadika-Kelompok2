@@ -17,9 +17,8 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
-import HalLoginGopay from "./pages/HalLoginGopay";
-import HalKonfirmGopay from "./pages/halKonfirmGopay";
-import HalPinGopay from "./pages/HalPinGopay";
+import PinGopay from "./components/PinGopay/PinGopay";
+
 
 function App() {
   return (
@@ -40,10 +39,8 @@ function App() {
         <Route path="/buyTicket" element={<Buy />} />
         <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
-        <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
-        <Route path="/HalPinGopay" element={<HalPinGopay />} />
-        <Route path="/halamanKonfirmasiGopay" element={<HalKonfirmGopay />} />
+        <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/PinGopay" element={<PinGopay/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -13,6 +13,7 @@ function Cards() {
               <Card className="card" id={data.id}>
                 <Card.Img className="card-img" src={data.img} />
                 <Card.Body className="card-body">
+                  <Card.Text className="card-txt">{data.status}</Card.Text>
                   <Card.Title>{data.tittle}</Card.Title>
                   <Card.Text className="card-txt">{data.text}</Card.Text>
                 </Card.Body>
