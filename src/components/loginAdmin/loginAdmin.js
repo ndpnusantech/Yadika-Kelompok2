@@ -1,11 +1,11 @@
-import "./login.css";
+import "./loginAdmin.css";
 
-const Login = () => {
+const LoginAdmin = () => {
   const logo = "/assets/logo/logoo 2.png";
 
   return (
-    <div className="boxLogin">
-      <div className="logoLogin">
+    <div className="boxLogin-Admin">
+      <div className="logoLogin-Admin">
         <img
           src={logo}
           alt=""
@@ -14,26 +14,25 @@ const Login = () => {
           style={{ marginBottom: "50px", marginTop: "60px" }}
         />
       </div>
-      <div className="formLogin">
+      <div className="formLogin-Admin">
         <form action="">
-          <input type="text" placeholder="Username" required id="username"/>
+          <input type="text" placeholder="Username ( Admin )" required id="username"/>
           <br />
           <br />
           <input type="password" placeholder="Password" required id="password"/>
         </form>
-        <div className="buttonLogin">
+        <div className="buttonLogin-Admin">
         <button onClick={loginAkun}>Login</button>
         </div>
         <p>
-          Dont have an account? <a href="/register">Register</a><br/>
-          Are you admin? <a href="/LoginAdmin">Login Admin</a>
+         Only Admin ! Not Admin? <a href="/">Login User</a>
         </p>
       </div>
     </div>
   );
 };
 
-export default Login;
+export default LoginAdmin;
 
 const loginAkun = () => {
   var username = document.getElementById("username").value;

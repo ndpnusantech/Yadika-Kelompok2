@@ -20,6 +20,7 @@ import Pembayaran from "./pages/buktiPembayaran";
 import LoginDana from "./pages/LoginDana";
 import InputDana from "./pages/inputDana";
 import KonfirmasiDana from "./pages/konfirmasiDana";
+import AdminLogin from "./pages/loginAdmin";
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/loginDana" element={<LoginDana/>} />
         <Route path="/inputDana" element={<InputDana/>} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
+        <Route path="/loginAdmin" element={<AdminLogin/>} />
       </Routes>
     </BrowserRouter>
   );

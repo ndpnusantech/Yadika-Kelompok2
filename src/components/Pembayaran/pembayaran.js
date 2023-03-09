@@ -2,6 +2,7 @@ import "./pembayaran.css";
 import Button from "react-bootstrap/Button";
 
 const Pembayaran = () => {
+  // const kiko ="./Images Movie Card/kiko deep sea.jpg"
   const logoC = "./assets/navbar/logoo2.png";
   // const logoqris = "./assets/logo/logoqris.png";
   // const gopay = "./assets/logo/gopay.png";
@@ -23,10 +24,10 @@ const Pembayaran = () => {
         />
       </div>
       <div className="boxPembayaran">
-        <img src="./assets/logo/card.png" alt="" />
+        <img src={"./assets/logo/card.png"} alt="" />
         <div className="container-pembayaran">
-        <p>ONE PIECE</p>
-        <p>MOVIE RED</p>
+        
+        <p>KIKO IN THE DEEP SEA</p>
         <p>SUNDAY , 6 FEBRUARY 2023</p>
         <p>Cinema VII Bandung</p>
         <p>A7</p>
