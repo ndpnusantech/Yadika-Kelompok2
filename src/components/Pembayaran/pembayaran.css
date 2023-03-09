@@ -7,7 +7,7 @@
   background-color: #1e2022;
   width: 800px;
   height: 300px;
-  margin-left: 330px;
+  margin-left: 380px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -27,7 +27,7 @@
   padding-top: 2px;
 }
 .txt-boxPembayaran {
-  margin-left: 675px;
+  margin-left: 725px;
   font-size: 25px;
   margin-top: 25px;
   /* margin-left: 780px; */
@@ -81,7 +81,7 @@
 }
 
 .btnconfirm {
-  margin-left: 655px;
+  margin-left: 700px;
   margin-top: 30px;
   width: 150px;
   background-color: #1e2022;
@@ -91,6 +91,6 @@
   border-color: white;
 }
 
-.logoImg{
-  margin-left: -100px;
+.logoImg {
+  margin-left: -50px;
 }
