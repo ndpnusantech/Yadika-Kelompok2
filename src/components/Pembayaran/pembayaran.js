@@ -66,7 +66,7 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnDana" variant="light" title="dana">
+          <Button href="loginDana" className="btnDana" variant="light" title="dana">
             <img
               src="./assets/logo/Dana.png"
               className="btn-img-dana"
@@ -75,7 +75,7 @@ const Pembayaran = () => {
             />
           </Button>
         </div>
-        <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button>
+        {/* <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button> */}
       </div>
     </>
   );
