@@ -48,6 +48,7 @@ function App() {
         <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
         <Route path="/loginAdmin" element={<AdminLogin/>} />
       </Routes>
+      
     </BrowserRouter>
   );
 }
