@@ -1,4 +1,4 @@
-import Cards from "../Card/card"
+import CardUpComing from "./cardUpComing";
 import NavigationBar from "../layouts/navbar/navbar";
 import Sidebar from "../layouts/sidebar/sidebar";
 import "./Up.css"
@@ -12,7 +12,7 @@ const Up = () => {
         </div>
         <div className="kanan-up">
           <h2 className="txt-upComing">Up Coming</h2>
-          <Cards />
+          <CardUpComing />
         </div>
       </div>
     );

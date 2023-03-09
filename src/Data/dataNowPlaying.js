@@ -1,7 +1,7 @@
 const dataNowPlaying = [
   {
     id: "1",
-    img: "./Images Card Movie/avatar.jfif",
+    img: "./Images Card Movie/Bismillah kunikahi suamimu.jpg",
     tittle: "Bismillah Ku Nikahi Suamimu",
     text: "Benny Setiawan",
   },
@@ -35,17 +35,6 @@ const dataNowPlaying = [
     tittle: "Penguin Bloom",
     text: "Glendyn Ivin",
   },
-  {
-    id: "7",
-    img: "./Images Card Movie/slam dunk.jpg",
-    tittle: "Slam Dunk",
-    text: "Takehiko Inoue",
-  },
-  {
-    id: "8",
-    img: "./Images Card Movie/Suzume.jpg",
-    tittle: "Suzume no Tojimari",
-    text: "Makoto Shinkai",
-  },
+
 ];
 export {dataNowPlaying};

@@ -22,8 +22,18 @@ const Pembayaran = () => {
           }}
         />
       </div>
-      <div className="boxPembayaran"></div>
-      <h1>PAYMENT</h1>
+      <div className="boxPembayaran">
+        <img src="./assets/logo/card.png" alt="" />
+        <div className="container-pembayaran">
+        <p>ONE PIECE</p>
+        <p>MOVIE RED</p>
+        <p>SUNDAY , 6 FEBRUARY 2023</p>
+        <p>Cinema VII Bandung</p>
+        <p>A7</p>
+        </div>
+        
+      </div>
+      <h1 className="txt-boxPembayaran">PAYMENT</h1>
       <div className="titlePay">
         <div className="mx-auto d-flex justify-content-center">
           <Button className="btnQris" variant="light" title="qris">
@@ -65,6 +75,7 @@ const Pembayaran = () => {
             />
           </Button>
         </div>
+        <Button className="btnconfirm p-4" href="/buktiPembayaran">CONFIRM</Button>
       </div>
     </>
   );

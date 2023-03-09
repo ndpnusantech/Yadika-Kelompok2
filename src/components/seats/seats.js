@@ -50,7 +50,7 @@ const Seat = () => {
         </div>
       </div>
       <div className="btn-seats" >
-            <Button href="" variant="light">CONFIRM</Button>
+            <Button href="/pembayaranPage" variant="light">CONFIRM</Button>
       </div>
     </div>
   );
