@@ -18,6 +18,11 @@ import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
 import HalLoginGopay from "./pages/HalLoginGopay";
+import LoginDana from "./pages/LoginDana";
+import InputDana from "./pages/inputDana";
+import KonfirmasiDana from "./pages/konfirmasiDana";
+
+
 function App() {
   return (
     <BrowserRouter>
@@ -39,6 +44,10 @@ function App() {
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
+        <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/loginDana" element={<LoginDana/>} />
+        <Route path="/inputDana" element={<InputDana/>} />
+        <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
       </Routes>
     </BrowserRouter>
   );
