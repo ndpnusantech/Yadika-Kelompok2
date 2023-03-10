@@ -49,9 +49,14 @@ const Seat = () => {
             ))}
         </div>
       </div>
+
+      <div className="btn-seats">
+            <Button href="/pembayaranPage" variant="light">CONFIRM</Button>
+
       {valueBtn === true && (
        <div className="btn-seats" >
             <Button href="/pembayaranPage" variant="light">PRICE Rp 40.000 CONFRIM</Button>
+
       </div>
       )}  
  
