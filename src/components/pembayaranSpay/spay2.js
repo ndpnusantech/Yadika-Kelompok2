@@ -1,10 +1,17 @@
 import "./spay.css";
+import {Button,Modal} from "react-bootstrap"
+import React, { useState } from 'react';
 
 const Spay2 = () => {
     const logoD = "./assets/navbar/logoo2.png";
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return(
-        <div className="logoImg">
+<>
+<div className="logoImg">
         <img
           src={logoD}
           alt=""
@@ -37,9 +44,30 @@ const Spay2 = () => {
                 <h4>Total</h4>
                 <h3>Rp.50.000,00</h3>
             </div>
-            <button>Konfirmasi</button>
+<Button onClick={handleShow}  className="button-spay2"> Konfirmasi</Button>
         </div>
         </div>
+
+<Modal
+show={show}
+onHide={handleClose}
+backdrop="static"
+keyboard={false}
+>
+<Modal.Header closeButton>
+  <Modal.Title className="modal-title-dana">Pembayaran Sukses !</Modal.Title>
+</Modal.Header>
+<Modal.Body className="modal-body-dana">
+  Terima kasih telah menggunakan ShopeePay sebagai metode pembayaran anda
+</Modal.Body>
+<Modal.Footer>
+  <Button variant="dark" onClick={handleClose}>
+    Close
+  </Button>
+  <Button variant="primary" href="/buktiPembayaran" className="btn-popup-dana">Confirm</Button>
+</Modal.Footer>
+</Modal>
+</>
     )
 
 }

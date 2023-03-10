@@ -1,5 +1,5 @@
 import "./HalLoginGopay.css";
-import { Form } from "react-bootstrap";
+import { Form  , Button} from "react-bootstrap";
 
 const LoginGopay = () => {
   const logo = "/assets/logo/logoo 2.png";
@@ -27,7 +27,7 @@ const LoginGopay = () => {
             <h5 className="me-2 mt-1">+62</h5>
             <Form.Control placeholder="12345678" className="p-2" />
           </div>
-          <button>Konfirmasi</button>
+          <Button href="/konfirmasiGopay" className="button-gopay">Konfirmasi</Button>
         </Form>
       </div>
     </div>

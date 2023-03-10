@@ -1,18 +1,18 @@
 import "./bukti.css";
 const Bukti = () => {
   const imgLogo = "../assets/navbar/logoo2.png";
-  const logoGopay = "../assets/logo/logoGopay.png";
+  // const logoGopay = "../assets/logo/logoGopay.png";
   const posterFilm = "../Images Card Movie/kiko deep sea.jpg";
   return (
     <>
       <div className="box-pembayaran">
         <div className="img-all-buktiPembayaran">
           <img className="img-logoCinema" src={imgLogo} alt="logoCinema"></img>
-          <img
+          {/* <img
             className="img-logoPembayaran"
             src={logoGopay}
             alt="logoGopay"
-          ></img>
+          ></img> */}
         </div>
 
         <div className="isi-card-film">

@@ -1,8 +1,10 @@
 import "./spay.css";
+import Button from "react-bootstrap/Button"
 
 const Spay = () => {
     const logoD = "./assets/navbar/logoo2.png";
 
+    
     return(
    <div className="logoImg">
         <img
@@ -32,7 +34,7 @@ const Spay = () => {
                 <img src="./assets/logo/abc.png" alt="" />
                 </div>
             </form>
-            <button>Konfirmasi</button>
+<Button href="spayPage2" className="button-spay">Konfirmasi</Button>
         </div>
       </div>
       

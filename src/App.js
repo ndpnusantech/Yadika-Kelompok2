@@ -20,13 +20,14 @@ import Pembayaran from "./pages/buktiPembayaran";
 
 import BayarSpay from "./pages/spayPage";
 import BayarSpay2 from "./pages/spayPage2";
-import BayarSpay3 from "./pages/spayPage3";
 
 import HalLoginGopay from "./pages/HalLoginGopay";
 import LoginDana from "./pages/LoginDana";
 import InputDana from "./pages/inputDana";
 import KonfirmasiDana from "./pages/konfirmasiDana";
 import AdminLogin from "./pages/loginAdmin";
+import KonfirmasiGopay from "./pages/pembayaranGopay";
+import PinGopay from "./pages/pinGopay";
 
 
 function App() {
@@ -54,12 +55,13 @@ function App() {
 
         <Route path="/spayPage" element={<BayarSpay/>} />
         <Route path="/spayPage2" element={<BayarSpay2/>} />
-        <Route path="/spayPage3" element={<BayarSpay3/>} />
 
         <Route path="/loginDana" element={<LoginDana/>} />
         <Route path="/inputDana" element={<InputDana/>} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
         <Route path="/loginAdmin" element={<AdminLogin/>} />
+        <Route path="/konfirmasiGopay" element={<KonfirmasiGopay/>} />
+        <Route path="/pinGopay" element={<PinGopay/>} />
 
       </Routes>
       

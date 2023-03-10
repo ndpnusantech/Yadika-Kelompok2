@@ -19,7 +19,7 @@ const Pembayaran = () => {
           style={{
             marginBottom: "30px",
             marginTop: "60px",
-            marginLeft: "670px",
+            marginLeft: "745px",
           }}
         />
       </div>
@@ -37,12 +37,13 @@ const Pembayaran = () => {
       <h1 className="txt-boxPembayaran">PAYMENT</h1>
       <div className="titlePay">
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnQris" variant="light" title="qris">
+          <Button href="#qris" className="btnQris" variant="light" title="qris">
             <img
               src="./assets/logo/logoqris.png"
               className="btn-img-qris"
               width={100}
               alt="img"
+            
             />
           </Button>
         </div>
@@ -57,7 +58,7 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnSpay" variant="light" title="spay">
+          <Button href="/spayPage" className="btnSpay" variant="light" title="spay">
             <img
               src="./assets/logo/spay.png"
               className="btn-img-spay"

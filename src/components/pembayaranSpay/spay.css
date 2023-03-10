@@ -2,6 +2,10 @@
     font-family: Poppins, sans-serif;
 }
 
+.logoImg{
+    margin-left: -150px;
+}
+
 .logoImg .imgspay{
     margin-top: -40px;
     margin-left: 710px;
@@ -67,10 +71,11 @@ margin-left: -160px;
     height: 40px;
 }
 
-.logoImg .kotak button{
+.logoImg .kotak .button-spay{
     margin-top: 350px;
     margin-left: -340px;
     width: 340px;
+    padding-top: 20px;
     height: 65px;
     border-radius: 5px;
     color: #FFFFFF;
@@ -189,7 +194,7 @@ margin-left: -160px;
     font-weight: bold;
 }
 
-.logoImg .kotak2 button{
+.logoImg .kotak2 .button-spay2{
     margin-top: 350px;
     margin-left: -500px;
     width: 340px;
