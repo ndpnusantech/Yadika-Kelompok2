@@ -5,6 +5,9 @@ body {
   color: white;
   font-family: "poppins", sans-serif;
 }
+button{
+  border-radius: 0;
+}
 
 .home .content {
   margin-left: 250px;

@@ -1,0 +1,27 @@
+.boxLoginGopay .boxMasukgopay {
+  width: 45%;
+  height: 320px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+}
+.boxLoginGopay .boxMasukgopay .button-gopay {
+  padding: 10px !important;
+  border-radius: 10px;
+  background-color: #008e39;
+  color: white;
+  border: 1px solid white;
+  width: 70%;
+}
+.boxLoginGopay .boxMasukgopay form {
+  margin-left: 100px !important;
+  width: 78%;
+}
+.form-control {
+  width: 250px;
+  border-radius: 0px !important;
+  border: none;
+  border-bottom: 1px solid black !important;
+  padding: 7px !important;
+  font-size: 17px;
+}

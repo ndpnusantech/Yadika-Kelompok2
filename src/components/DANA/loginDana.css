@@ -1,0 +1,49 @@
+.logoCinemaDana{
+    width: 350px;
+}
+
+.logoDana{
+    width:100px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.logoAtas-login-dana{
+margin-left: 425px;
+}
+
+.Container-Dana{
+    background: white;
+    margin-top: 50px;
+    width: 150vh;
+    margin-left: 18vh;
+    height: auto;
+    color: black;
+}
+
+.txt-dana{
+    font-size: 35px;
+    text-align: center;
+    padding-top:50px ;
+}
+.txt-deskripsi-dana{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.btn-input-dana{
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.btn-DANA{
+    justify-content: center;
+    padding: 20px 204px 20px 204px;
+    margin-bottom: 50px;
+}
+
+.input-pin-dana{
+    padding: 30px;
+}

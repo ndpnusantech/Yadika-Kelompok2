@@ -1,18 +1,18 @@
 import "./bukti.css";
 const Bukti = () => {
   const imgLogo = "../assets/navbar/logoo2.png";
-  const logoGopay = "../assets/logo/logoGopay.png";
-  const posterFilm = "../Images Card Movie/Suzume.jpg";
+  // const logoGopay = "../assets/logo/logoGopay.png";
+  const posterFilm = "../Images Card Movie/kiko deep sea.jpg";
   return (
     <>
       <div className="box-pembayaran">
         <div className="img-all-buktiPembayaran">
           <img className="img-logoCinema" src={imgLogo} alt="logoCinema"></img>
-          <img
+          {/* <img
             className="img-logoPembayaran"
             src={logoGopay}
             alt="logoGopay"
-          ></img>
+          ></img> */}
         </div>
 
         <div className="isi-card-film">
@@ -24,7 +24,7 @@ const Bukti = () => {
             ></img>
           </div>
           <div className="judul-buktifilm">
-            <h3 className="judul-filmTiket">SUZUME NO TOJIMARI </h3>
+            <h3 className="judul-filmTiket">Kiko In The Deep Sea</h3>
             <p className="keterangan-tanggal">
               SUNDAY, 6 FEBRUARY 2023
               <br />

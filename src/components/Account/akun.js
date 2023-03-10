@@ -6,7 +6,7 @@ import "./akun.css"
 const Akun = () => {
   const username = localStorage.getItem('username');
   // const password = localStorage.getItem('password');
-  const noHp = localStorage.getItem('noHp');
+  const noHp = localStorage.getItem('noHP');
   const email = localStorage.getItem('email');
   return (
     <>
@@ -21,16 +21,19 @@ const Akun = () => {
               <Card.Text className='card-txt-akun'>
                 {email}<br/>
                 {noHp}<br/>
-              </Card.Text>
+                </Card.Text>
+                {/* <Card.Text className='card-txt-akun'>
+                {noHp}<br/>
+                </Card.Text> */}
             </Card.Body>
             </div>
           </Card>
         </div>
         <div className='btn-group-akun'>
-          <Button variant="light" className='btn-akun' href="/historyWatching">History Watch</Button>
-          <Button variant="light"className='btn-akun' href="/favorite">Favorite</Button>
           <Button variant="light"className='btn-akun' href="/editProfile">Edit Profile</Button>
+          <Button variant="light"className='btn-akun' href="/favorite">Favorite</Button>
           <Button variant="light"className='btn-akun' href="/historyTrans">History Transaction</Button>
+          <Button variant="light" className='btn-akun' href="/historyWatching">History Watch</Button>
           <Button variant="light"className='btn-logout' href="/">Log Out</Button>
         </div>
       </div>

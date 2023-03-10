@@ -8,13 +8,13 @@
   align-items: center;
   flex-direction: row;
   /* margin-bottom: 16px; */
-  /* margin-left: 00px; */
+  margin-left: -350px;
   border: none;
   background: transparent;
 }
 
 .card-title-akun {
-  margin-left: 500px;
+  margin-left: 150px;
   flex: 2;
   
 }
@@ -54,7 +54,7 @@
 
 .btn-akun{
   color: white;
-  width: 179vh;
+  width: 156vh;
   background: transparent;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -63,8 +63,8 @@
 }
 .btn-logout{
   color: #d6a864;
-  width: 179vh;
-  height: 12vh;
+  width: 156vh;
+  height: 10vh;
   background: #222739;
   padding-top: 20px;
   padding-bottom: 20px;
