@@ -13,18 +13,19 @@
   background: transparent;
 }
 
-.card-title-akun {
+/* .card-title-akun {
   margin-left: 150px;
   flex: 2;
   
-}
+} */
 /* 
 .h5 , h5{
   font-size: 205px;
 } */
 
+ 
 .card-txt-akun{
-  margin-left: -100px;
+  margin-left: -3rem;
   text-align: left;
   width: 150px;
 
@@ -35,18 +36,17 @@
 }
 
 .cards-akun{
-  margin-left: 600px;
+  margin-left: 36rem;
 }
 
 .card-img-akun{
-  flex: 1;
-  border-radius:100px ;
-   width: 200px;
+  width: 14rem;
+  border-radius: 50% ;
 }
 
 .btn-group-akun{
   margin-top: 55px;
-  margin-left:203px;
+  margin-left:15%;
   display: flex;
   flex-direction: column;
   /* margin-top: 5px; */
@@ -54,16 +54,16 @@
 
 .btn-akun{
   color: white;
-  width: 156vh;
+  width: 72.5rem;
   background: transparent;
-  padding-top: 20px;
+  padding-top:1rem;
   padding-bottom: 20px;
   text-align: center;
 
 }
 .btn-logout{
   color: #d6a864;
-  width: 156vh;
+  width: 72.5rem;
   height: 10vh;
   background: #222739;
   padding-top: 20px;
