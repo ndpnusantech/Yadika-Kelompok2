@@ -1,4 +1,7 @@
-import AdmSidebar from "../layouts/admSidebar/admSidebar";
+
+// import AdmSidebar from "../layouts/admSidebar/admSidebar";
+
+
 import "./login.css";
 
 const Login = () => {
@@ -6,7 +9,10 @@ const Login = () => {
 
   return (
     <div className="boxLogin">
+
+
     
+
       <div className="logoLogin">
         <img
           src={logo}
@@ -28,7 +34,6 @@ const Login = () => {
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a><br/>
-          Are you admin? <a href="/LoginAdmin">Login Admin</a>
         </p>
       </div>
     </div>
