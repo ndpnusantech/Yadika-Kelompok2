@@ -19,6 +19,7 @@ const Seat = () => {
   console.log(valueBtn);
 
   return (
+    
     <div className="full-seats">
        
       <center>
@@ -61,7 +62,9 @@ const Seat = () => {
       )}  
  
     </div>
-  );
+    </div>
+  
+  )
 };
 
 export default Seat;
