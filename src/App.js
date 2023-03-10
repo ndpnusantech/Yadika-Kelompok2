@@ -19,10 +19,8 @@ import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
 import Qris from "./pages/pembayaranQris";
 import DashboardAdmin from "./pages/dashboardAdmin";
-
 import BayarSpay from "./pages/spayPage";
 import BayarSpay2 from "./pages/spayPage2";
-
 import HalLoginGopay from "./pages/HalLoginGopay";
 import LoginDana from "./pages/LoginDana";
 import InputDana from "./pages/inputDana";
@@ -54,14 +52,10 @@ function App() {
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
-
         <Route path="/pembayaranQris" element={<Qris/>} />
         <Route path="/dashboardAdmin" element={<DashboardAdmin/>} />
-
-
         <Route path="/spayPage" element={<BayarSpay/>} />
         <Route path="/spayPage2" element={<BayarSpay2/>} />
-
         <Route path="/loginDana" element={<LoginDana/>} />
         <Route path="/inputDana" element={<InputDana/>} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />

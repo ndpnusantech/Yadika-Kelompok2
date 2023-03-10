@@ -42,7 +42,7 @@ const loginAkun = () => {
   var password1 = localStorage.getItem("password")
 
   if (username === username1 && password === password1) {
-    window.location.href = "/home";
+    window.location.href = "/dashboardAdmin";
   } else {
     alert("Username atau Password Salah")
   }

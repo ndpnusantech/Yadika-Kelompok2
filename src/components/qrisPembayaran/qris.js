@@ -48,7 +48,7 @@ const QrisBayar = () => {
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
-          <Button variant="primary" href="/buktiPembayaran">
+          <Button variant="primary" className="p-4" href="/buktiPembayaran">
             Confirm
           </Button>
         </Modal.Footer>

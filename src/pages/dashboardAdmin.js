@@ -1,10 +1,11 @@
 import Dashboard from "../components/dashboard/dashboard";
-// import Sidebar from "../components/layouts/sidebar/sidebar";
+import AdmSidebar from "../components/layouts/admSidebar/admSidebar";
+
 
 const DashboardAdmin = () => {
     return(
         <>
-        {/* <Sidebar/> */}
+        <AdmSidebar/>
         <Dashboard/>
         </>
     );

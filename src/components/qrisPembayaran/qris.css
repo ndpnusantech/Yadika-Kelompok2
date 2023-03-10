@@ -4,6 +4,8 @@ body{
 /* ///////////////// */
 .logoCinemaVii{
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .logoCinemaVii .logoVII{
     width: 19.5rem;
@@ -19,6 +21,8 @@ body{
 }
 /* ///////////// */
 .box-qris{
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 2rem;
     /* margin-left: 22.8rem;    */
@@ -29,7 +33,7 @@ body{
     padding: 1.2rem;
     background-color: #fff;
     width: 40rem;
-    margin-left: 23.9rem;
+    margin-left: 325px;
 }
 .box-qris .barkot-qris .barkotQris{
     width:17.5rem;

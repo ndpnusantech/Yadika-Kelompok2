@@ -9,7 +9,7 @@ const AdmSidebar= () => {
       <div className="admsidebar">
         <nav>
           <img src={logo} alt="" width="150px" />
-          <p>Admin</p>
+          <p className="txt-admSide">Admin</p>
           <div className="navbar-link2">
             <ul>
               <li>
