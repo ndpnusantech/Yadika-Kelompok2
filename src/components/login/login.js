@@ -1,4 +1,3 @@
-import AdmSidebar from "../layouts/admSidebar/admSidebar";
 import "./login.css";
 
 const Login = () => {
@@ -6,7 +5,10 @@ const Login = () => {
 
   return (
     <div className="boxLogin">
+
+
     
+
       <div className="logoLogin">
         <img
           src={logo}
