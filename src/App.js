@@ -20,6 +20,15 @@ import Pembayaran from "./pages/buktiPembayaran";
 import Qris from "./pages/pembayaranQris";
 import DashboardAdmin from "./pages/dashboardAdmin";
 
+import BayarSpay from "./pages/spayPage";
+import BayarSpay2 from "./pages/spayPage2";
+import BayarSpay3 from "./pages/spayPage3";
+
+import HalLoginGopay from "./pages/HalLoginGopay";
+import LoginDana from "./pages/LoginDana";
+import InputDana from "./pages/inputDana";
+import KonfirmasiDana from "./pages/konfirmasiDana";
+
 
 function App() {
   return (
@@ -30,19 +39,33 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/trailer" element={<Trailer />} />
         <Route path="/nowPlaying" element={<NowPlaying />} />
-        <Route path="/ticket" element={<Ticket/>} />
+        <Route path="/ticket" element={<Ticket />} />
         <Route path="/upComing" element={<UpComing />} />
         <Route path="/historyWatching" element={<HistoryWatching />} />
         <Route path="/akunPage" element={<AkunPage />} />
         <Route path="/favorite" element={<Favorite />} />
         <Route path="/ChooseSeat" element={<ChooseSeat />} />
-        <Route path="/editProfile" element={<EditProfile/>} />
-        <Route path="/buyTicket" element={<Buy/>} />
-        <Route path="/buktiPembayaran" element={<Pembayaran/>} />
+        <Route path="/editProfile" element={<EditProfile />} />
+        <Route path="/buyTicket" element={<Buy />} />
+        <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
+        <Route path="/pembayaranPage" element={<Bayar />} />
+        <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+
         <Route path="/pembayaranQris" element={<Qris/>} />
         <Route path="/dashboardAdmin" element={<DashboardAdmin/>} />
+
+
+        <Route path="/spayPage" element={<BayarSpay/>} />
+        <Route path="/spayPage2" element={<BayarSpay2/>} />
+        <Route path="/spayPage3" element={<BayarSpay3/>} />
+
+        <Route path="/loginDana" element={<LoginDana/>} />
+        <Route path="/inputDana" element={<InputDana/>} />
+        <Route path="/konfirmasiDana" element={<KonfirmasiDana/>} />
+
+
       </Routes>
     </BrowserRouter>
   );

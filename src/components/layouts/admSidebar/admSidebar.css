@@ -1,0 +1,41 @@
+img{
+    margin-top: 25px;
+    margin-left: 20px;
+    
+  }
+  ul {
+      list-style: none;
+      text-align: left;
+      
+    }
+    
+  
+    ul li a {
+      text-decoration: none;
+      color: white;
+      margin-left: -10px;
+      font-size: 25px;
+      justify-items: center;
+      text-align: center;
+    }
+  
+    hr{
+      width: 215px;
+      margin-left: -47px;
+      margin-top: 30px;
+    }
+     .admsidebar {
+      position: fixed;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      height: 130vh;
+      width: 200px;
+      border: none;
+      background-color: #222739;
+    }
+  
+    .admsidebar .admHistory{
+        font-size: 17px;
+        text-align: center;
+    }

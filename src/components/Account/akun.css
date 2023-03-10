@@ -8,13 +8,13 @@
   align-items: center;
   flex-direction: row;
   /* margin-bottom: 16px; */
-  /* margin-left: 00px; */
+  margin-left: -350px;
   border: none;
   background: transparent;
 }
 
 .card-title-akun {
-  margin-left: 500px;
+  margin-left: 150px;
   flex: 2;
   
 }
