@@ -17,6 +17,8 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
+import Qris from "./pages/pembayaranQris";
+import DashboardAdmin from "./pages/dashboardAdmin";
 
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
         <Route path="/buktiPembayaran" element={<Pembayaran/>} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/pembayaranQris" element={<Qris/>} />
+        <Route path="/dashboardAdmin" element={<DashboardAdmin/>} />
       </Routes>
     </BrowserRouter>
   );
