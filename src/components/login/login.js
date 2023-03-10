@@ -1,3 +1,7 @@
+
+// import AdmSidebar from "../layouts/admSidebar/admSidebar";
+
+
 import "./login.css";
 
 const Login = () => {
@@ -30,7 +34,6 @@ const Login = () => {
         </div>
         <p>
           Dont have an account? <a href="/register">Register</a><br/>
-          Are you admin? <a href="/LoginAdmin">Login Admin</a>
         </p>
       </div>
     </div>
