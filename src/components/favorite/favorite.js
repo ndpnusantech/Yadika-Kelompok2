@@ -18,6 +18,7 @@ const Favorite = () => {
                     <Cards />
                     </div>
                 </div>
+                <button className='hpsFav'>Hapus dari favorite</button>
             </div>
         </div>
     )

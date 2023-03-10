@@ -1,12 +1,12 @@
-.navigation{
-     height: 60px;
+.navigation {
+  height: 6rem;
 }
 .navbar-nav {
-    margin-left: 200px;
+  margin-left: 20%;
 }
-.nav-link {
-    margin-right: 30px;
-}
+/* .nav-link {
+  margin-right: 2%;
+} */
 
 /* .navbar .btnLogin {
     margin-left: 70px;
