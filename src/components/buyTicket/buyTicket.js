@@ -7,7 +7,7 @@ import Sidebar from "../layouts/sidebar/sidebar";
 import "./butTicket.css";
 
 const BuyTicket = () => {
-  const joker = "./images/joker.jfif";
+  const kiko = "./Images Card Movie/kiko deep sea.jpg";
   return (
     <>
     <>
@@ -16,17 +16,14 @@ const BuyTicket = () => {
         <img
           style={{ width: "35vh", height: "55vh" }}
           className="d-flex  img1"
-          src={joker}
+          src={kiko}
           alt="marvel"
         />
         <div className="txt-buyTicket">
-          <h1 className="txt-h1">Joker</h1>
+          <h1 className="txt-h1">KIKO IN THE DEEP SEA</h1>
           <br />
           <h2 className="txt-h2">
-            Joker adalah film cerita seru psikologis Amerika Serikat <br />
-            tahun 2019 yang disutradarai oleh Todd Phillips dan diproduseri
-            <br />
-            oleh Todd Philips, Bradley Cooper, dan Emma Tillinger Koskoff.
+          Kiko In the Deep Sea menggambarkan petualangan mereka di dasar laut akibat kerusakan ekosistem di seluruh perairan. Mereka bertualang bersama Putri Carla si Ikan Duyung dari Shell Castle, untuk mencari Lima Mutiara Pelindung, yang dapat memulihkan lingkungan yang rusak
           </h2>
         </div>
       </div>

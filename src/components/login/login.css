@@ -17,7 +17,7 @@
     inset 0px 1.25565px 50.2258px rgba(227, 222, 255, 0.2);
   backdrop-filter: blur(56.5041px);
 }
-.boxLogin input{
+.boxLogin input {
   border-radius: 15px;
   font-size: 20px;
   padding: 15px;
@@ -27,21 +27,21 @@
   display: flex;
   justify-content: center;
 }
-.buttonLogin button{
+.buttonLogin button {
   margin-top: 35px;
   margin-bottom: 30px;
   width: 70%;
   transition: all 0.3s ease-in-out;
 }
-.buttonLogin button:hover{
- transition: all 0.3s ease-in-out;
- transform: scale(0.9);
- background-color: #e2c063;
- color: black;
- border: 1px solid black;
+.buttonLogin button:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.9);
+  background-color: #e2c063;
+  color: black;
+  border: 1px solid black;
 }
 
-button {
+/* button {
   border-radius: 15px;
   height: 70px;
   width: 160px;
@@ -49,7 +49,7 @@ button {
   font-weight: 600;
   left: 400px;
   top: 736px;
-}
+} */
 
 .boxLogin p {
   color: white;

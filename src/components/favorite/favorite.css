@@ -23,7 +23,11 @@
 }
 /* Card */
 .favFilm{
+
     /* height: 130vh; */
+
+    height: auto;
+
     margin-bottom: 50px;
     background-color: rgb(33, 33, 48);
 }

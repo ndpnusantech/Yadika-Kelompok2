@@ -7,7 +7,7 @@
   background-color: #1e2022;
   width: 800px;
   height: 300px;
-  margin-left: 330px;
+  margin-left: 340px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -23,11 +23,12 @@
 .boxPembayaran .container-pembayaran p {
   margin-left: 250px;
   font-size: 25px;
+  margin-top: 25px;
   text-align: center;
   padding-top: 2px;
 }
 .txt-boxPembayaran {
-  margin-left: 675px;
+  margin-left: 690px;
   font-size: 25px;
   margin-top: 25px;
   /* margin-left: 780px; */
@@ -45,7 +46,8 @@
   display: flex;
   justify-content: left;
   margin-left: -400px;
-  margin-top: 30px;
+  margin-bottom: -15px;
+  padding: 13px 40px 22px 25px;
 }
 .btn-img-qris {
   margin-top: 10px;
@@ -53,6 +55,7 @@
 }
 .btnGopay {
   justify-content: center;
+  padding: 15px 65px 15px 75px;
   margin-top: -70px;
 }
 
@@ -63,7 +66,8 @@
 
 .btnSpay {
   margin-left: 400px;
-  margin-top: -70px;
+  margin-top: -85px;
+  padding: 20px 50px 15px 50px;
 }
 
 .btn-img-spay {
@@ -77,11 +81,12 @@
 
 .btnDana {
   margin-left: 800px;
-  margin-top: -70px;
+  margin-top: -85px;
+  padding: 10px 50px 10px 50px;
 }
 
 .btnconfirm {
-  margin-left: 655px;
+  margin-left: 700px;
   margin-top: 30px;
   width: 150px;
   background-color: #1e2022;
@@ -91,6 +96,3 @@
   border-color: white;
 }
 
-.logoImg{
-  margin-left: -100px;
-}
