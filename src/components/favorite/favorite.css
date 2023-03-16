@@ -37,7 +37,11 @@
 }
 /* button hapus */
 .inFav .hpsFav{
-    width: 20%;
-    margin-left: 40%;
+    border-radius: 0;
+    width: 15%;
+    height: 7%;
+    margin-left: 7%;
+    color: #fff;
+    border: none;
     background-color: red;
 }

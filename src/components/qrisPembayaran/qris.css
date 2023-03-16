@@ -24,7 +24,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     /* margin-left: 22.8rem;    */
     /* display: flex;  */
 }
@@ -33,7 +33,7 @@ body{
     padding: 1.2rem;
     background-color: #fff;
     width: 40rem;
-    margin-left: 325px;
+    margin-left: 23.5rem;
 }
 .box-qris .barkot-qris .barkotQris{
     width:17.5rem;
@@ -55,20 +55,21 @@ body{
 }
 
 /* /////////////////////////// */
-.btn-buktiPembayaran-qris{
-    /* margin-right: 3rem; */
+/* .btn-inputBuktiPembayaran-qris {
+ 
     margin-top: 0.8rem;
     text-align: center;
     
-}
-.btn-buktiPembayaran-qris .btn-BuktiQris{
+} */
+
+/* .btn-inputBuktiPembayaran-qris .ibtn-BuktiQris{
     font-size: 0.9rem;
     width: 12rem;
     height: 2.5rem;
     border-radius: 0;
     text-align: center;
     border: 1px solid;
-}
+} */
 
 
 
