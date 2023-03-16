@@ -55,7 +55,7 @@ const Seat = () => {
         </Button>
       </div>
     </div>
-    </div>
+    // </div>
   
   )
 };
