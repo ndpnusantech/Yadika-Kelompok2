@@ -1,0 +1,50 @@
+.conPin{
+    width: 60%;
+    height: 350px;
+    margin:20px auto;
+    text-align: center;
+    background-color: white;
+    }
+    .pinn{
+      font-weight: bold;
+    }
+    .pinGpay{
+        margin: 20px 0 0 0;
+        color: black;
+    }
+    .inputPin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .inputPin input[type="password"] {
+        width: 65px;
+        height: 40px;
+        font-size: 24px;
+        text-align: center;
+        margin: -15px 10px 10px;
+        padding: 0;
+        appearance: none;
+        border: none;
+        border-bottom: 2px solid #868484;
+        
+      }
+      
+      .inputPin input[type="password"]:focus {
+        outline: none;
+        
+      }
+
+      .btn-confirm-pin-gopay{
+        margin-top: 30px;
+        width: 500px;
+        background-color: #008e39;
+      }
+
+      .logo-pin-gopay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }

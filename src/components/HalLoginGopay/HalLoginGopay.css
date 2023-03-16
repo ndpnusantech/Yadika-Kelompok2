@@ -5,7 +5,7 @@
   background-color: white;
   color: black;
 }
-.boxLoginGopay .boxMasukgopay button {
+.boxLoginGopay .boxMasukgopay .button-gopay {
   padding: 10px !important;
   border-radius: 10px;
   background-color: #008e39;

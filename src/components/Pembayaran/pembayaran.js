@@ -2,6 +2,7 @@ import "./pembayaran.css";
 import Button from "react-bootstrap/Button";
 
 const Pembayaran = () => {
+  // const kiko ="./Images Movie Card/kiko deep sea.jpg"
   const logoC = "./assets/navbar/logoo2.png";
   // const logoqris = "./assets/logo/logoqris.png";
   // const gopay = "./assets/logo/gopay.png";
@@ -18,15 +19,15 @@ const Pembayaran = () => {
           style={{
             marginBottom: "30px",
             marginTop: "60px",
-            marginLeft: "670px",
+            marginLeft: "745px",
           }}
         />
       </div>
       <div className="boxPembayaran">
-        <img src="./assets/logo/card.png" alt="" />
+        <img src={"./assets/logo/card.png"} alt="" />
         <div className="container-pembayaran">
-        <p>ONE PIECE</p>
-        <p>MOVIE RED</p>
+        
+        <p>KIKO IN THE DEEP SEA</p>
         <p>SUNDAY , 6 FEBRUARY 2023</p>
         <p>Cinema VII Bandung</p>
         <p>A7</p>
@@ -36,17 +37,18 @@ const Pembayaran = () => {
       <h1 className="txt-boxPembayaran">PAYMENT</h1>
       <div className="titlePay">
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnQris" variant="light" title="qris">
+          <Button href="#qris" className="btnQris" variant="light" title="qris">
             <img
               src="./assets/logo/logoqris.png"
               className="btn-img-qris"
               width={100}
               alt="img"
+            
             />
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnGopay" variant="light" title="gopay">
+          <Button href="/HalLoginGopay" className="btnGopay" variant="light" title="gopay">
             <img
               src="./assets/logo/logoGopay.png"
               className="btn-img-gopay"
@@ -56,7 +58,7 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button className="btnSpay" variant="light" title="spay">
+          <Button href="/spayPage" className="btnSpay" variant="light" title="spay">
             <img
               src="./assets/logo/spay.png"
               className="btn-img-spay"
