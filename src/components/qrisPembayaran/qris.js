@@ -1,6 +1,7 @@
 import "./qris.css";
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 const QrisBayar = () => {
   const logoC = "../assets/logo/logoo 2.png";
@@ -30,10 +31,12 @@ const QrisBayar = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="btn-buktiPembayaran-qris">
-        <button className="btn-BuktiQris">Lihat Bukti Pembayaran</button>
-      </div> */}
+      <div className="btn-inputBuktiPembayaran-qris">
+        <Form.Group controlId="formFile" className="mb-3" >
+          <Form.Label>Input bukti pembayaran</Form.Label>
+          <Form.Control type="file"/>
+        </Form.Group>
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
