@@ -28,6 +28,7 @@ import KonfirmasiDana from "./pages/konfirmasiDana";
 import AdminLogin from "./pages/loginAdmin";
 import KonfirmasiGopay from "./pages/pembayaranGopay";
 import PinGopay from "./pages/pinGopay";
+import ProductAdmin from "./pages/productAdmin";
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
         <Route path="/loginAdmin" element={<AdminLogin/>} />
         <Route path="/konfirmasiGopay" element={<KonfirmasiGopay/>} />
         <Route path="/pinGopay" element={<PinGopay/>} />
+        <Route path="/productAdmin" element={<ProductAdmin/>} />
 
 
       </Routes>
