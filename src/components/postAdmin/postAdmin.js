@@ -2,22 +2,22 @@ import AdmSidebar from "../layouts/admSidebar/admSidebar";
 import "./postAdmin.css"
 
 const logo5 = "./assets/logo/logoo 2.png"
-function inpImg() {
-    var preview = document.querySelector('#poster');
-    var file = document.querySelector('#inpPost').files[0];
-    var reader = new FileReader();
+// function inpImg() {
+//     var preview = document.querySelector('#poster');
+//     var file = document.querySelector('#inpPost').files[0];
+//     var reader = new FileReader();
 
-    reader.onloadend = function() {
-        preview.src = reader.result;
-      }
+//     reader.onloadend = function() {
+//         preview.src = reader.result;
+//       }
 
-      if (file) {
-        reader.readAsDataURL(file);
-      } else {
-        preview.src = "";
-      }
+//       if (file) {
+//         reader.readAsDataURL(file);
+//       } else {
+//         preview.src = "";
+//       }
     
-}
+// }
 
 const PostAdmin = () => {
     return (
@@ -52,10 +52,10 @@ const PostAdmin = () => {
         <div className="lapisan2">
             <form action="">
             <h1>Image</h1>
-            <h2></h2>
+            <input type="file" />
             <h1>Video</h1>
             {/* <textarea width="3px" cols="30" rows="10"></textarea> */}
-            <h3>.</h3>
+            <input type="file" />
             <br />
             <button>New add film</button>
             </form>       
