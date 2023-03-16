@@ -9,16 +9,16 @@ const AdmSidebar= () => {
       <div className="admsidebar">
         <nav>
           <img src={logo} alt="" width="150px" />
-          <p>Admin</p>
+          <p className="txt-admSide">Admin</p>
           <div className="navbar-link2">
             <ul>
               <li>
               <hr></hr>
-                <a href="/">DASHBOARD</a>
+                <a href="/dashboardAdmin">DASHBOARD</a>
               <li>
               </li>
               <hr></hr>
-                <a href="/">PRODUCT</a>
+                <a href="/productAdmin">PRODUCT</a>
               </li>
               <li>
               <hr></hr>

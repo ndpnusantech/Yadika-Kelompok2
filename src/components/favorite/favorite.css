@@ -4,12 +4,12 @@
 }
 .inFav .logFav{
     position: relative;
-    margin-left: 320px;
+    margin-left: 360px;
     margin-top: -30px;
 }
 .inFav h2{
     /* position: absolute; */
-    margin-left: 400px;
+    margin-left: 450px;
     /* margin-top: 50px; */
     font-size: 38px;
 }
@@ -17,17 +17,31 @@
     margin: 0;
     margin-bottom: 20px;
     margin-top: 40px;
-    margin-left: 250px;
-    width: 965px;
+    margin-left: 200px;
+    width: 100%;
     
 }
 /* Card */
 .favFilm{
-    height: 130vh;
+
+    /* height: 130vh; */
+
+    height: auto;
+
     margin-bottom: 50px;
-    background-color: rgb(36, 36, 53);
+    background-color: rgb(33, 33, 48);
 }
 
 .card-favorite{
     margin-left: 70px;
+}
+/* button hapus */
+.inFav .hpsFav{
+    border-radius: 0;
+    width: 15%;
+    height: 7%;
+    margin-left: 7%;
+    color: #fff;
+    border: none;
+    background-color: red;
 }

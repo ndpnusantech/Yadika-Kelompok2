@@ -1,6 +1,8 @@
 img{
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: 20px;
+  /* border-bottom: 1px solid #ffffff48; */
+  
   
 }
 ul {
@@ -21,13 +23,20 @@ ul {
   hr{
     width: 215px;
     margin-left: -47px;
-    margin-top: 30px;
+    /* margin-top: 20px; */
   }
 
- .sidebar .profileUser{
+  /* .navbar-link{
+    margin-bottom: 1rem;
+  } */
+
+  /* hr .hr-img{
+    margin-bottom: 200px;
+  } */
+ /* .sidebar .profileUser{
     margin-left: -27px;
    
-  }
+  } */
    .sidebar {
     position: fixed;
     top: 0;
@@ -36,6 +45,6 @@ ul {
     height: 130vh;
     width: 200px;
     border: none;
-    background-color: #222739;
+    background-color: #2b344e;
   }
 

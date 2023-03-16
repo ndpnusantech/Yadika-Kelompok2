@@ -1,0 +1,96 @@
+body{
+    background-color : #222739;
+}
+/* ///////////////// */
+.logoCinemaVii{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.logoCinemaVii .logoVII{
+    width: 19.5rem;
+}
+/* /////////////// */
+
+.qris-logo {
+    text-align: center;
+}
+.qris-logo .logo-Qris{
+    width: 5rem;
+    margin-top: -0.1rem;
+}
+/* ///////////// */
+.box-qris{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    /* margin-left: 22.8rem;    */
+    /* display: flex;  */
+}
+.box-qris .barkot-qris{
+    text-align: center;
+    padding: 1.2rem;
+    background-color: #fff;
+    width: 40rem;
+    margin-left: 23.5rem;
+}
+.box-qris .barkot-qris .barkotQris{
+    width:17.5rem;
+    text-align: center;
+}
+
+/* //////// */
+.box-qris .title-jdl-flm h2{
+    font-size: 2.1rem;
+    color: #010101;
+    font-weight: bold;
+    text-align: center;
+    /* margin-top: 2rem; */
+    margin-bottom: -2rem;
+}
+.box-qris .token-qris{
+    margin-left: 1.5rem;
+    color: #010101;
+}
+
+/* /////////////////////////// */
+/* .btn-inputBuktiPembayaran-qris {
+ 
+    margin-top: 0.8rem;
+    text-align: center;
+    
+} */
+
+/* .btn-inputBuktiPembayaran-qris .ibtn-BuktiQris{
+    font-size: 0.9rem;
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 0;
+    text-align: center;
+    border: 1px solid;
+} */
+
+
+
+/* MODAL */
+.tittle-modalQ{
+    color: #010101;
+}
+.subTitle-modalQ{
+    color: #010101;
+}
+.input-file-qris{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.btn-show-qris{
+    display: flex;
+    justify-items: center;
+    
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50rem; */
+}

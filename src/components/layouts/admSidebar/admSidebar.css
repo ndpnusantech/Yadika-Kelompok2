@@ -32,10 +32,13 @@ img{
       height: 130vh;
       width: 200px;
       border: none;
-      background-color: #222739;
+      background-color: #2b344e;
     }
   
     .admsidebar .admHistory{
         font-size: 17px;
         text-align: center;
+    }
+    .txt-admSide{
+      margin-left: 70px;
     }
