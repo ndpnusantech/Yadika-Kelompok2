@@ -19,8 +19,7 @@ const Seat = () => {
   console.log(valueBtn);
 
   return (
-    <div className="full-seats">
-       
+     <div>
       <center>
         <div className="wrap-logo">
           <img src="../assets/logo/logoo 2.png" alt="" />
@@ -56,12 +55,15 @@ const Seat = () => {
       {valueBtn === true && (
        <div className="btn-seats" >
             <Button href="/pembayaranPage" variant="light">PRICE Rp 40.000 CONFRIM</Button>
-
       </div>
-      )}  
+      )} 
+      </div>
  
-    </div>
-  );
+ 
+   </div>
+    );
+    
 };
+
 
 export default Seat;
