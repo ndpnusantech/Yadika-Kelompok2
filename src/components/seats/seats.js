@@ -22,10 +22,14 @@ const Seat = () => {
   console.log(valueBtn);
 
   return (
+
+     <div>
+
     
     <div className="full-seats">
 
        
+
 
 
       <center>
@@ -60,6 +64,19 @@ const Seat = () => {
      
 
 
+
+      {valueBtn === true && (
+       <div className="btn-seats" >
+            <Button href="/pembayaranPage" variant="light">PRICE Rp 40.000 CONFRIM</Button>
+      </div>
+      )} 
+      </div>
+ 
+ 
+   </div>
+    );
+    
+
       <div className="btn-seats">
         <Button href="/pembayaranPage" variant="light">
           CONFIRM
@@ -72,6 +89,8 @@ const Seat = () => {
 
   
   )
+
 };
+
 
 export default Seat;
