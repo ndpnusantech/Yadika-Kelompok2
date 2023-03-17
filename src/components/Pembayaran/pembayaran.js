@@ -27,10 +27,16 @@ const Pembayaran = () => {
         <img src={"./assets/logo/card.png"} alt="" />
         <div className="container-pembayaran">
         
-        <p>KIKO IN THE DEEP SEA</p>
-        <p>SUNDAY , 6 FEBRUARY 2023</p>
-        <p>Cinema VII Bandung</p>
-        <p>A7</p>
+        <p className="judul">KIKO IN THE DEEP SEA</p>
+        <p className="tanggal">SUNDAY , 6 FEBRUARY 2023</p>
+        <p className="tempat">Cinema VII Bandung</p>
+        <p className="venue">A7</p> <br />
+        <p className="item">Items (5x)</p>
+        <p className="uang"> Rp.300.000</p>
+        <p className="total">Total</p>
+        <p className="uang-total">Rp.300.000</p>
+        <p className="subtotal">Subtotal</p>
+        <p className="uang-subtotal">Rp.300.000</p>
         </div>
         
       </div>
