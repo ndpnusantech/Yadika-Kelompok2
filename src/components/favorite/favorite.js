@@ -1,6 +1,6 @@
 import "./favorite.css";
 
-import Cards from "../Card/card";
+// import Cards from "../Card/card";
 
 import CardFavorit from "./cardFavorite";
 
