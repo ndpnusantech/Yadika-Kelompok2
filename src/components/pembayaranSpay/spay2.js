@@ -1,5 +1,9 @@
 import "./spay.css";
+
 import {Button,Modal,Form} from "react-bootstrap"
+
+import {Button,Modal} from "react-bootstrap"
+
 import React, { useState } from 'react';
 
 const Spay2 = () => {
@@ -9,12 +13,15 @@ const Spay2 = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+
     
     // State Untuk Memunculkan Button Pada Saat Mengisi Input File -fachri
   const [selectedFile, setSelectedFile] = useState();
   const handleFileSelect = (event) => {
     setSelectedFile(event.target.files[0]);
   }
+
+
 
     return(
 <>
@@ -51,6 +58,7 @@ const Spay2 = () => {
                 <h4>Total</h4>
                 <h3>Rp.50.000,00</h3>
             </div>
+
       </div>
             <div className="btn-inputBuktiPembayaran-qris">
         <Form.Group controlId="formFile" className="mb-3  input-file-qris">
@@ -64,6 +72,9 @@ const Spay2 = () => {
           </Button>
          )}
          </div>
+
+<Button onClick={handleShow}  className="button-spay2"> Konfirmasi</Button>
+
         </div>
         </div>
 

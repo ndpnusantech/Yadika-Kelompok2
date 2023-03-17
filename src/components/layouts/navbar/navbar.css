@@ -1,4 +1,5 @@
 .navigation {
+
   height: 4.2rem;
   text-align: center;
 }
@@ -8,13 +9,27 @@
   text-align: center;
 }
 .navbar-nav {
+
+
+  height: 6rem;
+}
+.navbar-nav {
+  margin-left: 20%;
+
+  height: 60px;
+}
+.navbar-nav {
+
   
   margin-left: 200px;
 }
 .nav-link {
   margin-top: 0.4rem;
   margin-right: 30px;
+
   text-align: center;
+
+
 
 }
 /* .nav-link {

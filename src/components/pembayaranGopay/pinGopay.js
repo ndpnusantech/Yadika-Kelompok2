@@ -1,5 +1,9 @@
 import React from "react";
+
 import { Button , Modal ,Form} from "react-bootstrap";
+
+import { Button , Modal} from "react-bootstrap";
+
 import "./pinGopay.css";
 import { useState } from "react";
 
@@ -7,6 +11,7 @@ const PinBuatGopay =() => {
   const logo = "./assets/logo/logoo 2.png"
   const Gopay = "./assets/logo/LogoGopay1.png"
   const [show, setShow] = useState(false);
+
   const [show2, setShow2] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -19,6 +24,11 @@ const PinBuatGopay =() => {
   const handleFileSelect = (event) => {
     setSelectedFile(event.target.files[0]);
   }
+
+
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
+
   return (
     <div>
       <div className="logo-pin-gopay">
@@ -37,6 +47,7 @@ const PinBuatGopay =() => {
             <input type="password" />
             <input type="password" />
           </div>
+
           {/* <Button variant="success" onClick={handleShow} className="btn-confirm-pin-gopay">Konfirmasi</Button> */}
           <Button variant="success" onClick={handleShow2} className="btn-confirm-pin-gopay">Konfirmasi</Button>
           <div className="btn-inputBuktiPembayaran-qris">
@@ -52,6 +63,9 @@ const PinBuatGopay =() => {
          )}
          </div>
       </div>
+
+          <Button variant="success" onClick={handleShow} className="btn-confirm-pin-gopay">Konfirmasi</Button>
+
         </div>
       </div>
       <Modal
@@ -73,6 +87,7 @@ const PinBuatGopay =() => {
           <Button variant="primary" href="/buktiPembayaran" className="btn-popup-dana">Confirm</Button>
         </Modal.Footer>
       </Modal>
+
       <Modal
         show={show2}
         onHide={handleClose2}
@@ -92,6 +107,8 @@ const PinBuatGopay =() => {
           {/* <Button variant="primary" href="/buktiPembayaran" className="btn-popup-dana">Confirm</Button> */}
         </Modal.Footer>
       </Modal>
+
+
     </div>
 
   );

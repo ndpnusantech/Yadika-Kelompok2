@@ -1,5 +1,9 @@
 import "./favorite.css";
+
 import Cards from "../Card/card";
+
+import CardFavorit from "./cardFavorite";
+
 import Sidebar from "../layouts/sidebar/sidebar";
 
 const Favorite = () => {
@@ -13,9 +17,16 @@ const Favorite = () => {
         <img className="logFav" src={logoF} alt="Logo" width="300px" />
         <h2>Favorite</h2>
         <div className="favFilm">
+
         <button className="hpsFav">Hapus favorite</button>
           <div className="card-favorite">
             <Cards />
+
+          <div className="card-favorite">
+            <CardFavorit />
+
+          </div>
+
           </div>
         </div>
       </div>

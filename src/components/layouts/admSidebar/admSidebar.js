@@ -14,11 +14,19 @@ const AdmSidebar= () => {
             <ul>
               <li>
               <hr></hr>
+
                 <a href="/dashboardAdmin">DASHBOARD</a>
               <li>
               </li>
               <hr></hr>
                 <a href="/productAdmin">PRODUCT</a>
+
+                <a href="/">DASHBOARD</a>
+              <li>
+              </li>
+              <hr></hr>
+                <a href="/">PRODUCT</a>
+
               </li>
               <li>
               <hr></hr>

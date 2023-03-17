@@ -49,7 +49,11 @@ margin-left: -160px;
     margin-top: 5px;
 }
 
+
 .logoImg .kotak form .input-spay-login{
+
+
+
     width: 300px;
     border: none;
     font-weight: bold;
@@ -57,14 +61,22 @@ margin-left: -160px;
     margin-bottom: 2px;
 }
 
+
 .logoImg .kotak .input-spay img{
+
+
+
     margin-left: -40px;
     margin-top: -250px;
     width: 40px;
     height: 40px;
 }
 
+
 .logoImg .kotak .input-spay .abc img{
+
+
+
     margin-left: 250px;
     margin-top: -340px;
     width: 40px;
@@ -91,7 +103,11 @@ margin-left: -160px;
     color: #464646;
     margin-left: 420px;
     width: 700px;
+
     height: 25rem;
+
+    height: 450px;
+
     display: flex;
     margin-top: 15px;
 }
@@ -239,10 +255,13 @@ margin-left: -160px;
     margin-top: -20px;
     font-size: 35px;
     font-weight: bold;
+
 }
 
 .btn-show-spay{
     background: #F1582C;
     color: white;
     border: white;
+
+
 }

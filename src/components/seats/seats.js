@@ -7,10 +7,15 @@ import Button from "react-bootstrap/Button";
 
 const Seat = () => {
 
+
    
 
-  const [dfbgbt, setclbt] = useState("white");
-  const [valueBtn, setValueBtn] = useState(false);
+  // const [dfbgbt, setclbt] = useState("white");
+  // const [valueBtn, setValueBtn] = useState(false);
+
+
+  // const [dfbgbt, setclbt] = useState("white");
+  // const [valueBtn, setValueBtn] = useState(false);
 
 
   const changeValue = () => {
@@ -25,7 +30,10 @@ const Seat = () => {
     
     <div className="full-seats">
 
+
        
+
+
 
 
       <center>
@@ -57,13 +65,26 @@ const Seat = () => {
         </div>
       </div>
 
+
      
+
+
 
 
       <div className="btn-seats">
         <Button href="/pembayaranPage" variant="light">
           CONFIRM
         </Button>
+
+
+
+        {/* {valueBtn === true && (
+          <div className="btn-seats">
+            <Button href="/pembayaranPage" variant="light">
+              PRICE Rp 40.000 CONFRIM
+            </Button>
+          </div>
+        )} */}
 
       </div>
      

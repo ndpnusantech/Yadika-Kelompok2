@@ -30,7 +30,13 @@
 .buttonLogin button {
   margin-top: 35px;
   margin-bottom: 30px;
-  width: 70%;
+  border-radius: 15px;
+  height: 70px;
+  width: 160px;
+  font-size: 20px;
+  font-weight: 600;
+  left: 400px;
+  top: 736px;
   transition: all 0.3s ease-in-out;
 }
 .buttonLogin button:hover {
