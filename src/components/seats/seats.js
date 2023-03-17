@@ -1,14 +1,22 @@
 import React, { useState } from "react";
 import ChairBtn from "../chair/ChairBtn";
-import "./seats.css"
-import { dataChair1 } from "../dataChair/dataChair1"
-import { dataChair2 } from "../dataChair/dataChair2"
-import Button from "react-bootstrap/Button"
-
+import "./seats.css";
+import { dataChair1 } from "../dataChair/dataChair1";
+import { dataChair2 } from "../dataChair/dataChair2";
+import Button from "react-bootstrap/Button";
 
 const Seat = () => {
-    const [dfbgbt , setclbt ] = useState("white")
-    const [valueBtn, setValueBtn] = useState(false);
+
+
+   
+
+  // const [dfbgbt, setclbt] = useState("white");
+  // const [valueBtn, setValueBtn] = useState(false);
+
+
+  const [dfbgbt, setclbt] = useState("white");
+  const [valueBtn, setValueBtn] = useState(false);
+
 
   const changeValue = () => {
     if (dfbgbt === "white") {
@@ -19,8 +27,21 @@ const Seat = () => {
   console.log(valueBtn);
 
   return (
+
+     <div>
+
+    
     <div className="full-seats">
+
+
        
+
+
+
+
+
+
+
       <center>
         <div className="wrap-logo">
           <img src="../assets/logo/logoo 2.png" alt="" />
@@ -31,12 +52,12 @@ const Seat = () => {
       </center>
       <div className="wrap-seats">
         <div className="seats-k-1">
-        {dataChair1.map((data) => (
-          <ChairBtn
-            noSeat={data.chair}
-            onClick={() => changeValue()}
-            value={valueBtn}
-          />
+          {dataChair1.map((data) => (
+            <ChairBtn
+              noSeat={data.chair}
+              onClick={() => changeValue()}
+              value={valueBtn}
+            />
           ))}
         </div>
         <div className="seats-k-2">
@@ -44,24 +65,56 @@ const Seat = () => {
             <ChairBtn
               noSeat={data.chair}
               onClick={() => changeValue()}
-            value={valueBtn}
+              value={valueBtn}
             />
-            ))}
+          ))}
         </div>
       </div>
 
-      <div className="btn-seats">
-            <Button href="/pembayaranPage" variant="light">CONFIRM</Button>
+
+     
+
+
+
+
 
       {valueBtn === true && (
        <div className="btn-seats" >
-            <Button href="/pembayaranPage" variant="light">PRICE Rp 40.000 CONFRIM</Button>
+            <Button href="/pembayaranPage" variant="light">CONFRIM</Button>
+      </div>
+      )} 
+      </div>
+ 
+ 
+   </div>
+    );
+    
+
+
+      <div className="btn-seats">
+        <Button href="/pembayaranPage" variant="light">
+          CONFIRM
+        </Button>
+
+
+
+        {/* {valueBtn === true && (
+          <div className="btn-seats">
+            <Button href="/pembayaranPage" variant="light">
+              PRICE Rp 40.000 CONFRIM
+            </Button>
+          </div>
+        )} */}
 
       </div>
-      )}  
- 
-    </div>
-  );
+     
+//  </>
+    // </div>
+
+  
+  
+
 };
+
 
 export default Seat;
