@@ -17,6 +17,7 @@ import ChooseSeat from "./pages/ChooseSeat";
 import HistoryWatching from "./pages/historyWatch";
 import HistoryTransaksi from "./pages/historyTransaksi";
 import Pembayaran from "./pages/buktiPembayaran";
+import Post from "./pages/postPage";
 import Qris from "./pages/pembayaranQris";
 import DashboardAdmin from "./pages/dashboardAdmin";
 import BayarSpay from "./pages/spayPage";
@@ -28,6 +29,8 @@ import KonfirmasiDana from "./pages/konfirmasiDana";
 import AdminLogin from "./pages/loginAdmin";
 import KonfirmasiGopay from "./pages/pembayaranGopay";
 import PinGopay from "./pages/pinGopay";
+import ProductAdmin from "./pages/productAdmin";
+
 
 
 function App() {
@@ -52,6 +55,7 @@ function App() {
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
+        <Route path="/post" element={<Post/>} />
         <Route path="/pembayaranQris" element={<Qris/>} />
         <Route path="/dashboardAdmin" element={<DashboardAdmin/>} />
         <Route path="/spayPage" element={<BayarSpay/>} />
@@ -62,6 +66,8 @@ function App() {
         <Route path="/loginAdmin" element={<AdminLogin/>} />
         <Route path="/konfirmasiGopay" element={<KonfirmasiGopay/>} />
         <Route path="/pinGopay" element={<PinGopay/>} />
+        <Route path="/productAdmin" element={<ProductAdmin/>} />
+
 
 
       </Routes>

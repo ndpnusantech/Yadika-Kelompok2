@@ -22,11 +22,11 @@ const Spay = () => {
         <div className="kotak">
             <h1>LOG IN</h1>
             <img src="./assets/logo/keranjang.png" alt="" />
-            <form action="" className="input">
-                <input type="text" placeholder="No.Handphone / Email / Username" />
+            <form action="" className="input-spay">
+                <input className="input-spay-login"  type="text" placeholder="No.Handphone / Email / Username" />
                 <hr />
                  <br />
-                <input type="password" placeholder="Password" />
+                <input  className="input-spay-login" type="password" placeholder="Password" />
                 <hr />
                 <img src="./assets/logo/logoakun.png" alt="" /> <br/> <br/> <br/>
                 <img src="./assets/logo/gembok.png" alt="" /> <br/> <br/>
