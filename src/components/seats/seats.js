@@ -28,20 +28,8 @@ const Seat = () => {
 
   return (
 
-     <div>
-
-    
+    <div>
     <div className="full-seats">
-
-
-       
-
-
-
-
-
-
-
       <center>
         <div className="wrap-logo">
           <img src="../assets/logo/logoo 2.png" alt="" />
@@ -71,13 +59,6 @@ const Seat = () => {
         </div>
       </div>
 
-
-     
-
-
-
-
-
       {valueBtn === true && (
        <div className="btn-seats" >
             <Button href="/pembayaranPage" variant="light">CONFRIM</Button>
@@ -85,12 +66,6 @@ const Seat = () => {
       )} 
       </div>
  
- 
-   </div>
-    );
-    
-
-
       <div className="btn-seats">
         <Button href="/pembayaranPage" variant="light">
           CONFIRM
@@ -107,9 +82,15 @@ const Seat = () => {
         )} */}
 
       </div>
-     
-//  </>
-    // </div>
+ 
+   </div>
+  
+    );
+    
+
+
+    
+
 
   
   

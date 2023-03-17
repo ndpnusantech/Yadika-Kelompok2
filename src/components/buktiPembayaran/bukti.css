@@ -45,29 +45,29 @@
   margin-right: 15px;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .keterangan-tanggal{
-  font-size: 15px;
-  margin-left: -68px;
+  font-size: 18px;
+  margin-left: -2rem;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .keterangan-tanggal2{
-  font-size: 15px;
+  font-size: 17px;
   margin-top: -15px;
-  margin-left: -103px;
+  margin-left: -5.3rem;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .harga-tiket{
-  margin-top: 10px;
-  margin-left: -60px;
+  margin-top: -0.8rem;
+  margin-left: -2.3rem;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .total-harga{
   margin-top: -13px;
-  margin-left: -122px;
+  margin-left:  -8rem;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .tunai-uang{
   margin-top: -13px;
-  margin-left: -112px;
+  margin-left:  -7.3rem;
 }
 .box-pembayaran .isi-card-film .judul-buktifilm .kembalian-uang{
   margin-top: -13px;
-  margin-left: -75px;
+  margin-left: -5rem;
 }
 
 

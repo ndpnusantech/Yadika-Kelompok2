@@ -88,7 +88,7 @@ body{
     text-align: center;
     border: 1px solid;
 
-} */
+}
 
 
 
@@ -111,7 +111,6 @@ body{
 .btn-show-qris{
     display: flex;
     justify-items: center;
-    
     justify-content: center;
     align-items: center;
     /* margin-left: 50rem; */

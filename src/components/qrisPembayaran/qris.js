@@ -45,7 +45,7 @@ const QrisBayar = () => {
 
       <div className="box-qris" >
 
-      <div className="box-qris" onClick={handleShow}>
+      <div className="box-qris">
 
         <div className="barkot-qris">
           <div className="title-jdl-flm">

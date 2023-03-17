@@ -30,7 +30,7 @@ const Pembayaran = () => {
           <p>KIKO IN THE DEEP SEA</p>
           <p>SUNDAY , 6 FEBRUARY 2023</p>
           <p>Cinema VII Bandung</p>
-          <p>Rp. 40.000</p>
+          <p>Rp. 40.000    (1x)</p>
           <p>A7</p>
 
         
