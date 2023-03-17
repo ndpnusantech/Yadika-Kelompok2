@@ -1,15 +1,15 @@
 
-<<<<<<< HEAD
+
 
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
 
 
 
-=======
+
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
 
 
->>>>>>> 390272a818e5fe3ed5cc46e20fda2e24df66349b
+
 import "./login.css";
 
 const Login = () => {
@@ -19,16 +19,16 @@ const Login = () => {
     <div className="boxLogin">
 
 
-<<<<<<< HEAD
+
 
 
     
 
 
-=======
+
     
 
->>>>>>> 390272a818e5fe3ed5cc46e20fda2e24df66349b
+
       <div className="logoLogin">
         <img
           src={logo}

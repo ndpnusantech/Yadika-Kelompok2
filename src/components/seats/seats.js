@@ -14,8 +14,8 @@ const Seat = () => {
   // const [valueBtn, setValueBtn] = useState(false);
 
 
-  // const [dfbgbt, setclbt] = useState("white");
-  // const [valueBtn, setValueBtn] = useState(false);
+  const [dfbgbt, setclbt] = useState("white");
+  const [valueBtn, setValueBtn] = useState(false);
 
 
   const changeValue = () => {

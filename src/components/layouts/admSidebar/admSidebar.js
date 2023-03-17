@@ -21,11 +21,11 @@ const AdmSidebar= () => {
               <hr></hr>
                 <a href="/productAdmin">PRODUCT</a>
 
-                <a href="/">DASHBOARD</a>
+                {/* <a href="/">DASHBOARD</a> */}
               <li>
               </li>
-              <hr></hr>
-                <a href="/">PRODUCT</a>
+              {/* <hr></hr> */}
+                {/* <a href="/">PRODUCT</a> */}
 
               </li>
               <li>

@@ -2,7 +2,7 @@ import "./dashboard.css";
 
 import { Card , CardGroup } from "react-bootstrap";
 
-import { Card, CardGroup } from "react-bootstrap";
+// import { Card, CardGroup } from "react-bootstrap";
 
 import {
   LineChart,
@@ -89,7 +89,7 @@ const Dashboard = () => {
 
         
 
-        <div className="card-admin">
+        {/* <div className="card-admin">
           <CardGroup>
             <Card>
               <Card.Body className="BT">
@@ -104,7 +104,7 @@ const Dashboard = () => {
               </Card.Body>
             </Card>
           </CardGroup>
-        </div>
+        </div> */}
 
 
         <div className="bungkus-dash">

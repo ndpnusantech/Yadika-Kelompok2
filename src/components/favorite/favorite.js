@@ -18,14 +18,14 @@ const Favorite = () => {
         <h2>Favorite</h2>
         <div className="favFilm">
 
-        <button className="hpsFav">Hapus favorite</button>
+        {/* <button className="hpsFav">Hapus favorite</button>
           <div className="card-favorite">
-            <Cards />
+            <Cards /> */}
 
           <div className="card-favorite">
             <CardFavorit />
 
-          </div>
+          {/* </div> */}
 
           </div>
         </div>

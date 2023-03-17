@@ -6,10 +6,10 @@ import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 
 
-import "./qris.css";
-import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
-import Modal from "react-bootstrap/Modal";
+// import "./qris.css";
+// import React, { useState } from "react";
+// import Button from "react-bootstrap/Button";
+// import Modal from "react-bootstrap/Modal";
 
 const QrisBayar = () => {
   const logoC = "../assets/logo/logoo 2.png";
