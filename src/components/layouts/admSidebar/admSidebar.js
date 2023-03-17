@@ -30,7 +30,7 @@ const AdmSidebar= () => {
               </li>
               <li>
               <hr></hr>
-                <a href="/" >POST</a>
+                <a href="/post" >POST</a>
               <hr></hr>
               </li>
               <li>

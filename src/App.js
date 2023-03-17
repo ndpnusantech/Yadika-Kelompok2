@@ -80,21 +80,21 @@ function App() {
 
 
 
-        <Route path="/pembayaranPage" element={<Bayar />} />
+        {/* <Route path="/pembayaranPage" element={<Bayar />} /> */}
         {/* <Route path="/PinGopay" element={<PinGopay />} /> */}
-        <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
-        <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/pembayaranQris" element={<Qris />} />
-        <Route path="/dashboardAdmin" element={<DashboardAdmin />} />
-        <Route path="/spayPage" element={<BayarSpay />} />
-        <Route path="/spayPage2" element={<BayarSpay2 />} />
-        <Route path="/loginDana" element={<LoginDana />} />
-        <Route path="/inputDana" element={<InputDana />} />
-        <Route path="/konfirmasiDana" element={<KonfirmasiDana />} />
-        <Route path="/loginAdmin" element={<AdminLogin />} />
-        <Route path="/konfirmasiGopay" element={<KonfirmasiGopay />} />
-        <Route path="/pinGopay" element={<PinGopay />} />
+        {/* <Route path="/pembayaranPage" element={<Bayar />} /> */}
+        {/* <Route path="/HalLoginGopay" element={<HalLoginGopay />} /> */}
+        {/* <Route path="/pembayaranPage" element={<Bayar />} /> */}
+        {/* <Route path="/pembayaranQris" element={<Qris />} /> */}
+        {/* <Route path="/dashboardAdmin" element={<DashboardAdmin />} /> */}
+        {/* <Route path="/spayPage" element={<BayarSpay />} /> */}
+        {/* <Route path="/spayPage2" element={<BayarSpay2 />} /> */}
+        {/* <Route path="/loginDana" element={<LoginDana />} /> */}
+        {/* <Route path="/inputDana" element={<InputDana />} /> */}
+        {/* <Route path="/konfirmasiDana" element={<KonfirmasiDana />} /> */}
+        {/* <Route path="/loginAdmin" element={<AdminLogin />} /> */}
+        {/* <Route path="/konfirmasiGopay" element={<KonfirmasiGopay />} /> */}
+        {/* <Route path="/pinGopay" element={<PinGopay />} /> */}
 
       </Routes>
       
