@@ -25,7 +25,7 @@ const LoginGopay = () => {
           </Form.Label>
           <div className="inputForm d-flex align-items-center mb-2">
             <h5 className="me-2 mt-1">+62</h5>
-            <Form.Control placeholder="12345678" className="p-2" />
+            <Form.Control placeholder="12345678" className="p-2 input-login-gopay" />
           </div>
           <Button href="/konfirmasiGopay" className="button-gopay">Konfirmasi</Button>
         </Form>

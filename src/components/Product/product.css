@@ -1,0 +1,21 @@
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+
+
+.table-admin{
+    margin-left: 20rem;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.td-admin{
+    padding: 5px 10px 5px 10px;  
+    border: 2px solid white;
+}
+.th-admin{
+    padding: 5px 10px 5px 10px;
+    border: 2px solid white;
+}
+.image-product-admin{
+    width: 25%;
+    margin-left: 550px;
+}

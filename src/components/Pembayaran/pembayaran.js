@@ -26,7 +26,15 @@ const Pembayaran = () => {
       <div className="boxPembayaran">
         <img src={"./assets/logo/card.png"} alt="" />
         <div className="container-pembayaran">
+
+          <p>KIKO IN THE DEEP SEA</p>
+          <p>SUNDAY , 6 FEBRUARY 2023</p>
+          <p>Cinema VII Bandung</p>
+          <p>Rp. 40.000</p>
+          <p>A7</p>
+
         
+<<<<<<< HEAD
         <p className="judul">KIKO IN THE DEEP SEA</p>
         <p className="tanggal">SUNDAY , 6 FEBRUARY 2023</p>
         <p className="tempat">Cinema VII Bandung</p>
@@ -37,13 +45,28 @@ const Pembayaran = () => {
         <p className="uang-total">Rp.300.000</p>
         <p className="subtotal">Subtotal</p>
         <p className="uang-subtotal">Rp.300.000</p>
+=======
+        {/* <p>KIKO IN THE DEEP SEA</p>
+        <p>SUNDAY , 6 FEBRUARY 2023</p>
+        <p>Cinema VII Bandung</p>
+        <p>A7</p> */}
+
+>>>>>>> 036400cedcdda57e2bc8b6b4fbef7f77e832a479
         </div>
-        
       </div>
       <h1 className="txt-boxPembayaran">PAYMENT</h1>
       <div className="titlePay">
         <div className="mx-auto d-flex justify-content-center">
-          <Button href="#qris" className="btnQris" variant="light" title="qris">
+
+          {/* <Button
+            href="/pembayaranQris"
+            className="btnQris"
+            variant="light"
+            title="qris"
+          /> */}
+
+          <Button href="/pembayaranQris" className="btnQris" variant="light" title="qris">
+
             <img
               src="./assets/logo/logoqris.png"
               className="btn-img-qris"
@@ -54,7 +77,16 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
+
+          {/* <Button
+            href="/HalLoginGopay"
+            className="btnGopay"
+            variant="light"
+            title="gopay"
+          /> */}
+
           <Button href="/HalLoginGopay" className="btnGopay" variant="light" title="gopay">
+
             <img
               src="./assets/logo/logoGopay.png"
               className="btn-img-gopay"
@@ -64,7 +96,16 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
+
+          {/* <Button
+            href="/spayPage"
+            className="btnSpay"
+            variant="light"
+            title="spay"
+         /> */}
+
           <Button href="/spayPage" className="btnSpay" variant="light" title="spay">
+
             <img
               src="./assets/logo/spay.png"
               className="btn-img-spay"
@@ -74,7 +115,12 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-          <Button href="loginDana" className="btnDana" variant="light" title="dana">
+          <Button
+            href="loginDana"
+            className="btnDana"
+            variant="light"
+            title="dana"
+          >
             <img
               src="./assets/logo/Dana.png"
               className="btn-img-dana"

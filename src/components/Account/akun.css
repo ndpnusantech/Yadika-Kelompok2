@@ -54,7 +54,11 @@
 
 .btn-akun{
   color: white;
+
+  width: 67.8rem;
+
   width: 72.5rem;
+
   background: transparent;
   padding-top:1rem;
   padding-bottom: 20px;
@@ -63,7 +67,11 @@
 }
 .btn-logout{
   color: #d6a864;
+
+  width: 67.8rem;
+
   width: 72.5rem;
+
   height: 10vh;
   background: #222739;
   padding-top: 20px;
