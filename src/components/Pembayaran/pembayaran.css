@@ -19,25 +19,19 @@
   margin-top: -300px;
   margin-left: -50px;
 }
-
-<<<<<<< HEAD
 .boxPembayaran .container-pembayaran .judul {
-  margin-left: -50px;
+  margin-left: 270px;
   font-size: 25px;
-  margin-top: 40px;
-=======
-.boxPembayaran .container-pembayaran p {
+  margin-top: 70px;
+}
+/* .boxPembayaran .container-pembayaran p {
   margin-left: 250px;
-
   font-size: 18px;
-
   font-size: 25px;
-
   margin-top: 25px;
->>>>>>> 036400cedcdda57e2bc8b6b4fbef7f77e832a479
   text-align: center;
   padding-top: 2px;
-}
+} */
 .boxPembayaran .container-pembayaran .tanggal{
   margin-left: 270px;
   margin-top: 15px;
