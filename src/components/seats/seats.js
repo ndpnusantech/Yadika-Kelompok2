@@ -66,10 +66,10 @@ const Seat = () => {
       )} 
       </div>
  
-      <div className="btn-seats">
+      {/* <div className="btn-seats">
         <Button href="/pembayaranPage" variant="light">
           CONFIRM
-        </Button>
+        </Button> */}
 
 
 
@@ -83,7 +83,7 @@ const Seat = () => {
 
       </div>
  
-   </div>
+
   
     );
     

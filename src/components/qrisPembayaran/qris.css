@@ -79,15 +79,20 @@ body{
     text-align: center;
     
 } */
-.btn-buktiPembayaran-qris .btn-BuktiQris{
+/* .btn-buktiPembayaran-qris .btn-inputan-bukti{
 
     font-size: 0.9rem;
     width: 12rem;
     height: 2.5rem;
     border-radius: 0;
-    text-align: center;
+     text-align: center; 
     border: 1px solid;
 
+} */
+.btn-inputan-bukti{
+    width: 20%;
+
+    
 }
 
 
