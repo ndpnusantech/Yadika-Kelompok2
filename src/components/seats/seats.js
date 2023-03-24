@@ -94,6 +94,11 @@ const Seat = () => {
       </div>
  
 
+ 
+    
+    
+
+
   
     
     
@@ -105,7 +110,7 @@ const Seat = () => {
   
   
 
-// };
+
 
 
 export default Seat;
