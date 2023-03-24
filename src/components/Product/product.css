@@ -19,3 +19,7 @@
     width: 25%;
     margin-left: 550px;
 }
+
+.modal-title-product, .modal-body-product, .modal-footer-product{
+    color: #010101;
+}
