@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button, Form ,Table} from "react-bootstrap";
-
+import "./lokasi.css"
 
 const Lokasi = () => {
   const [data, setData] = useState(() => {
@@ -84,7 +84,7 @@ const Lokasi = () => {
 </tbody>
 </Table>
       {editData && (
-        <Form onSubmit={handleSave}>
+        <Form onSubmit={handleSave} className="edit-form-admin">
           <label>
             Lokasi:
             <input
@@ -92,9 +92,10 @@ const Lokasi = () => {
               name="lokasi"
               value={editData.lokasi}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
-          <Button className="btn-save-product-admin" type="submit">
+          <Button className="btn-save-product-admin" variant="light" type="submit">
             Save
           </Button>
         </Form>

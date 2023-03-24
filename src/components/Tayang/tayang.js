@@ -89,7 +89,7 @@ const Tayang = () => {
       </Table>
 
       {editData && (
-        <Form onSubmit={handleSave}>
+        <Form onSubmit={handleSave} className="edit-form-admin" >
           <label>
             Stok:
             <input
@@ -97,6 +97,7 @@ const Tayang = () => {
               name="stok"
               value={editData.stok}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
           <label>
@@ -106,6 +107,7 @@ const Tayang = () => {
               name="tayang"
               value={editData.tayang}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
           <label>
@@ -115,9 +117,10 @@ const Tayang = () => {
               name="status"
               value={editData.status}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
-          <Button className="btn-save-product-admin" type="submit">
+          <Button className="btn-save-product-admin" variant="light" type="submit">
             Save
           </Button>
         </Form>

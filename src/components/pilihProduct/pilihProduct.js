@@ -12,8 +12,7 @@ const PilihProduct = () => {
 <Card.Header>Product</Card.Header>
           <Card.Body className="card-body-product-admin">
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            View product information and recap
             </Card.Text>
           </Card.Body>
           </Card.Link>
@@ -23,8 +22,7 @@ const PilihProduct = () => {
 <Card.Header>Lokasi</Card.Header>
           <Card.Body className="card-body-product-admin">
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Click here to Edit Location
             </Card.Text>
           </Card.Body>
           </Card.Link>
@@ -39,8 +37,7 @@ const PilihProduct = () => {
 <Card.Header>Kategori</Card.Header>
           <Card.Body className="card-body-product-admin">
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Click here to Edit Category
             </Card.Text>
           </Card.Body>
           </Card.Link>
@@ -50,8 +47,7 @@ const PilihProduct = () => {
 <Card.Header>Jam Tayang</Card.Header>
           <Card.Body className="card-body-product-admin">
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            Cick here to Edit Showtimes
             </Card.Text>
           </Card.Body>
           </Card.Link>

@@ -67,7 +67,7 @@ const Product = () => {
                 
 
                 
-                <button onClick={() => handleDelete(item.id)}>Delete</button>
+             
 
               </td>
             </tr>

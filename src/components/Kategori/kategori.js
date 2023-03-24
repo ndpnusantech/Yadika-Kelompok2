@@ -89,7 +89,7 @@ const Kategori = () => {
       </Table>
 
       {editData && (
-        <Form onSubmit={handleSave}>
+        <Form onSubmit={handleSave} className="edit-form-admin">
           <label>
             Title:
             <input
@@ -97,6 +97,7 @@ const Kategori = () => {
               name="title"
               value={editData.title}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
           <label>
@@ -106,6 +107,7 @@ const Kategori = () => {
               name="director"
               value={editData.director}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
           <label>
@@ -115,9 +117,10 @@ const Kategori = () => {
               name="genre"
               value={editData.genre}
               onChange={handleChange}
+              className="input-product-admin"
             />
           </label>
-          <Button className="btn-save-product-admin" type="submit">
+          <Button className="btn-save-product-admin" variant="light" type="submit">
             Save
           </Button>
         </Form>
