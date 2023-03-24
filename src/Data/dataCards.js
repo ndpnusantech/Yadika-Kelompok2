@@ -5,6 +5,7 @@ const data = [
     tittle: "Bismillah Ku Nikahi Suamimu",
     text: "Benny Setiawan",
     status: "( Now Playing )",
+    price: 30000
   },
   {
     id: "2",
@@ -12,6 +13,7 @@ const data = [
     tittle: "Kiko Deep Sea",
     text: "Sally Wongso",
     status: "( Now Playing )",
+    price: 35000
   },
   {
     id: "3",
@@ -19,6 +21,7 @@ const data = [
     tittle: "Moon Rock For Monday",
     text: "Kurt Martin",
     status: "( Now Playing )",
+    price: 35000
   },
   {
     id: "4",
@@ -26,6 +29,7 @@ const data = [
     tittle: "Paranoia",
     text: "Riri Riza",
     status: "( Now Playing )",
+    price: 30000
   },
   {
     id: "5",
@@ -33,6 +37,7 @@ const data = [
     tittle: "Ant Man Quantumania",
     text: "Peyton Reed",
     status: "( Now Playing )",
+    price: 35000
   },
   {
     id: "6",
@@ -40,6 +45,7 @@ const data = [
     tittle: "Penguin Bloom",
     text: "Glendyn Ivin",
     status: "( Now Playing )",
+    price: 30000
   },
   {
     id: "7",
@@ -47,6 +53,7 @@ const data = [
     tittle: "Slam Dunk",
     text: "Takehiko Inoue",
     status: "( Up Coming )",
+    price: 30000
   },
   {
     id: "8",
@@ -54,6 +61,7 @@ const data = [
     tittle: "Suzume no Tojimari",
     text: "Makoto Shinkai",
     status: "( Up Coming )",
+    price: 35000
   },
   {
     id: "9",
@@ -61,6 +69,7 @@ const data = [
     tittle: "Creed III",
     text: "Michael B Jordan",
     status: "( Up Coming )",
+    price: 30000
   },
   {
     id: "10",
@@ -68,6 +77,7 @@ const data = [
     tittle: "The Ambush",
     text: "Pierre Morel",
     status: "( Up Coming )",
+    price: 30000
   },
   {
     id: "11",
@@ -75,6 +85,7 @@ const data = [
     tittle: "Jalan Yang Jauh Jangan Lupa Pulang",
     text: "Angga Dwimas Sasongko",
     status: "( Up Coming )",
+    price: 35000
   },
 ];
 

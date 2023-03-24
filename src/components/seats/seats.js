@@ -66,7 +66,17 @@ const Seat = () => {
       )} 
       </div>
  
+
+ 
+   </div>
+    )};
+    
+
+
+      <div className="btn-seats">
+
       {/* <div className="btn-seats">
+>>>>>>> 92b0690e24f811bcb8e8a681147708c8f4e1e69d
         <Button href="/pembayaranPage" variant="light">
           CONFIRM
         </Button> */}
@@ -84,8 +94,13 @@ const Seat = () => {
       </div>
  
 
+ 
+    
+    
+
+
   
-    );
+    
     
 
 
@@ -95,7 +110,7 @@ const Seat = () => {
   
   
 
-};
+
 
 
 export default Seat;

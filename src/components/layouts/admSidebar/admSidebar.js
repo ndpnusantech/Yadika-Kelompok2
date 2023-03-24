@@ -19,7 +19,7 @@ const AdmSidebar= () => {
               <li>
               </li>
               <hr></hr>
-                <a href="/productAdmin">PRODUCT</a>
+                <a href="/pilihProduct">PRODUCT</a>
 
                 {/* <a href="/">DASHBOARD</a> */}
               <li>

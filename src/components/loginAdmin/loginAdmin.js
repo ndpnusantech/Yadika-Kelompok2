@@ -22,7 +22,7 @@ const LoginAdmin = () => {
           <input type="password" placeholder="Password" required id="password"/>
         </form>
         <div className="buttonLogin-Admin">
-        <button onClick={loginAkun}>Login</button>
+        <button className="btn-login-admin" onClick={loginAkun}>Login</button>
         </div>
         <p>
          Only Admin ! Not Admin? <a href="/">Login User</a>

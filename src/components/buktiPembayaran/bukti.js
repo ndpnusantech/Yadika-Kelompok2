@@ -31,8 +31,36 @@ const Bukti = () => {
             <p className="keterangan-tanggal2">
             Cinema VII Bandung
             </p>
+
             <p className="harga-tiket">
                 Harga tiket : Rp. 45.000  ( x2 )
+</p>
+
+           <table className="text-start" border="2">
+              <tr>
+                <td className="pe-3" style={{border:"1px solid white"}}>Harga tiket</td>
+                <td style={{border:"1px solid white"}}>Rp. 30.000 x5</td>
+              </tr>
+              <tr>
+                <td style={{border:"1px solid white"}}>Total</td>
+                <td style={{border:"1px solid white"}}>Rp. 150.000</td>
+              </tr>
+              <tr>
+                <td style={{border:"1px solid white"}}>Tunai</td>
+                <td style={{border:"1px solid white"}}>Rp. 200.000</td>
+              </tr>
+              <tr>
+                <td style={{border:"1px solid white"}}>Kembalian</td>
+                <td style={{border:"1px solid white"}}>Rp. 50.000</td>
+              </tr>
+              <tr>
+                <td style={{border:"1px solid white"}}>Status</td>
+                <td style={{border:"1px solid white"}}>Pending</td>
+              </tr>
+           </table>
+            {/* <p className="harga-tiket">
+                Harga tiket : Rp.30.000 x5
+
             </p>
             <p className="total-harga">
                Total : Rp. 90.000
@@ -41,8 +69,13 @@ const Bukti = () => {
               Tunai : Rp. 100.000
             </p>
             <p className="kembalian-uang">
+
               Kembalian : Rp. 10.000
             </p>
+
+              Kembalian : Rp.50.000
+            </p> */}
+
           </div>
         </div>
 
