@@ -1,0 +1,13 @@
+.edit-form-admin{
+    display: flex;
+    justify-content: center;
+}
+.btn-save-product-admin{
+    padding: 0rem 2rem 0rem 2rem;
+}
+.input-product-admin{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
