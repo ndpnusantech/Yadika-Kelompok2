@@ -8,11 +8,11 @@ const Sidebar= () => {
 
       <div className="sidebar">
         <nav>
-          <img src={logo} alt="" width="150px" />
+          <img src={logo} alt="" width="140rem" height="35rem"/>
           <div className="navbar-link">
             <ul>
+              <hr className="hr-img"></hr>
               <li>
-              <hr></hr>
                 <a href="/home">Home</a>
               <li>
               </li>

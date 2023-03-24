@@ -16,17 +16,64 @@
 }
 
 .container-pembayaran {
-  margin-top: -260px;
+  margin-top: -300px;
   margin-left: -50px;
 }
-
-.boxPembayaran .container-pembayaran p {
+.boxPembayaran .container-pembayaran .judul {
+  margin-left: 270px;
+  font-size: 25px;
+  margin-top: 70px;
+}
+/* .boxPembayaran .container-pembayaran p {
   margin-left: 250px;
+  font-size: 18px;
   font-size: 25px;
   margin-top: 25px;
   text-align: center;
   padding-top: 2px;
+} */
+.boxPembayaran .container-pembayaran .tanggal{
+  margin-left: 270px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .tempat{
+  margin-left: 300px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .venue{
+  margin-left: 370px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .item{
+  margin-left: 580px;
+  margin-top: -210px;
 }
+.boxPembayaran .container-pembayaran .uang{
+  margin-left: 700px;
+  margin-top: -41px;
+}
+.boxPembayaran .container-pembayaran .total{
+  margin-left: 580px;
+  margin-top: 80px;
+}
+.boxPembayaran .container-pembayaran .subtotal{
+  margin-left: 580px;
+  margin-top: 10px;
+}
+.boxPembayaran .container-pembayaran .uang-total{
+  margin-left: 700px;
+  margin-top: -40px;
+  
+}
+.boxPembayaran .container-pembayaran .uang-subtotal{
+  margin-left: 700px;
+  margin-top: -40px;
+  
+}
+
 .txt-boxPembayaran {
   margin-left: 690px;
   font-size: 25px;
@@ -67,7 +114,7 @@
 .btnSpay {
   margin-left: 400px;
   margin-top: -85px;
-  padding: 20px 50px 15px 50px;
+  padding: 20px 43px 15px 50px;
 }
 
 .btn-img-spay {

@@ -1,5 +1,9 @@
 import "./dashboard.css";
-import { Card, CardGroup } from "react-bootstrap";
+
+import { Card , CardGroup } from "react-bootstrap";
+
+// import { Card, CardGroup } from "react-bootstrap";
+
 import {
   LineChart,
   Line,
@@ -13,6 +17,10 @@ import {
 import { PieChart, Pie, Cell } from "recharts";
 // Sector
 import { dataDashboard, dataDashboard2 } from "../../Data/dataDashboard";
+
+
+
+
 
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
@@ -54,7 +62,34 @@ const Dashboard = () => {
         <div className="imgLogoCinem">
           <img src={imgLogoC} alt="logo-cinemaVII" />
         </div>
-        <div className="card-admin">
+
+    <div className="card-admin">
+    <CardGroup>
+      <Card >
+        <Card.Body className="BT">
+          <Card.Title>Buying Ticket</Card.Title>
+          <Card.Text>
+           7.500 Ticket Sold
+          </Card.Text>
+        </Card.Body>
+       
+      </Card>
+      <Card > 
+        <Card.Body className="VT">
+          <Card.Title>View Trailer</Card.Title>
+          <Card.Text>
+           9.500 Views
+                     </Card.Text>
+        </Card.Body>
+       
+      </Card>
+
+    </CardGroup>
+    </div>
+
+        
+
+        {/* <div className="card-admin">
           <CardGroup>
             <Card>
               <Card.Body className="BT">
@@ -69,7 +104,8 @@ const Dashboard = () => {
               </Card.Body>
             </Card>
           </CardGroup>
-        </div>
+        </div> */}
+
 
         <div className="bungkus-dash">
           <div className="buletan-dasboard">
