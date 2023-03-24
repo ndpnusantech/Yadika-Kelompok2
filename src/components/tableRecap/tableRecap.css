@@ -1,0 +1,23 @@
+.table-recap{
+    /* text-align: center; */
+    justify-content: center;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+.table-recap table {
+  border-collapse: collapse;
+  width:87%;
+  justify-content: center;
+}
+.table-recap table tbody tr .option-tabel select{
+  margin-left: 1rem;
+  text-align: left;
+}
+.table-recap table tbody .th, .td{
+  text-align: center;
+}
+.table-recap table th,
+.table-recap td {
+  border: 2px solid #fff;
+  padding: 0.5rem;
+}

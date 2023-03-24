@@ -12,7 +12,12 @@ const DanaSukses = () => {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-  
+
+    // State Untuk Memunculkan Button Pada Saat Mengisi Input File -fachri
+  const [selectedFile, setSelectedFile] = useState();
+  const handleFileSelect = (event) => {
+    setSelectedFile(event.target.files[0]);
+  }
     return (
 <>
 <div className="logoAtas-confirm-dana ">
@@ -41,7 +46,19 @@ Total
 </InputGroup.Text>
 <Form.Control type="text" value="Rp.50.000,00" className="input-txt-harga-dana"></Form.Control>
 </InputGroup>
-<Button className="btn-DANA-confirm " onClick={handleShow}>BERIKUTNYA</Button>
+<div className="btn-inputBuktiPembayaran-qris">
+        <Form.Group controlId="formFile" className="mb-3 input-file-qris">
+          <Form.Label>Input bukti pembayaran</Form.Label>
+          <Form.Control type="file" onChange={handleFileSelect} />
+        </Form.Group>
+        <div className="btn-show-qris">
+        {selectedFile && (
+          <Button variant="dark" className="mt-1 mb-3" onClick={handleShow}>
+            Konfirmasi
+          </Button>
+         )}
+         </div>
+      </div>
 
 </Container>
 <Modal

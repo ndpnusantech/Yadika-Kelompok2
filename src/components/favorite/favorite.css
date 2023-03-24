@@ -1,7 +1,8 @@
 /* tata letak */
-.favorite{
-    display: flex;
+.favorite {
+  display: flex;
 }
+
 .inFav .logFav{
     position: relative;
     margin-left: 360px;
@@ -37,7 +38,72 @@
 }
 /* button hapus */
 .inFav .hpsFav{
-    width: 20%;
-    margin-left: 40%;
+    border-radius: 0;
+    width: 15%;
+    height: 7%;
+    margin-left: 7%;
+    color: #fff;
+    border: none;
     background-color: red;
 }
+
+.inFav .logFav {
+  position: relative;
+  margin-left: 360px;
+  margin-top: -30px;
+}
+.inFav h2 {
+  /* position: absolute; */
+  margin-left: 450px;
+  /* margin-top: 50px; */
+  font-size: 38px;
+}
+.inFav {
+  margin: 0;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 200px;
+  width: 100%;
+}
+/* Card */
+.favFilm {
+  /* height: 130vh; */
+
+  height: auto;
+
+  margin-bottom: 50px;
+  background-color: rgb(33, 33, 48);
+}
+
+.card-favorite {
+  margin-left: 70px;
+}
+/* button hapus */
+.inFav .hpsFav {
+  width: 85px;
+  height: 30px;
+  background-color: black;
+  padding-left: 5%;
+  font-size: 16px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 75px;
+  border-radius: 0;
+  color: white;
+}
+
+.butX {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  background: none;
+  border: none;
+  font-size: 25px;
+  color: #808080;
+}
+.modalContent {
+  color: black;
+}
+
+
+
