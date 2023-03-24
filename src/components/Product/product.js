@@ -20,9 +20,13 @@ const Product = () => {
     setData(newData);
   };
 
+
  const logo ="/assets/logo/logoo 2.png"
 
   
+
+  
+
 
 
 
@@ -58,8 +62,13 @@ const Product = () => {
               <td className="td-admin">{item.lokasi}</td>
               <td className="td-admin">{item.status}</td>
               <td className="td-admin">
+
                 <Button className="btn-delete-product-admin" variant="light" onClick={() => handleDelete(item.id)}>Delete</Button>
                 
+
+                
+                <button onClick={() => handleDelete(item.id)}>Delete</button>
+
               </td>
             </tr>
           ))}

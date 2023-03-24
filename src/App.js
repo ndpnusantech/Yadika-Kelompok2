@@ -65,12 +65,13 @@ function App() {
         <Route path="/buyTicket" element={<Buy />} />
         <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
-
+        
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar/>} />
         <Route path="/post" element={<Post/>} />
         <Route path="/pembayaranQris" element={<Qris/>} />
+        
         <Route path="/dashboardAdmin" element={<DashboardAdmin/>} />
         <Route path="/spayPage" element={<BayarSpay/>} />
         <Route path="/spayPage2" element={<BayarSpay2/>} />

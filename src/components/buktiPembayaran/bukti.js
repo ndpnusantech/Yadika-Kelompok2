@@ -32,6 +32,10 @@ const Bukti = () => {
             Cinema VII Bandung
             </p>
 
+            <p className="harga-tiket">
+                Harga tiket : Rp. 45.000  ( x2 )
+</p>
+
            <table className="text-start" border="2">
               <tr>
                 <td className="pe-3" style={{border:"1px solid white"}}>Harga tiket</td>
@@ -56,16 +60,22 @@ const Bukti = () => {
            </table>
             {/* <p className="harga-tiket">
                 Harga tiket : Rp.30.000 x5
+
             </p>
             <p className="total-harga">
-               Total : Rp.150.000
+               Total : Rp. 90.000
             </p>
             <p className="tunai-uang">
-              Tunai : Rp.200.000
+              Tunai : Rp. 100.000
             </p>
             <p className="kembalian-uang">
+
+              Kembalian : Rp. 10.000
+            </p>
+
               Kembalian : Rp.50.000
             </p> */}
+
           </div>
         </div>
 
