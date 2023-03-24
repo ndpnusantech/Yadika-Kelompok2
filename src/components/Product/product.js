@@ -19,7 +19,7 @@ const Product = () => {
     setData(newData);
   };
 
-  const handleEdit = (id) => {
+  const handleEdit =  (id) => {
     const newData = data.find((item) => item.id === id);
     setEditData(newData);
   };
@@ -73,7 +73,6 @@ const Product = () => {
               <td className="td-admin">
                 <button onClick={() => handleEdit(item.id)}>Edit</button>
                 <button onClick={() => handleDelete(item.id)}>Delete</button>
-                
               </td>
             </tr>
           ))}

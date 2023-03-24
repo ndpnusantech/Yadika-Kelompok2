@@ -45,7 +45,7 @@ const QrisBayar = () => {
 
       <div className="box-qris" >
 
-      <div className="box-qris" onClick={handleShow}>
+      <div className="box-qris">
 
         <div className="barkot-qris">
           <div className="title-jdl-flm">
@@ -61,7 +61,7 @@ const QrisBayar = () => {
       <div className="btn-inputBuktiPembayaran-qris">
         <Form.Group controlId="formFile" className="mb-3 input-file-qris">
           <Form.Label>Input bukti pembayaran</Form.Label>
-          <Form.Control type="file" onChange={handleFileSelect} />
+          <Form.Control type="file" onChange={handleFileSelect} className="btn-inputan-bukti" />
         </Form.Group>
         <div className="btn-show-qris">
         {selectedFile && (
