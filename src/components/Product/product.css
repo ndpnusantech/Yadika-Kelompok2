@@ -32,3 +32,6 @@
 .btn-delete-product-admin{
     padding: 15px 25px 15px 25px;
 }
+.modal-title-product, .modal-body-product, .modal-footer-product{
+    color:#010101;
+}

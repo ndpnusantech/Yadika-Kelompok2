@@ -19,7 +19,7 @@ const CardFavorit = () => {
             {/* <a href="/trailer"> */}
             <Card className="card" id={data.id}>
               <button className="butX" variant="primary" onClick={handleShow}>
-                X
+                x
               </button>
               <Card.Img className="card-img" src={data.img} />
               <Card.Body className="card-body">
@@ -34,7 +34,7 @@ const CardFavorit = () => {
       </Row>
       <Modal show={show} onHide={handleClose} animation={false}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title className="modalContent">Peringatan!</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modalContent">
           Apakah Anda yakin Akan Menghapus Dari Favorite?
@@ -44,7 +44,7 @@ const CardFavorit = () => {
             Close
           </Button>
           <Button variant="primary" onClick={handleClose}>
-            Save Changes
+            Yes
           </Button>
         </Modal.Footer>
       </Modal>

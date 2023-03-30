@@ -26,34 +26,33 @@ const Pembayaran = () => {
       <div className="boxPembayaran">
         <img src={"./assets/logo/card.png"} alt="" />
         <div className="container-pembayaran">
+          <p className="judul">KIKO IN THE DEEP SEA</p>
+          <p className="tanggal">SUNDAY , 6 FEBRUARY 2023</p>
+          <p className="tempat">Cinema VII Bandung</p>
+          <p className="venue">A7</p> <br />
 
-
-          <p>KIKO IN THE DEEP SEA</p>
-          <p>SUNDAY , 6 FEBRUARY 2023</p>
-          <p>Cinema VII Bandung</p>
-          <p>Rp. 40.000    (1x)</p>
-          <p>A7</p>
-
-      
-
-        
-
-        <p className="judul">KIKO IN THE DEEP SEA</p>
-        <p className="tanggal">SUNDAY , 6 FEBRUARY 2023</p>
-        <p className="tempat">Cinema VII Bandung</p>
-        <p className="venue">A7</p> <br />
-        <p className="item">Items (5x)</p>
-        <p className="uang"> Rp.300.000</p>
-        <p className="total">Total</p>
-        <p className="uang-total">Rp.300.000</p>
-        <p className="subtotal">Subtotal</p>
-        <p className="uang-subtotal">Rp.300.000</p>
         </div>
+          <table className="table-pembayaran">
+            <tr>
+              <td className="item">Harga tiket</td>
+              <td className="item"> : </td>
+              <td className="item">Rp. 30.000</td>
+            </tr>
+            <tr>
+              <td className="item">Jumlah tiket</td>
+              <td className="item"> : </td>
+              <td className="item">(2)</td>
+            </tr>
+            <tr>
+              <td className="item">Total Pembayaran</td>
+              <td className="item"> : </td>
+              <td className="item">Rp. 60.000</td>
+            </tr>
+          </table>
       </div>
       <h1 className="txt-boxPembayaran">PAYMENT</h1>
       <div className="titlePay">
         <div className="mx-auto d-flex justify-content-center">
-
           {/* <Button
             href="/pembayaranQris"
             className="btnQris"
@@ -61,19 +60,21 @@ const Pembayaran = () => {
             title="qris"
           /> */}
 
-          <Button href="/pembayaranQris" className="btnQris" variant="light" title="qris">
-
+          <Button
+            href="/pembayaranQris"
+            className="btnQris"
+            variant="light"
+            title="qris"
+          >
             <img
               src="./assets/logo/logoqris.png"
               className="btn-img-qris"
               width={100}
               alt="img"
-            
             />
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-
           {/* <Button
             href="/HalLoginGopay"
             className="btnGopay"
@@ -81,8 +82,12 @@ const Pembayaran = () => {
             title="gopay"
           /> */}
 
-          <Button href="/HalLoginGopay" className="btnGopay" variant="light" title="gopay">
-
+          <Button
+            href="/HalLoginGopay"
+            className="btnGopay"
+            variant="light"
+            title="gopay"
+          >
             <img
               src="./assets/logo/logoGopay.png"
               className="btn-img-gopay"
@@ -92,7 +97,6 @@ const Pembayaran = () => {
           </Button>
         </div>
         <div className="mx-auto d-flex justify-content-center">
-
           {/* <Button
             href="/spayPage"
             className="btnSpay"
@@ -100,8 +104,12 @@ const Pembayaran = () => {
             title="spay"
          /> */}
 
-          <Button href="/spayPage" className="btnSpay" variant="light" title="spay">
-
+          <Button
+            href="/spayPage"
+            className="btnSpay"
+            variant="light"
+            title="spay"
+          >
             <img
               src="./assets/logo/spay.png"
               className="btn-img-spay"
