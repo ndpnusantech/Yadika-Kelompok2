@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Button,  Table , Form} from "react-bootstrap";
+import { Button,  Table , Form , Modal} from "react-bootstrap";
 import "./product.css"
 
 
@@ -118,17 +118,22 @@ const Product = () => {
               <td className="td-admin">{item.status}</td>
               <td className="td-admin">
               <Button className="btn-edit-product-admin" variant="light" onClick={() => handleEdit(item.id)}>Edit</Button>
-                <Button className="btn-delete-product-admin" variant="light" onClick={() => handleDelete(item.id)}>Delete</Button>
+                <Button className="btn-delete-product-admin" variant="light" onClick={handleShow}>Delete</Button>
                 
 
                 
              
 
               </td>
+              </tr>
+          ))}
+              </tbody>
+              </Table>
+              
 {/* </tr> */}
-        <img src={logo} className="image-product-admin" alt="logo" />
+        {/* <img src={logo} className="image-product-admin" alt="logo" /> */}
       {/* </div> */}
-      <div className="table-admin">
+      {/* <div className="table-admin">
         <Table className="tr-admin">
           <thead>
             <tr>
@@ -165,7 +170,7 @@ const Product = () => {
                   </Button>
                     </td>
                     </tr>
-
+ */}
 
 {editData && (
   <Form onSubmit={handleSave} className="edit-form-admin">
@@ -257,12 +262,13 @@ const Product = () => {
 
 
 
-        // </tbody>
-      // </Table>
-    // </div>
+        
+      
+    
 
                   {/* //Pop up */}
-                  <Modal show={show} onHide={handleClose}>
+                  {data.map((item) => (
+                  <Modal show={show} onHide={handleClose} key={item.id}>
                     <Modal.Header closeButton>
                       <Modal.Title className="modal-title-product">
                         Menghapus product
@@ -275,24 +281,20 @@ const Product = () => {
                       <Button variant="secondary" onClick={handleClose}>
                         ga jadi dech!
                       </Button>
-                      <Button variant="primary" className="btn-delete-product-admin" onClick={handleDelete}>
+                      <Button variant="primary" className="btn-delete-product-admin" onClick={() => handleDelete(item.id)}  >
                         yups
                       </Button>
                     </Modal.Footer>
                   </Modal>
-            
-</tr>                  
-{/* //Popup end */}
-</tbody>
-</Table>
-</div>
+                  ))}
 
-                  // </tr>
-                  // ))}
-      // </div>
-          
+                  
+                  
+      
+</div>    
     </>
-                 ))
-};
+  
 
-export default Product;
+)};
+
+export default Product
