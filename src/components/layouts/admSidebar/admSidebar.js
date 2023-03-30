@@ -5,7 +5,6 @@ const AdmSidebar= () => {
   const logo = "./assets/navbar/logoo2.png";
 
   return (
-
       <div className="admsidebar">
         <nav>
           <img src={logo} alt="" width="150px" />

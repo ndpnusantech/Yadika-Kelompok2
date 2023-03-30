@@ -6,7 +6,8 @@
 }
 .table-recap table {
   border-collapse: collapse;
-  width:87%;
+  width:67rem;
+  margin-left: -7rem;
   justify-content: center;
 }
 .table-recap table tbody tr .option-tabel select{
