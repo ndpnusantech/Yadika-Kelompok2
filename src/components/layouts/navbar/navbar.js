@@ -10,8 +10,8 @@ const NavigationBar = () => {
       <Navbar bg="dark" variant="dark" className='p-3 navigation' >
         <Container>
           <Nav className="me-auto">
-            <Nav.Link href="/nowPlaying">Now Playing</Nav.Link>
-            <Nav.Link href="/upComing" >Up Coming</Nav.Link>
+            <Nav.Link href="/nowPlaying" className="txt-nav-link">Now Playing</Nav.Link>
+            <Nav.Link href="/upComing" className="txt-nav-link">Up Coming</Nav.Link>
           </Nav>
 
           <Form className="d-flex" >
