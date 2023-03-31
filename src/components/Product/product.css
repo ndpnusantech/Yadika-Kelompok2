@@ -6,7 +6,6 @@
     margin-left: 13rem;
     text-align: center;
     margin-top: 3rem;
-   
 }
 
 .td-admin{
@@ -32,15 +31,16 @@
 .btn-delete-product-admin{
     padding: 15px 25px 15px 25px;
 }
+.modal-title-product, .modal-body-product, .modal-footer-product{
+    color:#010101;
+}
 
 .btn-add {
     padding: 10px;
     position: absolute;
-    margin-top: 23.5rem;
-    background: white;
+    margin-top: 22.5rem;
+    /* background-color: white; */
 }
-
-.btn-add a {
-    color: black;
-}
-
+/* .btn-add a {
+    color: ;
+} */

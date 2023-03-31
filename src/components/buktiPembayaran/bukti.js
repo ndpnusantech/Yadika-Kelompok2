@@ -32,30 +32,27 @@ const Bukti = () => {
             Cinema VII Bandung
             </p>
 
-            <p className="harga-tiket">
-                Harga tiket : Rp. 45.000  ( x2 )
-</p>
 
-           <table className="text-start" border="2">
+           <table className="text-start" style={{marginTop:"-0.95rem"}}>
               <tr>
-                <td className="pe-3" style={{border:"1px solid white"}}>Harga tiket</td>
-                <td style={{border:"1px solid white"}}>Rp. 30.000 x5</td>
+                <td className="pe-3">Harga tiket</td>
+                <td>Rp. 30.000 x5</td>
               </tr>
               <tr>
-                <td style={{border:"1px solid white"}}>Total</td>
-                <td style={{border:"1px solid white"}}>Rp. 150.000</td>
+                <td>Total</td>
+                <td>Rp. 150.000</td>
               </tr>
               <tr>
-                <td style={{border:"1px solid white"}}>Tunai</td>
-                <td style={{border:"1px solid white"}}>Rp. 200.000</td>
+                <td>Tunai</td>
+                <td>Rp. 200.000</td>
               </tr>
               <tr>
-                <td style={{border:"1px solid white"}}>Kembalian</td>
-                <td style={{border:"1px solid white"}}>Rp. 50.000</td>
+                <td>Kembalian</td>
+                <td>Rp. 50.000</td>
               </tr>
               <tr>
-                <td style={{border:"1px solid white"}}>Status</td>
-                <td style={{border:"1px solid white"}}>Pending</td>
+                <td>Status</td>
+                <td>(Pending)</td>
               </tr>
            </table>
             {/* <p className="harga-tiket">
