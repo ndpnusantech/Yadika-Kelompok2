@@ -44,8 +44,7 @@ const AdmSidebar= () => {
               </li>
               <li>
               <NavDropdown title="HISTORY TRANSACTION" id="navbarScrollingDropdown" className="admSidebar-dropdown">
-              <NavDropdown.Item href="/productAdmin">Recap</NavDropdown.Item>
-              <NavDropdown.Item href="/productAdmin">Recap</NavDropdown.Item>
+              <NavDropdown.Item href="/tabelRecap">Recap</NavDropdown.Item>
             </NavDropdown>
               </li>
               <hr className="hr-adm"></hr>
