@@ -13,16 +13,17 @@ img{
     ul li a {
       text-decoration: none;
       color: white;
-      margin-left: -10px;
+      margin-left: -1.7rem;
       font-size: 25px;
       justify-items: center;
-      text-align: center;
+      text-align: left;
     }
   
-    hr{
-      width: 215px;
+    .hr-adm{
+      width:13.5rem;
       margin-left: -47px;
-      margin-top: 30px;
+      margin-top: 25px;
+      margin-bottom: 25px;
     }
      .admsidebar {
       position: fixed;
@@ -37,8 +38,12 @@ img{
   
     .admsidebar .admHistory{
         font-size: 17px;
-        text-align: center;
+        text-align: left;
     }
     .txt-admSide{
       margin-left: 70px;
     }
+    /* .admSidebar-dropdown{
+      margin-left: -1rem;
+      text-align: left;
+    } */
