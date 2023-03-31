@@ -32,3 +32,15 @@
 .btn-delete-product-admin{
     padding: 15px 25px 15px 25px;
 }
+
+.btn-add {
+    padding: 10px;
+    position: absolute;
+    margin-top: 23.5rem;
+    background: white;
+}
+
+.btn-add a {
+    color: black;
+}
+

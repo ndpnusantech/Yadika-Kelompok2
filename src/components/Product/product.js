@@ -74,8 +74,10 @@ const Product = () => {
           ))}
         </tbody>
       </Table>
-
-
+              <div className="btn-add-div">
+              <button class="btn-add"><a href="/post">Post Add New Film</a></button>
+              </div>
+             
     </div>
     </>
   )
