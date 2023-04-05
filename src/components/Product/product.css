@@ -10,6 +10,13 @@
    
 }
 
+.edit-form-admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .td-admin{
     vertical-align: middle;
     border: 2px solid white;
@@ -41,6 +48,19 @@
     text-align: center;
 
 }
+.btn-add-product-admin{
+    margin-left: -63.9rem;
+    margin-bottom: 1rem;
+}
 .modal-title-product, .modal-body-product, .modal-footer-product{
     color:#010101;
+}
+
+.input-product-admin{
+    display: flex;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 0.5rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 1rem;
 }
