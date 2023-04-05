@@ -77,88 +77,95 @@ const Lokasi = () => {
 
   return (
     <>
-    <div className="all-kategori">
-    <div className="table-admin">
-      <Table className="tr-admin">
-        <thead>
-          <tr >
-            <th className="th-admin">ID</th>
-            <th className="th-admin">Lokasi</th>
-            <th className="th-admin">Action</th>
-          </tr>
-        </thead>
-        <tbody>
-      {data.map((item) => (
-        <tr key={item.id}>
-          <td className="td-admin">{item.id}</td>
-          <td className="td-admin">{item.lokasi}</td>
-          <td className="td-admin">
-            <Button
-              className="btn-edit-product-admin"
-              variant="light"
-              onClick={() => handleEdit(item.id)}
-            >
-              Edit
-            </Button>
-            <Button
-              className="btn-delete-product-admin"
-              variant="light"
-              onClick={() => handleDelete(item.id)}
-            >
-              Delete
-            </Button>
-            <Button
-              className="btn-delete-product-admin"
-              variant="light"
-              onClick={() => handleSave(item.id)}
-            >
-              Add
-            </Button>
-          </td>
-        </tr>
-      ))}
-</tbody>
-</Table>
-      {editData && (
-        
-        <Form onSubmit={handleSave} className="edit-form-admin">
-          <label>
-            Lokasi:
-            <input
-              type="text"
-              name="lokasi"
-              value={editData.lokasi}
-              onChange={handleChange}
-              className="input-product-admin"
-            />
-          </label>
-          <Button className="btn-save-product-admin" variant="light" type="submit">
-            Save
+      <div className="all-kategori">
+        <div className="table-admin">
+          {data.map((item) => (
+          <Button
+            className="btn-add-product-admin"
+            variant="light"
+            onClick={() => handleSave(item.id)}
+          >
+            Add
           </Button>
-        </Form>
-       
-        
-      )}
+          ))}
+          <Table className="tr-admin">
+            <thead>
+              <tr>
+                <th className="th-admin">ID</th>
+                <th className="th-admin">Lokasi</th>
+                <th className="th-admin">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              {data.map((item) => (
+                <tr key={item.id}>
+                  <td className="td-admin">{item.id}</td>
+                  <td className="td-admin">{item.lokasi}</td>
+                  <td className="td-admin">
+                    <Button
+                      className="btn-edit-product-admin"
+                      variant="light"
+                      onClick={() => handleEdit(item.id)}
+                    >
+                      Edit
+                    </Button>
+                    <Button
+                      className="btn-delete-product-admin"
+                      variant="light"
+                      onClick={() => handleDelete(item.id)}
+                    >
+                      Delete
+                    </Button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
+          {editData && (
+            <Form onSubmit={handleSave} className="edit-form-admin">
+              <label>
+                Lokasi:
+                <input
+                  type="text"
+                  name="lokasi"
+                  value={editData.lokasi}
+                  onChange={handleChange}
+                  className="input-product-admin"
+                />
+              </label>
+              <Button
+                className="btn-save-product-admin"
+                variant="light"
+                type="submit"
+              >
+                Save
+              </Button>
+            </Form>
+          )}
 
-      {editData && (
-         <Form onSubmit={handleAdd} className="edit-form-admin">
-         <label>
-           Lokasi:
-           <input
-             type="text"
-             name="lokasi"
-             value={editData.lokasi}
-             onChange={handleChange}
-             className="input-product-admin"
-           />
-         </label>
-         <Button className="btn-save-product-admin" variant="light" type="submit">
-           Save
-         </Button>
-       </Form>
-      )}
-    </div>
-    </div>
+          {editData && (
+            <Form onSubmit={handleAdd} className="edit-form-admin">
+              <label>
+                Lokasi:
+                <input
+                  type="text"
+                  name="lokasi"
+                  value={editData.lokasi}
+                  onChange={handleChange}
+                  className="input-product-admin"
+                />
+              </label>
+              <Button
+                className="btn-save-product-admin"
+                variant="light"
+                type="submit"
+              >
+                Save
+              </Button>
+            </Form>
+          )}
+        </div>
+      </div>
     </>
   );
 };

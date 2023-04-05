@@ -1,24 +1,29 @@
-.table-recap{
+.table-recapAdm{
     /* text-align: center; */
     justify-content: center;
-    margin-left: 20rem;
+    margin-left: 15rem;
     margin-top: 5rem;
 }
-.table-recap table {
+.table-recapAdm table {
   border-collapse: collapse;
   width:65rem;
-  margin-left: -5.5rem;
+  /* margin-left: -5.5rem; */
   justify-content: center;
 }
-.table-recap table tbody tr .option-tabel select{
-  margin-left: 1rem;
-  text-align: left;
-}
-.table-recap table tbody .th, .td{
+
+.table-recapAdm table tbody .th, .td{
   text-align: center;
 }
-.table-recap table th,
-.table-recap td {
+.table-recapAdm table th,
+.table-recapAdm td {
   border: 2px solid #fff;
+  border-top: none;
   padding: 0.5rem;
+}
+.btn-tblExport{
+  width: 65rem;
+  height: 2rem;
+  border:none;
+  color: #fff;
+  background-color: #d11313;
 }

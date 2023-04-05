@@ -12,7 +12,7 @@
 
 import "./login.css";
 
-const Login = () => {
+const LoginUser= () => {
   const logo = "/assets/logo/logoo 2.png";
 
   return (
@@ -56,7 +56,7 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginUser;
 
 const loginAkun = () => {
   var username = document.getElementById("username").value;

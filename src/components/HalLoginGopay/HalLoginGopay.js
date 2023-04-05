@@ -1,7 +1,7 @@
 import "./HalLoginGopay.css";
 import { Form  , Button} from "react-bootstrap";
 
-const LoginGopay = () => {
+const LoginGopays = () => {
   const logo = "/assets/logo/logoo 2.png";
   const logoGopay1 = "./assets/logo/gopay.png";
 
@@ -33,4 +33,4 @@ const LoginGopay = () => {
     </div>
   );
 };
-export default LoginGopay;
+export default LoginGopays;

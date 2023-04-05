@@ -47,10 +47,6 @@ const Bukti = () => {
                 <td>Rp. 200.000</td>
               </tr>
               <tr>
-                <td>Kembalian</td>
-                <td>Rp. 50.000</td>
-              </tr>
-              <tr>
                 <td>Status</td>
                 <td>(Pending)</td>
               </tr>

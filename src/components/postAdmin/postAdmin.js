@@ -30,6 +30,19 @@ const PostAdmin = () => {
   const optionItems = options.map((option) => (
     <option key={option}>{option}</option>
   ));
+  const options2 = [
+    "Cinema VII Jakarta",
+    "Cinema VII Bandung",
+    "Cinema VII Surabaya",
+    "Cinema VII Cirebon",
+    "Cinema VII Konoha",
+    "Cinema VII Solo", // opsi baru
+  ];
+
+  const optionItems2 = options2.map((option) => (
+    <option key={option}>{option}</option>
+  ));
+
   return (
     <>
       <AdmSidebar />
@@ -66,7 +79,11 @@ const PostAdmin = () => {
               Pilih Lokasi :<select>{optionItems}</select>
             </th>
             <th colSpan="3" className="option-tabel">
-              Pilih Lokasi :<select>{optionItems}</select>
+              Status :<select>{optionItems2}</select>
+            </th>
+            <br/>
+            <th colSpan="3" className="option-tabel">
+              Gendre :<select>{optionItems2}</select>
             </th>
             <h1>Image</h1>
             <input type="file" />
