@@ -2,7 +2,13 @@ import "./tableRecap.css";
 // import { Container } from "react-bootstrap";
 
 const TableRecap = () => {
-   const options = ['Jakarta', 'Bandung', 'Surabaya'];
+   const options = [
+     "Cinema VII Jakarta",
+     "Cinema VII Bandung",
+     "Cinema VII Surabaya",
+     "Cinema VII Cirebon",
+     "Cinema VII Konoha",
+   ];
    const optionItems = options.map((option) =>
     <option key={option}>{option}</option>
   );
@@ -11,9 +17,6 @@ const TableRecap = () => {
       <table>
         <tbody>
           <tr>
-            <th rowSpan="6" className="th">
-              Recap Penayangan
-            </th>
             <th colSpan="3" className="option-tabel">
               Pilih Lokasi :<select>{optionItems}</select>
             </th>

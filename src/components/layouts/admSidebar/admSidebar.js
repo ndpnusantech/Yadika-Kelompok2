@@ -5,7 +5,6 @@ const AdmSidebar= () => {
   const logo = "./assets/navbar/logoo2.png";
 
   return (
-
       <div className="admsidebar">
         <nav>
           <img src={logo} alt="" width="150px" />
@@ -45,8 +44,7 @@ const AdmSidebar= () => {
               </li>
               <li>
               <NavDropdown title="HISTORY TRANSACTION" id="navbarScrollingDropdown" className="admSidebar-dropdown">
-              <NavDropdown.Item href="/productAdmin">Recap</NavDropdown.Item>
-              <NavDropdown.Item href="/productAdmin">Recap</NavDropdown.Item>
+              <NavDropdown.Item href="/tabelRecap">Recap</NavDropdown.Item>
             </NavDropdown>
               </li>
               <hr className="hr-adm"></hr>

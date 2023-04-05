@@ -11,6 +11,16 @@ const Lokasi = () => {
     ];
   });
   const [editData, setEditData] = useState(null);
+  const [newData, setNewData] = useState({
+    id: null,
+    title: "",
+    director: "",
+    genre: "",
+    stok: "",
+    tayang: "",
+    lokasi: "",
+    status: "",
+  });
 
   useEffect(() => {
     localStorage.setItem("movieData", JSON.stringify(data));
@@ -28,23 +38,42 @@ const Lokasi = () => {
 
   const handleSave = (event) => {
     event.preventDefault();
-    const newData = data.map((item) => {
+    const updatedData = data.map((item) => {
       if (item.id === editData.id) {
         return editData;
       }
       return item;
     });
-    setData(newData);
+    setData(updatedData);
     setEditData(null);
+  };
+
+  const handleAdd = (event) => {
+    event.preventDefault();
+    const id = Math.max(...data.map((item) => item.id)) + 1;
+    const newDataWithId = { ...newData, id };
+    const updatedData = [...data, newDataWithId];
+    setData(updatedData);
+    setNewData({
+      id: null,
+      title: "",
+      director: "",
+      genre: "",
+      stok: "",
+      tayang: "",
+      lokasi: "",
+      status: "",
+    });
   };
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setEditData((prevState) => ({
+    setNewData((prevState) => ({
       ...prevState,
       [name]: value,
     }));
   };
+  
 
   return (
     <>
@@ -78,12 +107,20 @@ const Lokasi = () => {
             >
               Delete
             </Button>
+            <Button
+              className="btn-delete-product-admin"
+              variant="light"
+              onClick={() => handleSave(item.id)}
+            >
+              Add
+            </Button>
           </td>
         </tr>
       ))}
 </tbody>
 </Table>
       {editData && (
+        
         <Form onSubmit={handleSave} className="edit-form-admin">
           <label>
             Lokasi:
@@ -99,6 +136,26 @@ const Lokasi = () => {
             Save
           </Button>
         </Form>
+       
+        
+      )}
+
+      {editData && (
+         <Form onSubmit={handleAdd} className="edit-form-admin">
+         <label>
+           Lokasi:
+           <input
+             type="text"
+             name="lokasi"
+             value={editData.lokasi}
+             onChange={handleChange}
+             className="input-product-admin"
+           />
+         </label>
+         <Button className="btn-save-product-admin" variant="light" type="submit">
+           Save
+         </Button>
+       </Form>
       )}
     </div>
     </div>

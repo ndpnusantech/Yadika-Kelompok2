@@ -5,31 +5,39 @@
     width: 83%;
     margin-left: 13rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .td-admin{
     vertical-align: middle;
     border: 2px solid white;
+    font-size: 0.7rem;
 }
 .th-admin{
     
     border: 2px solid white;
+    font-size: 0.8rem;
 }
 .image-product-admin{   
-    width: 25%;
-    margin-left: 32rem;
+    width: 20%;
+    margin-left: 35rem;
 }
 .tr-admin{
     color: white;
 }
 .btn-edit-product-admin{
-    padding: 15px 35px 15px 35px;
-    margin: 0.3rem;
+    font-size: 0.7rem;
+    margin-left: -0.8rem;
+    text-align: center;
+
 
 }
 .btn-delete-product-admin{
-    padding: 15px 25px 15px 25px;
+    font-size: 0.7rem;
+    margin-right: -1rem;
+    margin-left: 0.3rem;
+    text-align: center;
+
 }
 .modal-title-product, .modal-body-product, .modal-footer-product{
     color:#010101;
