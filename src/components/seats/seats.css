@@ -32,6 +32,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 25vh;
+
 }
 
 .seats-k-1 {
@@ -43,5 +44,5 @@
 
 .btn-seats{
     margin-top: 50px;
-    margin-left: 425px;
+    margin-left: 33.3rem;
 }

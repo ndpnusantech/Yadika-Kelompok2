@@ -46,15 +46,16 @@
 
 .btn-group-akun{
   margin-top: 55px;
-  margin-left:15%;
+  margin-left:12.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   /* margin-top: 5px; */
 }
 
 .btn-akun{
   color: white;
-  width: 72.5rem;
+  width: 69rem;
   background: transparent;
   padding-top:1rem;
   padding-bottom: 20px;
@@ -63,7 +64,7 @@
 }
 .btn-logout{
   color: #d6a864;
-  width: 72.5rem;
+  width: 69rem;
   height: 10vh;
   background: #222739;
   padding-top: 20px;

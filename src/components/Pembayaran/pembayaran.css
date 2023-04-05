@@ -16,23 +16,55 @@
 }
 
 .container-pembayaran {
-  margin-top: -260px;
-  margin-left: -50px;
+  margin-top: -17.5rem;
+  margin-left: -3rem;
+  
 }
-
-.boxPembayaran .container-pembayaran p {
+.boxPembayaran .container-pembayaran .judul {
+  margin-left: 270px;
+  font-size: 25px;
+  margin-top: 70px;
+}
+/* .boxPembayaran .container-pembayaran p {
   margin-left: 250px;
+  font-size: 18px;
   font-size: 25px;
   margin-top: 25px;
   text-align: center;
   padding-top: 2px;
+} */
+.boxPembayaran .container-pembayaran .tanggal{
+  margin-left: 270px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .tempat{
+  margin-left: 300px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .venue{
+  margin-left: 370px;
+  margin-top: 15px;
+  font-size: 20px;
+} 
+
+/* table start */
+.table-pembayaran{
+  border-left: 1px solid ;
+  position: absolute;
+  margin-left: 32rem;
+  margin-top: -10rem;
+
 }
-.txt-boxPembayaran {
-  margin-left: 690px;
-  font-size: 25px;
-  margin-top: 25px;
-  /* margin-left: 780px; */
-}
+/* table end */
+
+
+
+
+
+
+
 
 .boxPembayaran .titlePay h1 {
   color: white !important;
@@ -67,7 +99,7 @@
 .btnSpay {
   margin-left: 400px;
   margin-top: -85px;
-  padding: 20px 50px 15px 50px;
+  padding: 20px 43px 15px 50px;
 }
 
 .btn-img-spay {

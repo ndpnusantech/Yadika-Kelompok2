@@ -1,6 +1,6 @@
-.table>:not(caption)>*>*{
+/* .table>:not(caption)>*>*{
     padding-bottom: 30px;
-}
+} */
 
 .table-historywatch{
     width: 81%;

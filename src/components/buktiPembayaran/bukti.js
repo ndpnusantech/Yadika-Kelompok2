@@ -27,9 +27,52 @@ const Bukti = () => {
             <h3 className="judul-filmTiket">Kiko In The Deep Sea</h3>
             <p className="keterangan-tanggal">
               SUNDAY, 6 FEBRUARY 2023
-              <br />
-              Cinema VII Bandung
             </p>
+            <p className="keterangan-tanggal2">
+            Cinema VII Bandung
+            </p>
+
+
+           <table className="text-start" style={{marginTop:"-0.95rem"}}>
+              <tr>
+                <td className="pe-3">Harga tiket</td>
+                <td>Rp. 30.000 x5</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>Rp. 150.000</td>
+              </tr>
+              <tr>
+                <td>Tunai</td>
+                <td>Rp. 200.000</td>
+              </tr>
+              <tr>
+                <td>Kembalian</td>
+                <td>Rp. 50.000</td>
+              </tr>
+              <tr>
+                <td>Status</td>
+                <td>(Pending)</td>
+              </tr>
+           </table>
+            {/* <p className="harga-tiket">
+                Harga tiket : Rp.30.000 x5
+
+            </p>
+            <p className="total-harga">
+               Total : Rp. 90.000
+            </p>
+            <p className="tunai-uang">
+              Tunai : Rp. 100.000
+            </p>
+            <p className="kembalian-uang">
+
+              Kembalian : Rp. 10.000
+            </p>
+
+              Kembalian : Rp.50.000
+            </p> */}
+
           </div>
         </div>
 
