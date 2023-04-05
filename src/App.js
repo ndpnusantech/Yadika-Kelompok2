@@ -34,6 +34,7 @@ import KategoriPage from "./pages/kategori";
 import LokasiPage from "./pages/lokasi";
 import TayangPage from "./pages/tayang";
 import TableRecaps from "./pages/tableRecapPage";
+import TransaksiAdmin from "./pages/adminTransaksi";
 
 
 
@@ -75,6 +76,7 @@ function App() {
         <Route path="/lokasi" element={<LokasiPage/>} />
         <Route path="/tayang" element={<TayangPage/>} />
         <Route path="/tabelRecap" element={<TableRecaps/>} />
+        <Route path="/adminTransaksi" element={<TransaksiAdmin/>} />
       </Routes>      
     </BrowserRouter>
   );
