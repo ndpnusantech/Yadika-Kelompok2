@@ -41,8 +41,14 @@ img{
         text-align: left;
     }
     .txt-admSide{
-      margin-left: 70px;
+      margin-left: 4.5rem;
     }
+    .judul-sidebarAdm{
+      text-align: center;
+     
+    }
+
+    
     /* .admSidebar-dropdown{
       margin-left: -1rem;
       text-align: left;
