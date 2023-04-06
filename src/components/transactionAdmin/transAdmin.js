@@ -42,7 +42,7 @@ const AdminTransaksi = () => {
               <img
                 src={bukti1}
                 alt="buktiTransaction1"
-                style={{ width: "8rem" }}
+                style={{ width: "8.1rem" }}
               ></img>
             </th>
             <th>
