@@ -1,4 +1,4 @@
-import LoginGopays from "../../components/HalLoginGopay/HalLoginGopay";
+import LoginGopays from "../../components/chair/HalLoginGopay/HalLoginGopay";
 
 const HalLoginGopay = () => {
   return (

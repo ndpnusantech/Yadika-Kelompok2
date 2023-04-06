@@ -1,5 +1,6 @@
 import AdmSidebar from "../../components/layouts/admSidebar/admSidebar";
 import TableRecap from "../../components/tableRecap/tableRecap";
+
 import "./recapPage.css";
 
 const RecapTablePage = () => {

@@ -29,6 +29,8 @@ import ProductAdmin from "./pages/productAdmin";
 import KategoriPage from "./pages/kategori";
 import LokasiPage from "./pages/lokasi";
 import TayangPage from "./pages/tayang";
+
+import TransaksiAdmin from "./pages/adminTransaksi";
 import LoginPage from "./pages/login/loginPage";
 import HalLoginGopay from "./pages/login/HalLoginGopay";
 import LoginDana from "./pages/login/LoginDana";
@@ -36,12 +38,11 @@ import AdminLogin from "./pages/login/loginAdmin";
 import TableRecap from "./components/tableRecap/tableRecap";
 
 
-
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginPage/>} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/trailer" element={<Trailer />} />
@@ -57,7 +58,7 @@ function App() {
         <Route path="/buktiPembayaran" element={<Pembayaran />} />
         <Route path="/historyTrans" element={<HistoryTransaksi />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
-        <Route path="/HalLoginGopay" element={<HalLoginGopay/>} />
+        <Route path="/HalLoginGopay" element={<HalLoginGopay />} />
         <Route path="/pembayaranPage" element={<Bayar />} />
         <Route path="/post" element={<Post />} />
         <Route path="/pembayaranQris" element={<Qris />} />
@@ -67,14 +68,15 @@ function App() {
         <Route path="/loginDana" element={<LoginDana />} />
         <Route path="/inputDana" element={<InputDana />} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana />} />
-        <Route path="/loginAdmin" element={<AdminLogin/>} />
+        <Route path="/loginAdmin" element={<AdminLogin />} />
         <Route path="/konfirmasiGopay" element={<KonfirmasiGopay />} />
         <Route path="/pinGopay" element={<PinGopay />} />
         <Route path="/productAdmin" element={<ProductAdmin />} />
         <Route path="/kategori" element={<KategoriPage />} />
         <Route path="/lokasi" element={<LokasiPage />} />
         <Route path="/tayang" element={<TayangPage />} />
-        <Route path="/tabelRecap" element={<TableRecap/>} />
+        <Route path="/tabelRecap" element={<TableRecap />} />
+        <Route path="/adminTransaksi" element={<TransaksiAdmin />} />
       </Routes>
     </BrowserRouter>
   );
