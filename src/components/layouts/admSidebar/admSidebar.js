@@ -38,11 +38,7 @@ const AdmSidebar= () => {
                   Post
                 </NavDropdown.Item>
               </NavDropdown>
-
-              {/* <a href="/">DASHBOARD</a> */}
               <li></li>
-              {/* <hr></hr> */}
-              {/* <a href="/">PRODUCT</a> */}
             </li>
 
             <hr className="hr-adm"></hr>
@@ -58,6 +54,12 @@ const AdmSidebar= () => {
                   href="/tabelRecap"
                 >
                   Recap
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  className="judul-sidebarAdm"
+                  href="/transAdmin"
+                >
+                  Transaksi
                 </NavDropdown.Item>
               </NavDropdown>
             </li>
