@@ -8,7 +8,7 @@ import "./product.css"
 const Product = () => {
   const [data, setData] = useState(() => {
     const savedData = localStorage.getItem("movieData");
-    return savedData
+    return savedData // Data Dummy
       ? JSON.parse(savedData)
       : [
           {
@@ -17,6 +17,7 @@ const Product = () => {
             director: "Sally Wongso",
             genre: "Kartun",
             stok: 1050,
+            harga: "Rp.50.000,00",
             tayang: "6 March 2023",
             lokasi: "Cinema VII Bandung",
             status: "Now Playing",
@@ -27,6 +28,7 @@ const Product = () => {
             director: "Makoto Shinkai",
             genre: "Kartun",
             stok: 950,
+            harga: "Rp.50.000,00",
             tayang: "8 March 2023",
             lokasi: "Cinema VII Bandung",
             status: "Now Playing",
@@ -75,12 +77,36 @@ const Product = () => {
     }));
   };
 
+  const handleAdd = () => {
+    const newMovie = {
+      id: data.length + 1,
+      title: "",
+      director: "",
+      genre: "",
+      stok: 0,
+      harga: "",
+      tayang: "",
+      lokasi: "",
+      status: "",
+    };
+    setData([...data, newMovie]);
+  };
+  
+
   //Pop up
   const [show, setShow] = useState(false);
 
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+
+  // Pop UP Edit
+  const [lihat , setLihat ] = useState(false)
+
+  const handleTutup = () => setLihat(false)
+  const handleBuka = () => setLihat(true)
+
 
   const logo = "/assets/logo/logoo 2.png";
 
@@ -89,7 +115,7 @@ const Product = () => {
       <div className="img-product-admin">
         <img src={logo} className="image-product-admin" alt="logo" />
       </div>
-      {data.map((item) => (
+      {/* {data.map((item) => (
         <Button style={{marginLeft:"20rem"}}
           className="btn-add-product-admin"
           variant="light"
@@ -97,8 +123,16 @@ const Product = () => {
         >
           Add
         </Button>
-      ))}
+      ))} */}
+      
       <div className="table-admin">
+      <Button
+                    className="btn-add-product-admin"
+                    variant="light"
+                    onClick={handleAdd}
+                  >
+                  +
+                  </Button>
         <Table className="tr-admin">
           <thead>
             <tr>
@@ -107,6 +141,7 @@ const Product = () => {
               <th className="th-admin">Director</th>
               <th className="th-admin">Genre</th>
               <th className="th-admin">Stok</th>
+              <th className="th-admin">Harga</th>
               <th className="th-admin">Penayangan</th>
               <th className="th-admin">Lokasi</th>
               <th className="th-admin">Status</th>
@@ -121,6 +156,7 @@ const Product = () => {
                 <td className="td-admin">{item.director}</td>
                 <td className="td-admin">{item.genre}</td>
                 <td className="td-admin">{item.stok}</td>
+                <td className="td-admin">{item.harga}</td>
                 <td className="td-admin">{item.tayang}</td>
                 <td className="td-admin">{item.lokasi}</td>
                 <td className="td-admin">{item.status}</td>
@@ -128,7 +164,7 @@ const Product = () => {
                   <Button
                     className="btn-edit-product-admin"
                     variant="light"
-                    onClick={() => handleEdit(item.id)}
+                    onClick={() => {handleBuka();handleEdit(item.id);}}
                   >
                     Edit
                   </Button>
@@ -139,56 +175,27 @@ const Product = () => {
                   >
                     Delete
                   </Button>
+                 
                 </td>
               </tr>
             ))}
           </tbody>
         </Table>
 
-        {/* </tr> */}
-        {/* <img src={logo} className="image-product-admin" alt="logo" /> */}
-        {/* </div> */}
-        {/* <div className="table-admin">
-        <Table className="tr-admin">
-          <thead>
-            <tr>
-              <th className="th-admin">ID</th>
-              <th className="th-admin">Title</th>
-              <th className="th-admin">Director</th>
-              <th className="th-admin">Genre</th>
-              <th className="th-admin">Stok</th>
-              <th className="th-admin">Penayangan</th>
-              <th className="th-admin">Lokasi</th>
-              <th className="th-admin">Status</th>
-              <th className="th-admin">Action</th>
 
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item) => (
-              <tr key={item.id}>
-                <td className="td-admin">{item.id}</td>
-                <td className="td-admin">{item.title}</td>
-                <td className="td-admin">{item.director}</td>
-                <td className="td-admin">{item.genre}</td>
-                <td className="td-admin">{item.stok}</td>
-                <td className="td-admin">{item.tayang}</td>
-                <td className="td-admin">{item.lokasi}</td>
-                <td className="td-admin">{item.status}</td>
-                <td className="td-admin">
-                  <Button
-                    className="btn-delete-product-admin"
-                    variant="light"
-                    onClick={handleShow}
-                    >
-                    Delete
-                  </Button>
-                    </td>
-                    </tr>
- */}
 
-        {editData && (
+        {/* Pop Up Edit */}
+          {data.map((item) => (
+            <Modal show={lihat} onHide={handleTutup} key={item.id} size="lg" style={{color:"black"}}>  
+              <Modal.Header closeButton>
+                <Modal.Title>
+                  Edit Detail Film
+                </Modal.Title>
+              </Modal.Header>
+            <Modal.Body>
+            {editData && (
           <Form onSubmit={handleSave} className="edit-form-admin">
+            <div className="tabel-input-product">
             {/* Title field */}
             <label>
               Title:
@@ -211,6 +218,8 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
+            </div>
+            <div className="tabel-input-product">
             {/* Genre field */}
             <label>
               Genre:
@@ -233,6 +242,8 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
+            </div>
+            <div className="tabel-input-product">
             {/* Penayangan (screening) field */}
             <label>
               Penayangan:
@@ -255,6 +266,8 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
+            </div>
+            <div className="tabel-input-product">
             {/* Status field */}
             <label>
               Status:
@@ -266,16 +279,37 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
-            {/* Save button */}
+            {/* Harga field */}
+            <label>
+              Harga:
+              <input
+                type="text"
+                name="harga"
+                value={editData.harga}
+                onChange={handleChange}
+                className="input-product-admin"
+              />
+            </label>
+           </div>
+          </Form>
+        )}
+            </Modal.Body>
+            <Modal.Footer>
+               <Button onClick={handleTutup}>Close</Button>
+               {/* Save button */}
             <Button
               className="btn-save-product-admin"
               variant="light"
               type="submit"
+              onClick={handleSave}
             >
               Save
             </Button>
-          </Form>
-        )}
+            </Modal.Footer>
+            </Modal>
+          ))}
+
+
 
         {/* //Pop up */}
         {data.map((item) => (
@@ -286,18 +320,18 @@ const Product = () => {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body className="modal-body-product">
-              Yakin loe mau hapos?
+              Apakah anda yakin akan menghapusnya?
             </Modal.Body>
             <Modal.Footer className="modal-footer-product">
               <Button variant="secondary" onClick={handleClose}>
-                ga jadi dech!
+               Cancel
               </Button>
               <Button
                 variant="primary"
                 className="btn-delete-product-admin"
                 onClick={() => handleDelete(item.id)}
               >
-                yups
+                Delete
               </Button>
             </Modal.Footer>
           </Modal>
