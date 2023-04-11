@@ -9,14 +9,15 @@
 }
 
 .logoAtas-login-dana{
-margin-left: 425px;
+margin-left: 500px;
 }
 
 .Container-Dana{
     background: white;
     margin-top: 50px;
     width: 150vh;
-    margin-left: 18vh;
+    margin-left: 33vh;
+    margin-bottom: 10rem;
     height: auto;
     color: black;
 }
