@@ -1,0 +1,9 @@
+.tableAdminTrans {
+  border: 3px solid white;
+  width: 70%;
+  margin-left: 300px;
+  text-align: center;
+}
+.tableAdminTrans th {
+  border: 3px solid white;
+}
