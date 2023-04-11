@@ -115,15 +115,7 @@ const Product = () => {
       <div className="img-product-admin">
         <img src={logo} className="image-product-admin" alt="logo" />
       </div>
-      {/* {data.map((item) => (
-        <Button style={{marginLeft:"20rem"}}
-          className="btn-add-product-admin"
-          variant="light"
-          onClick={() => handleSave(item.id)}
-        >
-          Add
-        </Button>
-      ))} */}
+      
       
       <div className="table-admin">
       <Button
