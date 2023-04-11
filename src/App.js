@@ -33,7 +33,8 @@ import LoginPage from "./pages/login/loginPage";
 import HalLoginGopay from "./pages/login/HalLoginGopay";
 import LoginDana from "./pages/login/LoginDana";
 import AdminLogin from "./pages/login/loginAdmin";
-import TableRecap from "./components/tableRecap/tableRecap";
+import RecapTablePage from "./pages/tableRecapPage/recapPage";
+import TransAdmin from "./pages/trans-min/t-minPage";
 
 
 
@@ -74,7 +75,8 @@ function App() {
         <Route path="/kategori" element={<KategoriPage />} />
         <Route path="/lokasi" element={<LokasiPage />} />
         <Route path="/tayang" element={<TayangPage />} />
-        <Route path="/tabelRecap" element={<TableRecap/>} />
+        <Route path="/tabelRecap" element={<RecapTablePage/>} />
+        <Route path="/transAdmin" element={<TransAdmin/>} />
       </Routes>
     </BrowserRouter>
   );

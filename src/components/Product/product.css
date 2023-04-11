@@ -42,9 +42,9 @@
 
 }
 .btn-delete-product-admin{
-     font-size: 0.7rem;
-     margin-right: -1rem;
-      margin-left: 0.3rem;
+    font-size: 0.7rem;
+    margin-right: -1rem;
+    margin-left: 0.3rem;
     text-align: center;
 
 }
@@ -54,7 +54,11 @@
 }
 .modal-title-product, .modal-body-product, .modal-footer-product{
     color:#010101;
+    /* padding-bottom: 25rem; */
 }
+/* .modal-footer{
+    margin-top: 10rem;
+} */
 
 .input-product-admin{
     display: flex;
@@ -64,3 +68,27 @@
     border: 2px solid black;
     border-radius: 1rem;
 }
+.input-product-description{
+    display: flex;
+    /* width:195%; */
+    height: 13rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: 0.5rem;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+/* .tabel-input-product-description{
+    /* margin-left: -10rem; */
+
+    .tabel-input-product{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-add-movie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 43%;
+        
+    }
