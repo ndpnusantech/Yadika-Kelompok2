@@ -36,6 +36,7 @@ import HalLoginGopay from "./pages/login/HalLoginGopay";
 import LoginDana from "./pages/login/LoginDana";
 import AdminLogin from "./pages/login/loginAdmin";
 import TableRecap from "./components/tableRecap/tableRecap";
+import AdminTransaksi from "./components/historyTransaksiAdmin/hTransaksiAdmin";
 
 
 function App() {
@@ -76,7 +77,7 @@ function App() {
         <Route path="/lokasi" element={<LokasiPage />} />
         <Route path="/tayang" element={<TayangPage />} />
         <Route path="/tabelRecap" element={<TableRecap />} />
-        <Route path="/adminTransaksi" element={<TransaksiAdmin />} />
+        <Route path="/adminTransaksi" element={<AdminTransaksi />} />
       </Routes>
     </BrowserRouter>
   );
