@@ -5,16 +5,16 @@ import Button from 'react-bootstrap/Button';
 const TableRecap = () => {
   return (
     <div className="table-recapAdm">
-          <button className="btn-tblExport">
+          {/* <button className="btn-tblExport">
             export
-          </button>
+          </button> */}
       <table>
         <tbody>
-          <tr>
+          {/* <tr>
             <th colSpan="3" className="option-tabel">
               Pilih Lokasi :<select>{optionItems}</select>
             </th>
-          </tr>
+          </tr> */}
           <tr className="th">
             <th>Judul Film</th>
             <th>Jumlah Penonton</th>
