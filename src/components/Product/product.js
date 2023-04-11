@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react";
 
-import { Button,  Table , Form , Modal} from "react-bootstrap";
-import "./product.css"
-
-
+import { Button, Table, Form, Modal } from "react-bootstrap";
+import "./product.css";
 
 const Product = () => {
   const [data, setData] = useState(() => {
@@ -36,12 +34,7 @@ const Product = () => {
         ];
   });
 
- 
   const [editData, setEditData] = useState(null);
-
-
-
-
 
   useEffect(() => {
     localStorage.setItem("movieData", JSON.stringify(data));
@@ -55,7 +48,6 @@ const Product = () => {
     const newData = data.find((item) => item.id === id);
     setEditData(newData);
   };
-
 
   const handleSave = (event) => {
     event.preventDefault();
@@ -96,7 +88,6 @@ const Product = () => {
   //Pop up
   const [show, setShow] = useState(false);
 
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
@@ -115,24 +106,57 @@ const Product = () => {
       <div className="img-product-admin">
         <img src={logo} className="image-product-admin" alt="logo" />
       </div>
-      {/* {data.map((item) => (
-        <Button style={{marginLeft:"20rem"}}
-          className="btn-add-product-admin"
-          variant="light"
-          onClick={() => handleSave(item.id)}
-        >
-          Add
-        </Button>
-      ))} */}
-      
       <div className="table-admin">
-      <Button
-                    className="btn-add-product-admin"
+        <Table className="tr-admin">
+          <thead>
+            <tr>
+              <th className="th-admin">ID</th>
+              <th className="th-admin">Title</th>
+              <th className="th-admin">Director</th>
+              <th className="th-admin">Genre</th>
+              <th className="th-admin">Stok</th>
+              <th className="th-admin">Penayangan</th>
+              <th className="th-admin">Lokasi</th>
+              <th className="th-admin">Status</th>
+              <th className="th-admin">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item) => (
+              <tr key={item.id}>
+                <td className="td-admin">{item.id}</td>
+                <td className="td-admin">{item.title}</td>
+                <td className="td-admin">{item.director}</td>
+                <td className="td-admin">{item.genre}</td>
+                <td className="td-admin">{item.stok}</td>
+                <td className="td-admin">{item.tayang}</td>
+                <td className="td-admin">{item.lokasi}</td>
+                <td className="td-admin">{item.status}</td>
+                <td className="td-admin">
+                  <Button
+                    className="btn-edit-product-admin"
                     variant="light"
-                    onClick={handleAdd}
+                    onClick={() => handleEdit(item.id)}
                   >
-                  +
+                    Edit
                   </Button>
+                  <Button
+                    className="btn-delete-product-admin"
+                    variant="light"
+                    onClick={handleShow}
+                  >
+                    Delete
+                  </Button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
+
+        {/* </tr> */}
+        {/* <img src={logo} className="image-product-admin" alt="logo" /> */}
+        {/* </div> */}
+        {/* <div className="table-admin">
         <Table className="tr-admin">
           <thead>
             <tr>
@@ -175,27 +199,12 @@ const Product = () => {
                   >
                     Delete
                   </Button>
-                 
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
+                    </td>
+                    </tr>
+ */}
 
-
-
-        {/* Pop Up Edit */}
-          {data.map((item) => (
-            <Modal show={lihat} onHide={handleTutup} key={item.id} size="lg" style={{color:"black"}}>  
-              <Modal.Header closeButton>
-                <Modal.Title>
-                  Edit Detail Film
-                </Modal.Title>
-              </Modal.Header>
-            <Modal.Body>
-            {editData && (
+        {editData && (
           <Form onSubmit={handleSave} className="edit-form-admin">
-            <div className="tabel-input-product">
             {/* Title field */}
             <label>
               Title:
@@ -218,8 +227,6 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
-            </div>
-            <div className="tabel-input-product">
             {/* Genre field */}
             <label>
               Genre:
@@ -242,8 +249,6 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
-            </div>
-            <div className="tabel-input-product">
             {/* Penayangan (screening) field */}
             <label>
               Penayangan:
@@ -266,8 +271,6 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
-            </div>
-            <div className="tabel-input-product">
             {/* Status field */}
             <label>
               Status:
@@ -279,37 +282,16 @@ const Product = () => {
                 className="input-product-admin"
               />
             </label>
-            {/* Harga field */}
-            <label>
-              Harga:
-              <input
-                type="text"
-                name="harga"
-                value={editData.harga}
-                onChange={handleChange}
-                className="input-product-admin"
-              />
-            </label>
-           </div>
-          </Form>
-        )}
-            </Modal.Body>
-            <Modal.Footer>
-               <Button onClick={handleTutup}>Close</Button>
-               {/* Save button */}
+            {/* Save button */}
             <Button
               className="btn-save-product-admin"
               variant="light"
               type="submit"
-              onClick={handleSave}
             >
               Save
             </Button>
-            </Modal.Footer>
-            </Modal>
-          ))}
-
-
+          </Form>
+        )}
 
         {/* //Pop up */}
         {data.map((item) => (
@@ -320,24 +302,31 @@ const Product = () => {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body className="modal-body-product">
-              Apakah anda yakin akan menghapusnya?
+              Yakin loe mau hapos?
             </Modal.Body>
             <Modal.Footer className="modal-footer-product">
               <Button variant="secondary" onClick={handleClose}>
-               Cancel
+                ga jadi dech!
               </Button>
               <Button
                 variant="primary"
                 className="btn-delete-product-admin"
                 onClick={() => handleDelete(item.id)}
               >
-                Delete
+                yups
               </Button>
             </Modal.Footer>
           </Modal>
         ))}
+
+        <Button variant="outline-warning" className="btn-add">
+          <a href="/post" target="_self">
+            Add new product
+          </a>
+        </Button>
       </div>
     </>
-  );};
+  );
+};
 
-export default Product
+export default Product;
