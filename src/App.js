@@ -67,7 +67,7 @@ function App() {
         <Route path="/loginDana" element={<LoginDana />} />
         <Route path="/inputDana" element={<InputDana />} />
         <Route path="/konfirmasiDana" element={<KonfirmasiDana />} />
-        <Route path="/loginAdmin" element={<AdminLogin/>} />
+        <Route path="/loginAdmin" element={<AdminLogin/>} />  
         <Route path="/konfirmasiGopay" element={<KonfirmasiGopay />} />
         <Route path="/pinGopay" element={<PinGopay />} />
         <Route path="/productAdmin" element={<ProductAdmin />} />

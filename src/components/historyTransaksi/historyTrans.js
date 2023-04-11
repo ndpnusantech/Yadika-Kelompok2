@@ -67,8 +67,7 @@ const HistoryTrans = () => {
           </tr>
           <tr>
             <td>Status</td>
-            <td>:</td>
-           
+            <td>:</td> 
             <td>PAID</td>
           </tr>
           
@@ -273,4 +272,4 @@ const HistoryTrans = () => {
     )
 }
 
-export default HistoryTrans
+export default HistoryTrans;

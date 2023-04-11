@@ -14,8 +14,8 @@ const Spay = () => {
           heigt="350px"
           style={{
             marginBottom: "30px",
-            marginTop: "40px",
-            marginLeft: "600px",
+            marginTop: "60px",
+            marginLeft: "665px",
           }}
         /> <br />
         <img  class="imgspay" src="./assets/logo/spay.png" alt="" />
@@ -30,20 +30,20 @@ const Spay = () => {
                 <input  className="input-spay-login" type="password" placeholder="Password" />
 
             <form action="" className="input">
-                <input type="text" placeholder="No.Handphone / Email / Username" />
+                {/* <input type="text" placeholder="No.Handphone / Email / Username" />
                 <hr />
                  <br />
                 <input type="password" placeholder="Password" />
 
                 <hr />
                 <img src="./assets/logo/logoakun.png" alt="" /> <br/> <br/> <br/>
-                <img src="./assets/logo/gembok.png" alt="" /> <br/> <br/>
+                <img src="./assets/logo/gembok.png" alt="" /> <br/> <br/> */}
                <div className="abc">
-                <img src="./assets/logo/abc.png" alt="" />
+                {/* <img src="./assets/logo/abc.png" alt="" /> */}
                 </div>
             </form>
-<Button href="spayPage2" className="button-spay">Konfirmasi</Button>
-</form>
+      <Button href="spayPage2" className="button-spay">Konfirmasi</Button>
+            </form>
         </div>
       </div>
       

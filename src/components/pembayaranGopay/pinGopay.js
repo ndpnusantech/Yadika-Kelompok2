@@ -64,7 +64,7 @@ const PinBuatGopay =() => {
          </div>
       </div>
 
-          <Button variant="success" onClick={handleShow} className="btn-confirm-pin-gopay">Konfirmasi</Button>
+          {/* <Button variant="success" onClick={handleShow} className="btn-confirm-pin-gopay">Konfirmasi</Button> */}
 
         </div>
       </div>
@@ -95,7 +95,7 @@ const PinBuatGopay =() => {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title className="modal-title-dana">Input Pin Sukse</Modal.Title>
+          <Modal.Title className="modal-title-dana">Input Pin Sukses</Modal.Title>
         </Modal.Header>
         <Modal.Body className="modal-body-dana">
           Sekarang Kirim Bukti Pembayaran Dari Aplikasi

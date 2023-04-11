@@ -24,11 +24,9 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    margin-left: 1.3rem;
     margin-top: 1rem;
-
     margin-top: 2rem;
-
     /* margin-left: 22.8rem;    */
     /* display: flex;  */
 }
@@ -64,12 +62,13 @@ body{
 
 /* /////////////////////////// */
 
-/* .btn-inputBuktiPembayaran-qris {
+.btn-inputBuktiPembayaran-qris {
  
     margin-top: 0.8rem;
+    margin-bottom: 2rem;
     text-align: center;
     
-} */
+}
 
 /* .btn-inputBuktiPembayaran-qris .ibtn-BuktiQris{
 =======

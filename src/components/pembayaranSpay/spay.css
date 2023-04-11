@@ -8,7 +8,7 @@
 
 .logoImg .imgspay{
     margin-top: -40px;
-    margin-left: 710px;
+    margin-left: 48.5rem;
     width: 100px;
     height: 40px;
 }
@@ -16,11 +16,17 @@
 .logoImg .kotak{
     background-color: #FFFFFF;
     color: #464646;
-    margin-left: 420px;
+    margin-left: 30rem;
     width: 700px;
     height: 450px;
     display: flex;
     margin-top: 15px;
+}
+
+        /*  */
+.logoImg .input {
+    margin-bottom: -30rem;
+    
 }
 
 .logoImg .kotak h1{
@@ -85,7 +91,7 @@ margin-left: -160px;
 
 .logoImg .kotak .button-spay{
     margin-top: 350px;
-    margin-left: -340px;
+    margin-left: -40px;
     width: 340px;
     padding-top: 20px;
     height: 65px;
@@ -101,7 +107,7 @@ margin-left: -160px;
 .logoImg .kotak2{
     background-color: #FFFFFF;
     color: #464646;
-    margin-left: 420px;
+    margin-left: 29.5rem;
     width: 700px;
 
     height: 25rem;
@@ -209,7 +215,9 @@ margin-left: -160px;
     margin-top: -30px;
     font-weight: bold;
 }
-
+.logoImg .btn-inputBuktiPembayaran-qris {
+    margin-left: 7.5rem;
+}
 .logoImg .kotak2 .button-spay2{
     margin-top: 350px;
     margin-left: -500px;

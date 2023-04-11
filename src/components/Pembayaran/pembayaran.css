@@ -7,7 +7,7 @@
   background-color: #1e2022;
   width: 800px;
   height: 300px;
-  margin-left: 340px;
+  margin-left: 370px;
   margin-top: 30px;
   border-radius: 10px;
 }
@@ -72,6 +72,10 @@
   margin-top: 30px;
   /* font-size: 1000px; */
   font-weight: bold;
+}
+
+.titlePay {
+  margin-bottom: 10rem;
 }
 
 .btnQris {

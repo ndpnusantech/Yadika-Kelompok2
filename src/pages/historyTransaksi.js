@@ -10,4 +10,4 @@ const historyTransaksi = () => {
     )
 }
 
-export default historyTransaksi
+export default historyTransaksi;

@@ -33,8 +33,8 @@ const Spay2 = () => {
           heigt="350px"
           style={{
             marginBottom: "30px",
-            marginTop: "40px",
-            marginLeft: "600px",
+            marginTop: "60px",
+            marginLeft: "665px",
           }}
         />
         <br />
