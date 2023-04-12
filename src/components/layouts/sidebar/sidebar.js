@@ -13,15 +13,15 @@ const Sidebar= () => {
             <ul>
               <hr className="hr-img"></hr>
               <li>
-                <a href="/home">Home</a>
+                <a href="/home" className="a-side">Home</a>
               <li>
               </li>
               <hr></hr>
-                <a href="/ticket">Ticket</a>
+                <a href="/ticket" className="a-side">Ticket</a>
               </li>
               <li>
               <hr></hr>
-                <a href="/akunPage" >Account</a>
+                <a href="/akunPage" className="a-side">Account</a>
               <hr></hr>
               </li>
             </ul>
