@@ -12,12 +12,13 @@ ul {
   }
   
 
-  ul li a {
+  ul li .a-side {
     text-decoration: none;
     color: white;
-    margin-left: -10px;
     font-size: 25px;
+    margin-right: -5rem;
     justify-items: center;
+    text-align: center;
   }
 
   hr{

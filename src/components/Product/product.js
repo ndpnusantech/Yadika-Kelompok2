@@ -19,7 +19,6 @@ const Product = () => {
             tayang: "6 March 2023",
             lokasi: "Cinema VII Bandung",
             status: "Now Playing",
-            jamTayang: 10.0,
             description:
               "Kiko In the Deep Sea menggambarkan petualangan mereka di dasar laut akibat kerusakan ekosistem di seluruh perairan. Mereka bertualang bersama Putri Carla si Ikan Duyung dari Shell Castle, untuk mencari Lima Mutiara Pelindung, yang dapat memulihkan lingkungan yang rusak.",
           },
@@ -33,7 +32,6 @@ const Product = () => {
             tayang: "8 March 2023",
             lokasi: "Cinema VII Bandung",
             status: "Now Playing",
-            jamTayang: 10.0,
             description:
               "Kiko In the Deep Sea menggambarkan petualangan mereka di dasar laut akibat kerusakan ekosistem di seluruh perairan. Mereka bertualang bersama Putri Carla si Ikan Duyung dari Shell Castle, untuk mencari Lima Mutiara Pelindung, yang dapat memulihkan lingkungan yang rusak.",
           },
@@ -316,23 +314,14 @@ const Product = () => {
                     <label>
                       Description :
                       <input
-                        type="text"
+                        as="textarea"
                         name="harga"
                         value={editData.description}
-                        onChange={handleChange}
-                        className="input-product-description"
-                      />
-                    </label>
-                    <label>
-                      Jam tayang :
-                      <input
-                        type="text"
-                        name="harga"
-                        value={editData.jamTayang}
                         onChange={handleChange}
                         className="input-product-admin"
                       />
                     </label>
+                    
                   </div>
                 </Form>
               )}
@@ -419,7 +408,7 @@ const Product = () => {
           <Modal show={show} onHide={handleClose} key={item.id}>
             <Modal.Header closeButton>
               <Modal.Title className="modal-title-product">
-                Menghapus product
+                Delete Item
               </Modal.Title>
             </Modal.Header>
             <Modal.Body className="modal-body-product">
@@ -431,7 +420,7 @@ const Product = () => {
               </Button>
               <Button
                 variant="primary"
-                className="btn-delete-product-admin"
+                className="btn-delete-product-admin-modal"
                 onClick={() => handleDelete(item.id)}
               >
                 Delete

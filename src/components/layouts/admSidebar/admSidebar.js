@@ -1,5 +1,5 @@
 import "./admSidebar.css";
-import { NavDropdown  } from "react-bootstrap" 
+import { NavDropdown , Nav } from "react-bootstrap" 
 
 const AdmSidebar= () => {
   const logo = "./assets/navbar/logoo2.png";
@@ -14,7 +14,7 @@ const AdmSidebar= () => {
             <li>
               <hr className="hr-adm"></hr>
 
-              <a href="/dashboardAdmin">DASHBOARD</a>
+              <Nav.Link href="/dashboardAdmin">DASHBOARD</Nav.Link>
               <li></li>
               <hr className="hr-adm"></hr>
               <NavDropdown title="PRODUCT" id="navbarScrollingDropdown">
@@ -24,9 +24,11 @@ const AdmSidebar= () => {
                 >
                   Product
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item className="judul-sidebarAdm" href="/kategori">
                   Kategori
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item className="judul-sidebarAdm" href="/lokasi">
                   Lokasi
                 </NavDropdown.Item>
@@ -34,6 +36,7 @@ const AdmSidebar= () => {
                 <NavDropdown.Item className="judul-sidebarAdm" href="/tayang">
                   Jam Tayang
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item className="judul-sidebarAdm" href="/post">
                   Post
                 </NavDropdown.Item>
@@ -55,6 +58,7 @@ const AdmSidebar= () => {
                 >
                   Recap
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
                 <NavDropdown.Item
                   className="judul-sidebarAdm"
                   href="/transAdmin"
