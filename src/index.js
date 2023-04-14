@@ -1,13 +1,8 @@
-
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './index.css';
-import App from './App';
-// <<<<<<< HEAD
-
-// =======
-// >>>>>>> e3c56951ce0ddb32c0256315780535130e96755b
+import "./index.css";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
