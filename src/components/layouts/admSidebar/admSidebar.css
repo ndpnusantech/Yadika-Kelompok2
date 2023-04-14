@@ -13,10 +13,10 @@ img{
     ul li a {
       text-decoration: none;
       color: white;
-      margin-left: -1.7rem;
+      margin-left:-2rem;
       font-size: 25px;
-      justify-items: center;
-      text-align: left;
+      /* justify-items: center; */
+      text-align: center;
     }
   
     .hr-adm{
@@ -46,6 +46,7 @@ img{
     .judul-sidebarAdm{
       text-align: center;
      margin-left: 0rem;
+     font-size: 1rem;
     }
 
     
