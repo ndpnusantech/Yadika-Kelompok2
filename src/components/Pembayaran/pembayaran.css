@@ -23,7 +23,7 @@
 .boxPembayaran .container-pembayaran .judul {
   margin-left: 270px;
   font-size: 25px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 /* .boxPembayaran .container-pembayaran p {
   margin-left: 250px;
@@ -35,17 +35,22 @@
 } */
 .boxPembayaran .container-pembayaran .tanggal{
   margin-left: 270px;
-  margin-top: 15px;
+  /* margin-top: 5px; */
+  font-size: 20px;
+} 
+.boxPembayaran .container-pembayaran .jam{
+  margin-left: -5rem;
+  /* margin-top: 15px; */
   font-size: 20px;
 } 
 .boxPembayaran .container-pembayaran .tempat{
   margin-left: 300px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   font-size: 20px;
 } 
 .boxPembayaran .container-pembayaran .venue{
   margin-left: 370px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   font-size: 20px;
 } 
 
