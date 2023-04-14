@@ -4,9 +4,6 @@ import "./tableRecap.css";
 const TableRecap = () => {
   return (
     <div className="table-recapAdm">
-          <button className="btn-tblExport">
-            export
-          </button>
       <table>
         <tbody>       
           <tr className="th">
@@ -31,6 +28,9 @@ const TableRecap = () => {
           </tr>
         </tbody>
       </table>
+          <button className="btn-tblExport">
+            export
+          </button>
     </div>
   );
 };

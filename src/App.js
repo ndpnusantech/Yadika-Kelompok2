@@ -37,7 +37,8 @@ import LoginDana from "./pages/login/LoginDana";
 import AdminLogin from "./pages/login/loginAdmin";
 import TableRecap from "./components/tableRecap/tableRecap";
 import AdminTransaksi from "./components/historyTransaksiAdmin/hTransaksiAdmin";
-
+import RecapTablePage from "./pages/tableRecapPage/recapPage";
+import TransAdmin from "./pages/trans-min/t-minPage";
 
 function App() {
   return (
@@ -78,6 +79,8 @@ function App() {
         <Route path="/tayang" element={<TayangPage />} />
         <Route path="/tabelRecap" element={<TableRecap />} />
         <Route path="/adminTransaksi" element={<AdminTransaksi />} />
+        <Route path="/tabelRecap" element={<RecapTablePage />} />
+        <Route path="/transAdmin" element={<TransAdmin />} />
       </Routes>
     </BrowserRouter>
   );
