@@ -8,16 +8,12 @@
   align-items: center;
   flex-direction: row;
   /* margin-bottom: 16px; */
-  margin-left: -350px;
+  margin-left: 20rem;
   border: none;
   background: transparent;
 }
 
-/* .card-title-akun {
-  margin-left: 150px;
-  flex: 2;
-  
-} */
+
 /* 
 .h5 , h5{
   font-size: 205px;
@@ -27,7 +23,7 @@
 .card-txt-akun{
   margin-left: -3rem;
   text-align: left;
-  width: 150px;
+  width: 10rem;
 
 }
 
@@ -45,8 +41,8 @@
 }
 
 .btn-group-akun{
-  margin-top: 55px;
-  margin-left:12.5rem;
+  margin-top: 5rem;
+  margin-left:17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

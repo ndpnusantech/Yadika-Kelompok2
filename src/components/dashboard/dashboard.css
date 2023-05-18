@@ -1,10 +1,10 @@
 .konten-dashboard .imgLogoCinem{
-    margin-left: 625px;
-    margin-top: 25px;
+    margin-left: 44rem;
+    margin-top: 2rem;
 }
 .konten-dashboard .imgLogoCinem img{
-    width: 10.5rem;
-    height: 3.5rem;
+    width: 14rem;
+    height: 4rem;
 }
 .konten-dashboard .stats-dashboard{
     text-align: center;
@@ -27,7 +27,7 @@
 
 .card-admin{
     width: 750px;
-   margin-left: 325px;
+   margin-left: 30rem;
 }
 
 .BT{

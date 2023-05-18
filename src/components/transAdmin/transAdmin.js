@@ -1,9 +1,13 @@
 import "./transAdmin.css";
-import { Table, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Modal, Button, Table } from "react-bootstrap";
+
 const AdminTransaksi = () => {
   const logoN = "./assets/navbar/logoo2.png";
   const bukti1 = "./assets/transAdmin/qrisBukti1.jpg";
-
+  
+  const [showPopup, setShowPopup] = useState(false);
+  const [popupImage, setPopupImage] = useState("");
   return (
     <>
       <div className="logoImg">
@@ -39,11 +43,21 @@ const AdminTransaksi = () => {
             <th>Paid</th>
             <th>bukti Qris</th>
             <th>
-              <img
+            <Button
+                className="btn-delete-transaction-admin"
+                variant="light"
+                onClick={() => {
+                  setShowPopup(true);
+                  setPopupImage(bukti1);
+                }}
+              >
+                lihat
+              </Button>
+              {/* <img
                 src={bukti1}
                 alt="buktiTransaction1"
                 style={{ width: "8rem" }}
-              ></img>
+              ></img> */}
             </th>
             <th>
               <Button
@@ -57,6 +71,16 @@ const AdminTransaksi = () => {
           </tr>
         </tbody>
       </Table>
+      <Modal show={showPopup} onHide={() => setShowPopup(false)}>
+        <Modal.Body>
+          <img src={popupImage} alt="buktiTransaction1" style={{ width: "100%" }} />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setShowPopup(false)}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 };

@@ -13,7 +13,7 @@
 import "./login.css";
 
 const LoginUser= () => {
-  const logo = "/assets/logo/logoo 2.png";
+  const logo = "/assets/navbar/logoo2.png";
 
   return (
     <div className="boxLogin">
@@ -35,7 +35,7 @@ const LoginUser= () => {
           alt=""
           width="300px"
           heigt="350px"
-          style={{ marginBottom: "50px", marginTop: "60px" }}
+          style={{ marginBottom: "50px", marginTop: "60px", marginLeft: "-1rem" }}
         />
       </div>
       <div className="formLogin">

@@ -7,7 +7,7 @@ import CardFavorit from "./cardFavorite";
 import Sidebar from "../layouts/sidebar/sidebar";
 
 const Favorite = () => {
-  const logoF = "./assets/logo/logoo 2.png";
+  const logoF = "./assets/navbar/logoo2.png";
   return (
     <div className="favorite">
       <div className="sidebar">

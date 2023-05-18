@@ -7,7 +7,7 @@ const Akun = () => {
   const username = localStorage.getItem("username");
   // const password = localStorage.getItem('password');
   const noHp = localStorage.getItem("noHP");
-  const email = localStorage.getItem("email");
+  const email = "yantiindriani691@gmail.com";
   return (
     <>
       <Sidebar />
@@ -26,7 +26,7 @@ const Akun = () => {
                 <br />
                 <Card.Text
                   className="card-txt-akun ms-2"
-                  style={{ marginTop: "-65px" }}
+                  style={{ marginTop: "-2rem", width: "50rem"  }}
                 >
                   <Card.Title className="card-title-akun">
                     {username}

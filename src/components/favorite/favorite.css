@@ -5,12 +5,12 @@
 
 .inFav .logFav{
     position: relative;
-    margin-left: 360px;
+    margin-left: 30rem;
     margin-top: -30px;
 }
 .inFav h2{
     /* position: absolute; */
-    margin-left: 450px;
+    margin-left: 35rem;
     /* margin-top: 50px; */
     font-size: 38px;
 }

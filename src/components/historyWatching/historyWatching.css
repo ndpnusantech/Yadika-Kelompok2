@@ -4,7 +4,7 @@
 
 .table-historywatch{
     width: 81%;
-    margin-left: 220px;
+    margin-left: 15rem;
     border: none;
     background-color: rgb(36, 36, 53);
     margin-top: 50px;
@@ -14,33 +14,34 @@
 
 th img{
     border-radius: 5px;
-    width: 100px;
+    width: 8rem;
 }
 th{
     color: white;
     border: none;
     font-size: 19px;
-    padding-bottom: 30px;
+    margin: 2rem;
 }
 .th-a{
     color: #d6a864;
 }
 
 .inHistoryWatch h2{
-    margin-left: 300px;
-    font-size: 38px;
+    margin-top: 1rem;
+    margin-left: 28rem;
+    font-size: 25px;
 }
 
 .inHistoryWatch{
     margin: 0;
     margin-bottom: 20px;
-    margin-top: 75px;
-    margin-left: 250px;
-    width: 965px;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    width: 50rem;
     
 }
 .inHistoryWatch .logohistoryWatch{
     /* position: relative; */
-    margin-left: 320px;
-    margin-top: -30px;
+    margin-left: 25rem;
+    margin-top: -1px;
 }

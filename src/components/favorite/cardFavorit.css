@@ -1,5 +1,5 @@
 .card {
-  width: 190px;
+  width: 11rem;
   background: transparent;
   border: none;
   margin-top: 50px;
@@ -30,7 +30,7 @@ a {
 }
 
 .butX{
-  margin-left: 4.72rem;
+  margin-left: 4rem;
   margin-top: 0.96rem;
   text-align: left;
   color: #ffffff;

@@ -1,5 +1,6 @@
 import Table from "react-bootstrap/Table"
 import "./historyWatching.css"
+import { data } from "../../Data/dataCards";
 
 const Watching = () => {
     const kiko = "./Images Card Movie/kiko deep sea.jpg"
@@ -12,15 +13,18 @@ const Watching = () => {
                 <h2>History Watching</h2>
                 </div>
 <Table className='table-historywatch'>
-    <tbody>
+    {data.map((data) => (
+    <tbody >
         <tr>
-        <th className="text-center align-middle"><img src={kiko} alt="kiko"/></th>
-        <th className='text-center align-middle'>KIKO IN THE DEEP SEA</th>
+        <th className="text-center align-middle"><img src={data.img} alt="kiko"/></th>
+        <th className='text-center align-middle'>{data.tittle}</th>
         <th className='text-center align-middle'>SUNDAY 6 FEBRUARY 2023</th>
         <th className='text-center align-middle'>CINEMA VII BANDUNG</th>
             
         </tr>
+       
     </tbody>
+    ))}
 </Table>
 </>
     )
