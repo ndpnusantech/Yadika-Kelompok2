@@ -5,4 +5,4 @@ const database = new Sequelize ('cinemavii_db','root','',{
     dialect: "mysql"
 })
 
-export default database
+export default database       
