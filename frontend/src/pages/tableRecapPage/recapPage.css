@@ -1,0 +1,10 @@
+.tbl-recap-options{
+    display: flex;
+}
+.tbl-recap-options .tbl-recap-option1{
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+.tbl-recap-options .tbl-recap-option1 .tbl-recap-option2 .tr-option .option-tabel{
+    width: 6.5rem;
+}

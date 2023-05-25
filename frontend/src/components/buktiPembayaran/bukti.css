@@ -1,0 +1,132 @@
+.box-pembayaran {
+  width: 540px;
+  height: 540px;
+  background: #252525;
+  margin: 50px 500px;
+}
+.box-pembayaran .img-all-buktiPembayaran {
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+.box-pembayaran .img-all-buktiPembayaran .img-logoCinema {
+  width: 190px;
+  height: 50px;
+  text-align: center;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+.box-pembayaran .img-all-buktiPembayaran .img-logoPembayaran {
+  width: 70px;
+  height: 70px;
+  margin: 25px;
+  margin-bottom: 0;
+}
+
+/* content cardnya */
+.box-pembayaran .isi-card-film {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.box-pembayaran .isi-card-film .card-film-poster .poster-filmPembayaran{
+  width: 180px;
+  height: 250px;  
+  margin-top: 20px;
+  margin-left:40px;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm{
+  margin-right: 40px;
+  margin-top: 90px;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .judul-filmTiket{
+  font-size: 24px;
+  margin-top: -60px;
+  margin-right: 15px;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .keterangan-tanggal{
+  font-size: 18px;
+  margin-left: -2rem;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .keterangan-tanggal2{
+  font-size: 17px;
+  margin-top: -15px;
+  margin-left: -5.3rem;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .harga-tiket{
+  margin-top: -0.8rem;
+  margin-left: -2.3rem;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .total-harga{
+  margin-top: -13px;
+  margin-left:  -8rem;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .tunai-uang{
+  margin-top: -13px;
+  margin-left:  -7.3rem;
+}
+.box-pembayaran .isi-card-film .judul-buktifilm .kembalian-uang{
+  margin-top: -13px;
+  margin-left: -5rem;
+}
+
+
+
+/* content bawah */
+.box-pembayaran .table-bukti-pembayaran{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+  padding: 30px;
+  background-color: #ffffffc2;
+  color: #010101;
+
+}
+.box-pembayaran .table-bukti-pembayaran .dataTicket h2, h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-pembayaran .table-bukti-pembayaran .dataTicket .dataTicket1{
+  margin-left: 50px;
+}
+.box-pembayaran .table-bukti-pembayaran .dataTicket .dataTicket2{
+  text-align: center;
+  margin-inline-start: 35px;
+}
+.box-pembayaran .table-bukti-pembayaran .dataTicket .dataTicket3{
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* table */
+/* .box-pembayaran .table-bukti-pembayaran{
+  margin: 30px 0px ;
+  background-color: #ffffffab;
+  height: 100px;
+}
+.box-pembayaran .table-bukti-pembayaran{
+  text-align: center;
+  height: 137px; 
+  margin-top: 70px;
+  background-color: #ffffffab;
+  color: #010101;
+}
+
+.box-pembayaran .table-bukti-pembayaran table tr th, td{
+  border: 1px solid#010101;
+  padding: 0;
+  width: 200px;
+  color: #010101;
+  text-align: center;
+} */

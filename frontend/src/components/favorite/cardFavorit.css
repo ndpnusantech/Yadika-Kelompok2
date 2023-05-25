@@ -1,0 +1,43 @@
+.card {
+  width: 190px;
+  background: transparent;
+  border: none;
+  margin-top: 50px;
+  height: auto;
+}
+
+.card-body {
+  text-align: center;
+  /* margin-left: 30px; */
+  color: white;
+  margin-bottom: -70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card-row {
+  margin: 0;
+}
+
+.card-title {
+  font-size: 20px;
+}
+.card-text {
+  font-size: 15px;
+  color: rgb(134, 134, 134);
+}
+
+.butX{
+  margin-left: 4.72rem;
+  margin-top: 0.96rem;
+  text-align: left;
+  color: #ffffff;
+  background-color: #1f0c0c6c;
+  
+}
+.set-card {
+  justify-content: center;
+  margin-left: -1rem;
+}

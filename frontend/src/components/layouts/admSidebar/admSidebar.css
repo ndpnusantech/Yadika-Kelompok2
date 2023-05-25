@@ -1,0 +1,56 @@
+img{
+    margin-top: 25px;
+    margin-left: 20px;
+    
+  }
+  ul {
+      list-style: none;
+      text-align: left;
+      
+    }
+    
+  
+    ul li a {
+      text-decoration: none;
+      color: white;
+      margin-left:-2rem;
+      font-size: 25px;
+      /* justify-items: center; */
+      text-align: center;
+    }
+  
+    .hr-adm{
+      width:13.5rem;
+      margin-left: -47px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+     .admsidebar {
+      position: fixed;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      height: 130vh;
+      width: 200px;
+      border: none;
+      background-color: #2b344e;
+    }
+  
+    .admsidebar .admHistory{
+        font-size: 17px;
+        text-align: left;
+    }
+    .txt-admSide{
+      margin-left: 4.5rem;
+    }
+    .judul-sidebarAdm{
+      text-align: center;
+     margin-left: 0rem;
+     font-size: 1rem;
+    }
+
+    
+    /* .admSidebar-dropdown{
+      margin-left: -1rem;
+      text-align: left;
+    } */

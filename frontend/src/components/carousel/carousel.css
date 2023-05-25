@@ -1,0 +1,15 @@
+.carousel img {
+    width: 100%;
+}
+
+.carousel {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    margin-left: 175px;
+
+}
+
+.carousel-item {
+    width: 100%;
+}
