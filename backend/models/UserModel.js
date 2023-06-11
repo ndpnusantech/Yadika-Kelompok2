@@ -5,10 +5,10 @@ const { DataTypes } = Sequelize;
 
 const user = database.define('user',{
     id_user:DataTypes.INTEGER,
-    name_user:DataTypes.STRING(255),
+    name_user:DataTypes.STRING,
     password_user:DataTypes.TEXT,
-    email_user:DataTypes.STRING(255),
-    no_user:DataTypes.STRING(255),
+    email_user:DataTypes.STRING,
+    no_user:DataTypes.STRING,
     img_user:DataTypes.TEXT,  
 },{
     freezeTableName:true
