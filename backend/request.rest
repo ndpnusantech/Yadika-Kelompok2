@@ -1,0 +1,33 @@
+GET http://localhost:5000/user
+
+
+###
+GET http://localhost:5000/user/1
+
+###
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "id":1,
+    "id_user": 2,
+    "name_user": "Fachri",
+    "password_user": "fachri123",
+    "email_user": "fachri@gmail.com",
+    "no_user": "08222222",
+    "img_user": "Example"
+}
+###
+PATCH  http://localhost:5000/user/1
+Content-Type: application/json
+
+{
+    "id_user": 1,
+    "name_user": "Fachriiii",
+    "password_user": "fachri123",
+    "email_user": "fachri@gmail.com",
+    "no_user": "08222222",
+    "img_user": ""
+}
+###
+DELETE  http://localhost:5000/user/3

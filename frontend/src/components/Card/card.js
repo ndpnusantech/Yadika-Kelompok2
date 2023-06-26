@@ -16,7 +16,7 @@ function Cards() {
                   <Card.Text className="card-txt">RP {data.price}</Card.Text>
                   <Card.Text className="card-txt">{data.status}</Card.Text>
                   <Card.Title>{data.tittle}</Card.Title>
-                  <Card.Text ext className="card-txt">{data.text}</Card.Text>
+                  <Card.Text className="card-txt">{data.text}</Card.Text>
                 </Card.Body>
               </Card>
             </a>
