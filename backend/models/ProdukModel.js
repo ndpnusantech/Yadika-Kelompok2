@@ -5,7 +5,7 @@ const { DataTypes } = Sequelize;
 
 const produk = database.define('produk',{
     id_film:DataTypes.INTEGER,
-    tittle_film:DataTypes.STRING,
+    title_film:DataTypes.STRING,
     director_film:DataTypes.STRING,
     id_gendre:DataTypes.STRING,
     synopsis_film:DataTypes.TEXT,

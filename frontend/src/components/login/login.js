@@ -1,13 +1,5 @@
-
-
-
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
-
-
-
-
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
-
 
 
 import "./login.css";

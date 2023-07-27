@@ -19,7 +19,7 @@ const CardFavorit = () => {
             {/* <a href="/trailer"> */}
             <Card className="card" id={data.id}>
               <button className="butX" variant="primary" onClick={handleShow}>
-                x
+                x   
               </button>
               <Card.Img className="card-img" src={data.img} />
               <Card.Body className="card-body">
