@@ -6,9 +6,9 @@ const { DataTypes } = Sequelize;
 
 const hargaProduk = database.define('harga_produk',{
     id_hargafilm:DataTypes.INTEGER,
-    weekend_film:DataTypes.STRING,
-    normal_film:DataTypes.STRING,
-    special_film:DataTypes.STRING,  
+    weekend_film:DataTypes.DECIMAL,
+    normal_film:DataTypes.DECIMAL,
+    special_film:DataTypes.DECIMAL,  
 },{
     freezeTableName:true
 });

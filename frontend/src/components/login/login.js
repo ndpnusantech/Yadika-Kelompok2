@@ -1,13 +1,5 @@
-
-
-
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
-
-
-
-
 // import AdmSidebar from "../layouts/admSidebar/admSidebar";
-
 
 
 import "./login.css";
@@ -17,18 +9,6 @@ const LoginUser= () => {
 
   return (
     <div className="boxLogin">
-
-
-
-
-
-    
-
-
-
-    
-
-
       <div className="logoLogin">
         <img
           src={logo}

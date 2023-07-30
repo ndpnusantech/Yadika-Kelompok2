@@ -15,7 +15,7 @@ export const getProdukById = async(req, res ) => {
             where:{
                 id:req.params.id
             }
-        });
+        });e
         res.status(200).json(response)
     } catch (error) {
         console.log(error.message);

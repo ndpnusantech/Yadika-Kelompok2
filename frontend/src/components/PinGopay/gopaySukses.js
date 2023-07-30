@@ -69,7 +69,7 @@ const GopaySukses = () => {
             Terima kasih telah menggunakan GOPAY sebagai metode pembayaran anda
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="dark" onClick={handleClose}>
+            <Button variant="dark" onClick={handleClose }>
               Close
             </Button>
             <Button

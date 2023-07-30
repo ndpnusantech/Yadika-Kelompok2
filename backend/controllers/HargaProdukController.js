@@ -24,8 +24,8 @@ export const getHargaProdukById = async(req, res ) => {
 
 export const createHargaProduk = async(req, res ) => {
     try {
-        await hargaProduk.create(req.body);   
-        res.status(201).json({msg:"harga produk created"})
+        const response = await hargaProduk.create(req.body);   
+        res.status(201).json({msg:"harga produk created", response})
     } catch (error) {
         console.log(error.message);
     }
@@ -33,7 +33,7 @@ export const createHargaProduk = async(req, res ) => {
 
 export const updateHargaProduk = async(req, res ) => {
     try {
-        await hargaProduk.update(req.body,{
+         await hargaProduk.update(req.body,{
             where:{
                 id: req.params.id
             }

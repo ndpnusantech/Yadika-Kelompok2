@@ -29,6 +29,7 @@ const Pembayaran = () => {
           <p className="judul">KIKO IN THE DEEP SEA</p>
           <p className="tanggal">SUNDAY , 6 FEBRUARY 2023</p>
           <p className="tempat">Cinema VII Bandung</p>
+          <p className="jam" style={{textAlign:"center"}}>10.00 WIB</p>
           <p className="venue">A7</p> <br />
 
         </div>
