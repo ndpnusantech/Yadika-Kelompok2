@@ -3,15 +3,27 @@ import database from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const FavFilm = database.define(
-  "Fav_film",
+const SeatFilm = database.define(
+  "seatFilm",
   {
-    id_FavFilm: {
+    id: {
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
-    id_user: {
+    id_seatFilm: {
+      type: DataTypes.INTEGER,
+    },
+    seat_number: {
+      type: DataTypes.INTEGER,
+    },
+    studio_film: {
+      type: DataTypes.INTEGER,
+    },
+    id_ticket: {
+      type: DataTypes.INTEGER,
+    },
+    id_pembayaran: {
       type: DataTypes.INTEGER,
     },
   },
@@ -20,7 +32,7 @@ const FavFilm = database.define(
   }
 );
 
-export default FavFilm;
+export default SeatFilm;
 
 (async () => {
   await database.sync();

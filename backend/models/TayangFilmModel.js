@@ -3,22 +3,22 @@ import database from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const SeatFilm = database.define(
-  "seatFilm",
+const tayangFilm = database.define(
+  "tayang_film",
   {
     id: {
       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
-    id_seatFilm: DataTypes.INTEGER,
-    seat_number: DataTypes.INTEGER,
-    studio_film: DataTypes.INTEGER,
-    id_ticket: DataTypes.INTEGER,
-    id_transaksi: {
-      primaryKey: true, 
-      autoIncrement: true,
+    id_tayang: {
       type: DataTypes.INTEGER,
+    },
+    id_jam: {
+      type: DataTypes.TIME,
+    },
+    id_penayangan: {
+      type: DataTypes.STRING,
     },
   },
   {
@@ -26,7 +26,7 @@ const SeatFilm = database.define(
   }
 );
 
-export default SeatFilm;
+export default tayangFilm;
 
 (async () => {
   await database.sync();

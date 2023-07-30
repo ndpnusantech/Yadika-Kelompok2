@@ -1,4 +1,4 @@
-import SeatFilm from "../models/SeatModel.js";
+import SeatFilm from "../models/SeatFilmModel.js";
 
 export const getSeatFilm = async (req, res) => {
   try {
@@ -16,7 +16,6 @@ export const getSeatFilmById = async (req, res) => {
         id: req.params.id,
       },
     });
-    e;
     res.status(200).json(response);
   } catch (error) {
     console.log(error.message);

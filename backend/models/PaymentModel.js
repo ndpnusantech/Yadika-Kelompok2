@@ -11,11 +11,13 @@ const Payment = database.define(
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
-    no_payment: DataTypes.INTEGER,
-    img_payment: DataTypes.TEXT,
+    no_payment: {
+      type: DataTypes.INTEGER,
+    },
+    img_payment: {
+      type: DataTypes.TEXT,
+    },
     id_user: {
-      primaryKey: true,
-      autoIncrement: true,
       type: DataTypes.INTEGER,
     },
   },
@@ -27,5 +29,10 @@ const Payment = database.define(
 export default Payment;
 
 (async () => {
-  await database.sync();
+  try {
+    await database.sync();
+    console.log("Database synchronized successfully.");
+  } catch (error) {
+    console.error("Error synchronizing the database:", error);
+  }
 })();

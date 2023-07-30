@@ -3,24 +3,23 @@ import database from "../config/database.js";
 
 const { DataTypes } = Sequelize;
 
-const FavFilm = database.define(
-  "Fav_film",
+const tanggalPesan = database.define(
+  "tanggal_pemesanan",
   {
-    id_FavFilm: {
-      primaryKey: true,
+    id:{
+       primaryKey: true,
       autoIncrement: true,
       type: DataTypes.INTEGER,
     },
-    id_user: {
-      type: DataTypes.INTEGER,
-    },
+    id_pemesanan: DataTypes.INTEGER,
+    tanggal_pemesanan: DataTypes.STRING,
   },
   {
     freezeTableName: true,
   }
 );
 
-export default FavFilm;
+export default tanggalPesan;
 
 (async () => {
   await database.sync();
